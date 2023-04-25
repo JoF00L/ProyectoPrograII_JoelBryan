@@ -4,9 +4,10 @@ using namespace std;
 int main()
 {
     cout << "Testing" << endl;
-    cout << "Testing2" << endl;
-    
+  
     cout << "ESTA VIVOOO!!!" << endl;
-    
+
+    cout << "\nBryan favor conectarse >:(\n" << endl;
+
     return 0;
 }
