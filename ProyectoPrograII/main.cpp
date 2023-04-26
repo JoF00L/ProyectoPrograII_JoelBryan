@@ -1,42 +1,22 @@
+#include "Fecha.h"
 #include <iostream>  
-#include <stdio.h>
-#include <time.h>
+#pragma warning(disable:4996)
 using namespace std;
 
 int main()
 {
-	time_t current_time;
-	struct tm local_time;
-	int Year = local_time.tm_year + 1900;
-	int Month = local_time.tm_mon + 1;
-	int Day = local_time.tm_mday;
-    Fehca
-    cout << "Dejenme dormir" << endl;
-    cout << "Testing" << endl;
+	time_t t = time(nullptr);
+	struct tm* now = localtime(&t);
 
-    cout << "ESTA VIVOOO!!!" << endl;
+	int Year = now->tm_year + 1900;
+	int Month = now->tm_mon + 1;
+	int Day = now->tm_mday;
+	
+	Fecha* fechaActual = new Fecha(Day, Month, Year);
 
-    cout << "\nBryan favor conectarse >:(\n" << endl;
-    cout << "Hola";
-    system("cls");
-    cin.get();
+	cout << fechaActual->toString() << endl;
+
+	delete fechaActual;
+
     return 0;
-}
-
-
-
-int main ()
-{
-
-
-time ( &current_time );
-localtime_s(&local_time, &current_time);
-
-
-
-int Hour = local_time.tm_hour;
-int Min = local_time.tm_min;
-int Sec = local_time.tm_sec;
-
-return 0;
 }

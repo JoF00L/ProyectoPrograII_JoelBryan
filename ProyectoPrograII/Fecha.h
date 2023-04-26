@@ -1,19 +1,18 @@
 #pragma once
 #include <ctime>
-#include <sstream>
+#include <time.h>
 #include <iostream>
+#include <sstream>
 #define max 3
 using namespace std;
 
-
-class Fecha
-{
+class Fecha {
 private:
 	
 	int fecha[max];
 
 public:
-	
+
 	Fecha();
 	Fecha(int, int, int);
 	string diferenciaFechas(Fecha*);
@@ -21,6 +20,5 @@ public:
 	int devuelveEdad(Fecha*);
 	string toString();
 	~Fecha();
-
 };
 
