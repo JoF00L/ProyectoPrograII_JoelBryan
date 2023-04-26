@@ -1,9 +1,8 @@
 #pragma once
-#include <ctime>
-#include <time.h>
-#include <iostream>
-#include <sstream>
 #define max 3
+#include <ctime>
+#include <sstream>
+#include <iostream>
 using namespace std;
 
 class Fecha {
