@@ -24,7 +24,7 @@
     <ClCompile Include="Clientes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Triatlonistas.cpp">
+    <ClCompile Include="Biometricos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,7 +35,7 @@
     <ClInclude Include="Clientes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Triatlonistas.h">
+    <ClInclude Include="Biometricos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Nodo.h">
