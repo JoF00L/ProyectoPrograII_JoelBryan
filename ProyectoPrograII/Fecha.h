@@ -1,8 +1,9 @@
 #pragma once
-#define max 3
 #include <ctime>
 #include <sstream>
 #include <iostream>
+#pragma warning(disable:4996)
+#define max 3
 using namespace std;
 
 class Fecha {

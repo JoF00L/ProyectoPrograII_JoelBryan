@@ -1,9 +1,12 @@
 #include "Fecha.h"
 
 Fecha::Fecha() {
-	for (int i = 0; i < max; i++) {
-		fecha[i] = 0;
-	}
+	time_t t = time(nullptr);
+	struct tm* now = localtime(&t);
+
+	fecha[0] = now->tm_mday;
+	fecha[1] = now->tm_mon + 1;
+	fecha[2] = now->tm_year + 1900;
 }
 
 Fecha::Fecha(int d, int m, int a) {
