@@ -19,7 +19,7 @@ string Fecha::diferenciaFechas(Fecha* f) {
 	stringstream s;
 	s << "Dias: " << abs((f->fecha[0] - fecha[0])) << endl;
 	s << "Meses: " << abs((f->fecha[1] - fecha[1])) << endl;
-	s << "Annos: " << abs(devuelveEdad(f)) << endl;
+	s << "A" << char(164) << "os: " << abs(devuelveEdad(f)) << endl;
 	return s.str();
 }
 
