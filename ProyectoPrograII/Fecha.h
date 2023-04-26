@@ -9,8 +9,11 @@ using namespace std;
 class Fecha
 {
 private:
+	
 	int fecha[max];
+
 public:
+	
 	Fecha();
 	Fecha(int, int, int);
 	string diferenciaFechas(Fecha*);
@@ -18,5 +21,6 @@ public:
 	int devuelveEdad(Fecha*);
 	string toString();
 	~Fecha();
+
 };
 
