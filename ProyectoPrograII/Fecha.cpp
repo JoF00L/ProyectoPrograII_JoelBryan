@@ -52,5 +52,4 @@ string Fecha::toString() {
 	return s.str();
 }
 
-Fecha::~Fecha() {
-}
+Fecha::~Fecha() { }

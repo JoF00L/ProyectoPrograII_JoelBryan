@@ -127,11 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Clientes.cpp" />
     <ClCompile Include="Fecha.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Triatlonistas.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Clientes.h" />
     <ClInclude Include="Fecha.h" />
+    <ClInclude Include="Lista.h" />
+    <ClInclude Include="Nodo.h" />
+    <ClInclude Include="Triatlonistas.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
