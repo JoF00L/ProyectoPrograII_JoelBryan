@@ -1,12 +1,12 @@
 #include "Fecha.h"
 
 Fecha::Fecha() {
-	time_t t = time(nullptr);
-	struct tm* now = localtime(&t);
+	time_t tempo = time(nullptr);
+	struct tm* fechaActual = localtime(&tempo);
 
-	fecha[0] = now->tm_mday;
-	fecha[1] = now->tm_mon + 1;
-	fecha[2] = now->tm_year + 1900;
+	fecha[0] = fechaActual->tm_mday;
+	fecha[1] = fechaActual->tm_mon + 1;
+	fecha[2] = fechaActual->tm_year + 1900;
 }
 
 Fecha::Fecha(int d, int m, int a) {
@@ -44,11 +44,13 @@ int Fecha::devuelveEdad(Fecha* f) {
 string Fecha::toString() {
 	stringstream s;
 
-	if (fecha[0] < 10)
+	if (fecha[0] < 10) {
 		s << "0";
+	}
 	s << fecha[0] << " / ";
-	if (fecha[1] < 10)
+	if (fecha[1] < 10) {
 		s << "0";
+	}
 	s << fecha[1] << " / ";
 	s << fecha[2] << endl;
 
