@@ -27,6 +27,9 @@
     <ClCompile Include="Biometricos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ManejoArchivos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fecha.h">
@@ -44,5 +47,13 @@
     <ClInclude Include="Lista.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ManejoArchivos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="logo_triatlon.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

@@ -22,7 +22,7 @@ private:
     Biometricos* bio;
 
 public:
-    //--------------------------------------------
+    
     Cliente();
     Cliente(string, string, Fecha*, char, Biometricos*);
     //--------------------------------------------
@@ -44,6 +44,7 @@ public:
     Fecha* getFechaNacimiento();
     //--------------------------------------------
     string toString();
+
 };
 
 // HACER SOBRECARGA OPERADOR << OFSTREAM

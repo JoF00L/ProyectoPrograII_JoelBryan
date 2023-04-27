@@ -15,6 +15,10 @@ Fecha::Fecha(int d, int m, int a) {
 	fecha[2] = a;
 }
 
+Fecha::~Fecha() { }
+
+//-------------------------------------------------------------------------
+
 string Fecha::diferenciaFechas(Fecha* f) {
 	stringstream s;
 	s << "Dias: " << abs((f->fecha[0] - fecha[0])) << endl;
@@ -41,6 +45,8 @@ int Fecha::devuelveEdad(Fecha* f) {
 	return edad;
 }
 
+//-------------------------------------------------------------------------
+
 string Fecha::toString() {
 	stringstream s;
 
@@ -56,5 +62,3 @@ string Fecha::toString() {
 
 	return s.str();
 }
-
-Fecha::~Fecha() { }
