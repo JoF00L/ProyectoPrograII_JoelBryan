@@ -33,16 +33,16 @@ float Biometricos::getGrasaCorporal() { return grasa_corporal; }
 string Biometricos::toString() {
 	stringstream s;
 	if (peso > 0) {
-		s << "Peso: " << peso << endl;
+		s << "- Peso: " << peso << endl;
 	}
 	if (altura > 0) {
-		s << "Altura: " << altura << endl;
+		s << "- Altura: " << altura << endl;
 	}
 	if (masa_muscular > 0) {
-		s << "Masa_muscular: " << masa_muscular << endl;
+		s << "- Masa_muscular: " << masa_muscular << endl;
 	}
 	if (grasa_corporal > 0) {
-		s << "Grasa_corporal: " << grasa_corporal << endl;
+		s << "- Grasa_corporal: " << grasa_corporal << endl;
 	}
 	return s.str();
 }

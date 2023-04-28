@@ -25,6 +25,7 @@ public:
     
     Cliente();
     Cliente(string, string, Fecha*, char, Biometricos*);
+    ~Cliente();
     //--------------------------------------------
     void setSexo(char);
     void setNombre(string);
@@ -33,6 +34,7 @@ public:
     void setAltura(float);
     void setMasaMuscular(float);
     void setGrasaCorporal(float);
+    void setFechaNacimiento(Fecha*);
     //--------------------------------------------
     char getSexo();
     string getNombre();
@@ -47,4 +49,4 @@ public:
 
 };
 
-// HACER SOBRECARGA OPERADOR << OFSTREAM
+// Hacer sobrecarga de operador << 
