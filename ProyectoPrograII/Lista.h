@@ -11,12 +11,16 @@ private:
 	
 public:
 	Lista();
+	~Lista();
+	//--------------------------------------------
 	bool vacia();
 	void agregar(T*);
 	bool eliminar(int);
+	//--------------------------------------------
 	string toString();
-	~Lista();
 };
+
+//------------------------------------------------------------------------------------------------------
 
 template <typename T>
 Lista<T>::Lista(){
@@ -49,6 +53,26 @@ bool Lista<T>::eliminar(int n){
 template <typename T>
 string Lista<T>::toString(){
 	stringstream s;
-	if(vacia())
-	return .str();
+	if (vacia())
+		s << "La lista esta vacia! " << endl;
+	else{
+		Nodo<T>* actual = primero;
+		while(actual != nullptr){
+			s << actual->nodoString();
+		}
+	}
+	return s.str();
+}
+
+template <typename T>
+Lista<T>::~Lista() {
+	Nodo<T>* actual = primero;
+	while(primero != nullptr){
+		actual = primero->getSig();
+		primero = nullptr;
+		delete primero;
+		primero = actual;
+	}
+	actual = nullptr;
+	delete actual;
 }

@@ -36,6 +36,8 @@ Nodo<T>::Nodo(T* info, Nodo<T>* sig)
 	sig = NULL;
 }
 
+//Javier Estuvo aqui, no pregunten cuando ;D
+
 template <typename T>
 Nodo<T>::~Nodo() { }
 

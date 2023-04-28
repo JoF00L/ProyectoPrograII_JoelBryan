@@ -42,7 +42,7 @@ string Biometricos::toString() {
 		s << "- Masa_muscular: " << masa_muscular << endl;
 	}
 	if (grasa_corporal > 0) {
-		s << "- Grasa_corporal: " << grasa_corporal << endl;
+		s << "- Grasa_corporal: " << grasa_corporal;
 	}
 	return s.str();
 }

@@ -21,12 +21,12 @@ private:
 public:
 
 	Biometricos();
-	Biometricos(float, float, float, float);
+	Biometricos(float p, float a, float mm, float gc);
 	//--------------------------------------------
-	virtual void setPeso(float);
-	virtual void setAltura(float);
-	virtual void setMasaMuscular(float);
-	virtual void setGrasaCorporal(float);
+	virtual void setPeso(float weight);
+	virtual void setAltura(float height);
+	virtual void setMasaMuscular(float mm);
+	virtual void setGrasaCorporal(float gc);
 	//--------------------------------------------
 	virtual float getPeso();
 	virtual float getAltura();

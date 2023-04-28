@@ -58,7 +58,7 @@ string Fecha::toString() {
 		s << "0";
 	}
 	s << fecha[1] << " / ";
-	s << fecha[2] << endl;
+	s << fecha[2];
 
 	return s.str();
 }

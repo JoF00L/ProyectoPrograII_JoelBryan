@@ -15,10 +15,12 @@ public:
 
 	Fecha();
 	Fecha(int, int, int);
+	~Fecha();
+	//--------------------------------------------
 	string diferenciaFechas(Fecha*);
 	bool esMenor(Fecha*);
 	int devuelveEdad(Fecha*);
+	//--------------------------------------------
 	string toString();
-	~Fecha();
 };
 

@@ -24,17 +24,17 @@ private:
 public:
     
     Cliente();
-    Cliente(string, string, Fecha*, char, Biometricos*);
+    Cliente(string nom, string id, Fecha* fecha_nacimiento, char sex, Biometricos* bioData);
     ~Cliente();
     //--------------------------------------------
-    void setSexo(char);
-    void setNombre(string);
-    void setCedula(string);
-    void setPeso(float);
-    void setAltura(float);
-    void setMasaMuscular(float);
-    void setGrasaCorporal(float);
-    void setFechaNacimiento(Fecha*);
+    void setSexo(char sex);
+    void setNombre(string nom);
+    void setCedula(string id);
+    void setPeso(float p);
+    void setAltura(float a);
+    void setMasaMuscular(float mm);
+    void setGrasaCorporal(float gc);
+    void setFechaNacimiento(Fecha* fecha_nacimiento);
     //--------------------------------------------
     char getSexo();
     string getNombre();
