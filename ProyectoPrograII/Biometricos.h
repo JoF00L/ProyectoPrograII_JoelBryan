@@ -33,7 +33,7 @@ public:
 	virtual float getMasaMuscular();
 	virtual float getGrasaCorporal();
 	//--------------------------------------------
-	string toString();
+	string toString() const;
 };
 
-//HACER SOBRECARGA OPERADOR << OFSTREAM
+ostream& operator<<(ostream& output, const Biometricos& b);

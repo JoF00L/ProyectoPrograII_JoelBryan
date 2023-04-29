@@ -44,19 +44,24 @@ float Cliente::getGrasaCorporal() { return bio->getGrasaCorporal(); }
 
 //------------------------------------------------------------------------------------------------------
 
-string Cliente::toString() {
+string Cliente::toString() const{
 	stringstream s;
 	s << "\t  Datos del cliente: " << endl;
 	s << "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n" << endl;
+	
 	s << "- Nombre: " << nombre << endl;
 	s << "- C" << char(130) << "dula: " << cedula << endl;
 	s << "- Sexo: " << sexo << endl;
 	s << "- Fecha de nacimiento: " << fecha_nacimiento->toString() << endl;
-	s << bio->toString() << endl; //sobrecargar operador en clase para quitar toString() y dejar solo s << bio;
-	s << "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" << endl;
+	s << *bio << endl; //Ya hice la sobrecarga
+	
+	s << "\n -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" << endl;
 	return s.str();
 }
 
 //------------------------------------------------------------------------------------------------------
 
-// HACER SOBRECARGA DE OPERADOR
+ostream& operator<<(ostream& output, const Cliente& c) {
+	output << c.toString() << endl;
+	return output;
+}

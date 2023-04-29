@@ -15,7 +15,7 @@ public:
 	//--------------------------------------------
 	bool vacia();
 	void agregar(T*);
-	bool eliminar(int);
+	bool eliminar(string);
 	//--------------------------------------------
 	string toString();
 };
@@ -23,14 +23,12 @@ public:
 //------------------------------------------------------------------------------------------------------
 
 template <typename T>
-Lista<T>::Lista(){
-	primero = nullptr;
-}
+Lista<T>::Lista(){ primero = NULL; }
 
 template <typename T>
-bool Lista<T>::vacia(){
-	return (primero == nullptr);
-}
+bool Lista<T>::vacia(){ return (primero == NULL); }
+
+//------------------------------------------------------------------------------------------------------
 
 template <typename T>
 void Lista<T>::agregar(T* nuevo){
@@ -46,8 +44,10 @@ void Lista<T>::agregar(T* nuevo){
 }
 
 template <typename T>
-bool Lista<T>::eliminar(int n){
-	return false;
+
+bool Lista<T>::eliminar(string id) //Creo que es mejor buscar a la persona en relacion a la cedula
+{
+	return false; //Terminar
 }
 
 template <typename T>

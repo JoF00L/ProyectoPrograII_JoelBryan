@@ -30,24 +30,26 @@ public:
 };
 
 template <typename T>
-Nodo<T>::Nodo(T* info, Nodo<T>* sig)
+Nodo<T>::Nodo(T* info, Nodo<T>* next) : sig(NULL)
 {
 	this->dato = info;
-	sig = NULL;
+	sig = next;
 }
 
 //Javier Estuvo aqui, no pregunten cuando ;D
 
 template <typename T>
-Nodo<T>::~Nodo() { }
+Nodo<T>::~Nodo() { 
+	delete dato, sig;
+}
 
 //-------------------------------------------------------------------------
 
 template <typename T>
-void Nodo<T>::setSig(Nodo<T>* next) { sig = next };
+void Nodo<T>::setSig(Nodo<T>* next) { sig = next; }
 
 template <typename T>
-void Nodo<T>::setDato(T* info) { datoi = info; }
+void Nodo<T>::setDato(T* info) { dato = info; }
 
 //-------------------------------------------------------------------------
 
@@ -61,7 +63,7 @@ Nodo<T>* Nodo<T>::getSig() { return sig; }
 
 template <typename T>
 string Nodo<T>::nodoString() {
-	//Este creo que lo tenemos que ajustar con lo de la sobrecarga de operadores
-	//para implementarlos no solo hacer lo de stringstream s << dato.toString()
-	//sino que s << dato (por la sobrecarga)
+	stringstream s;
+	s << *dato << endl;
+	return s.str();
 }

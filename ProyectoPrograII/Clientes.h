@@ -45,8 +45,8 @@ public:
     float getGrasaCorporal(); 
     Fecha* getFechaNacimiento();
     //--------------------------------------------
-    string toString();
+    string toString() const;
 
 };
 
-// Hacer sobrecarga de operador << 
+ostream& operator<<(ostream& output, const Cliente& a);

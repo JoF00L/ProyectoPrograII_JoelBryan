@@ -30,7 +30,7 @@ float Biometricos::getGrasaCorporal() { return grasa_corporal; }
 
 //-------------------------------------------------------------------------
 
-string Biometricos::toString() {
+string Biometricos::toString() const{
 	stringstream s;
 	if (peso > 0) {
 		s << "- Peso: " << peso << endl;
@@ -49,4 +49,7 @@ string Biometricos::toString() {
 
 //-------------------------------------------------------------------------
 
-//AGEGAR SOBRECARGAAA
+ostream& operator<<(ostream& output, const Biometricos& b) {
+	output << b.toString();
+	return output;
+}
