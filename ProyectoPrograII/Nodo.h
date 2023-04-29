@@ -25,7 +25,7 @@ public:
 	T* getDato();
 	Nodo<T>* getSig();
 	//--------------------------------------------
-	string nodoString();
+	string toString() const;
 
 };
 
@@ -62,8 +62,14 @@ Nodo<T>* Nodo<T>::getSig() { return sig; }
 //-------------------------------------------------------------------------
 
 template <typename T>
-string Nodo<T>::nodoString() {
+string Nodo<T>::toString() const{
 	stringstream s;
-	s << *dato << endl;
+	s << *dato;
 	return s.str();
+}
+
+template <typename T>
+ostream& operator<<(ostream& output, const Nodo<T>& n) {
+	output << n.toString();
+	return output;
 }

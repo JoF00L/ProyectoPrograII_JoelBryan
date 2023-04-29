@@ -18,7 +18,7 @@ int main()
 ;	Cliente* test = new Cliente("test1", "", fechaActual, 't', bm);
 	Nodo<Cliente>* n1 = new Nodo<Cliente>(test, NULL);
 
-	cout << n1->nodoString() << endl;
+	cout << *n1 << endl;
 
 	delete fechaActual, files, bm, n1;
 
