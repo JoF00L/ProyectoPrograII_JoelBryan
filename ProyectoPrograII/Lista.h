@@ -74,7 +74,7 @@ string Lista<T>::toString(){
 	stringstream s;
 	Nodo<T>* temp = primero;
 	if (esVacia()) {
-		s << "Lista vacia" << endl;
+		s << "Lista vacia" << endl; //Agregar una excpecion aca despues
 	}
 	while (temp) {
 		s << *temp;
@@ -89,3 +89,5 @@ Lista<T>::~Lista() {
 		eliminar();
 	}
 }
+
+//------------------------------------ ITERADOR DE LA LISTA ------------------------------------------
