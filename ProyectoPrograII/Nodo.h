@@ -15,8 +15,7 @@ private:
 
 public:
 
-	Nodo();
-	Nodo(T*, Nodo<T>*);
+	Nodo(T*);
 	~Nodo();
 	//--------------------------------------------
 	void setSig(Nodo<T>*);
@@ -30,18 +29,13 @@ public:
 };
 
 template <typename T>
-Nodo<T>::Nodo(T* info, Nodo<T>* next) : sig(NULL)
-{
+Nodo<T>::Nodo(T* info) {
 	this->dato = info;
-	sig = next;
+	sig = NULL;
 }
-
-//Javier Estuvo aqui, no pregunten cuando ;D
 
 template <typename T>
-Nodo<T>::~Nodo() { 
-	delete dato, sig;
-}
+Nodo<T>::~Nodo() { }
 
 //-------------------------------------------------------------------------
 

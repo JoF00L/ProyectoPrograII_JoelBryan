@@ -1,8 +1,7 @@
 #pragma once
 #include "Nodo.h"
 
-/// Clase de tipo plantilla por lo que no
-/// necesita de un cpp
+/// Clase de tipo plantilla por lo que no usamos .cpp
 
 template <typename T>
 class Lista {
@@ -10,69 +9,83 @@ private:
 	Nodo<T>* primero;
 	
 public:
+
 	Lista();
 	~Lista();
 	//--------------------------------------------
-	bool vacia();
-	void agregar(T*);
-	bool eliminar(string);
+	bool esVacia();
+	void agregar(T* dato);
+	void eliminar(); //Elimina primer elemento de la lista | para el destructor o pruebas 
+	void eliminarEspecifico(string id); //Para uso especifico
 	//--------------------------------------------
 	string toString();
+
 };
 
 //------------------------------------------------------------------------------------------------------
 
 template <typename T>
-Lista<T>::Lista(){ primero = NULL; }
+Lista<T>::Lista() { primero = NULL; }
 
 template <typename T>
-bool Lista<T>::vacia(){ return (primero == NULL); }
+bool Lista<T>::esVacia(){ return primero == NULL; }
 
 //------------------------------------------------------------------------------------------------------
 
 template <typename T>
-void Lista<T>::agregar(T* nuevo){
-	if(vacia){
-		primero = new Nodo<T>(nuevo, nullptr);
+void Lista<T>::agregar(T* dato){
+	Nodo<T>* nuevo = new Nodo<T>(dato);
+	Nodo<T>* temp = primero;
+
+	if (esVacia())
+	{
+		primero = nuevo;
 	}
-	else{
-		Nodo<T>* actual = primero;
-		while(actual->getSig())
-			actual = actual->getSig();
-		actual->setSig(new Nodo<T>(nuevo, nullptr));
+	else
+	{
+		while (temp->getSig())
+		{
+			temp = temp->getSig();
+		}
+		temp->setSig(nuevo);
 	}
 }
 
-template <typename T>
+//------------------------------------------------------------------------------------------------------
 
-bool Lista<T>::eliminar(string id) //Creo que es mejor buscar a la persona en relacion a la cedula
+template <typename T>
+void Lista<T>::eliminar() 
 {
-	return false; //Terminar
+	//No estoy seguro de porque no funciona :/
+	Nodo<T>* actual = primero;
+	primero = primero->getSig();
+	delete actual;
 }
 
 template <typename T>
+void Lista<T>::eliminarEspecifico(string id) {
+	// Tenemos que ver si le podemos poner un codigo a los cursos para que tambien
+	// tengan un id porque sino se complica el metodo eliminar especifico con plantillas
+}
+//------------------------------------------------------------------------------------------------------
+
+template <typename T> 
 string Lista<T>::toString(){
 	stringstream s;
-	if (vacia())
-		s << "La lista esta vacia! " << endl;
-	else{
-		Nodo<T>* actual = primero;
-		while(actual != nullptr){
-			s << actual->nodoString();
-		}
+	Nodo<T>* temp = primero;
+	if (esVacia()) {
+		s << "Lista vacia" << endl;
+	}
+	while (temp) {
+		s << *temp;
+		temp = temp->getSig();
 	}
 	return s.str();
 }
 
 template <typename T>
 Lista<T>::~Lista() {
-	Nodo<T>* actual = primero;
-	while(primero != nullptr){
-		actual = primero->getSig();
-		primero = nullptr;
-		delete primero;
-		primero = actual;
+	while (!esVacia()) {
+		eliminar();
 	}
-	actual = nullptr;
-	delete actual;
 }

@@ -9,7 +9,7 @@
 ///		-> sexo
 /// EXPEDIENTE
 /// LISTA DE CURSOS
-///		-> Datos cada curso
+///		-> Datos cada curso 
 
 class Cliente
 {
