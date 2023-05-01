@@ -128,14 +128,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Clientes.cpp" />
+    <ClCompile Include="Curso.cpp" />
+    <ClCompile Include="Expediente.cpp" />
     <ClCompile Include="Fecha.cpp" />
+    <ClCompile Include="Grupo.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Biometricos.cpp" />
     <ClCompile Include="ManejoArchivos.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Clientes.h" />
+    <ClInclude Include="Curso.h" />
+    <ClInclude Include="Expediente.h" />
     <ClInclude Include="Fecha.h" />
+    <ClInclude Include="Grupo.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="ManejoArchivos.h" />
     <ClInclude Include="Nodo.h" />
