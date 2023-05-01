@@ -2,7 +2,8 @@
 #include "ManejoArchivos.h"
 #include "Clientes.h"
 #include "Lista.h"
-#include <iostream>  
+#include <iostream> 
+#include "Horario.h"
 using namespace std;
 
 int main()
@@ -27,7 +28,12 @@ int main()
 	l1->eliminar(); //probando el eliminar basico
 	cout << l1->toString() << endl;
 
-	delete fechaActual, test, bm, l1;
+	Fecha* x = new Fecha(10, 5, 2023);
+	Horario* h = new Horario(fechaActual, x);
+	h->agregaDias(1);
+	h->agregaHoras(5, 30);
+	cout << endl << h->toString() << endl;
+	delete fechaActual, test, bm, l1, x, h;
 
     return 0;
 }

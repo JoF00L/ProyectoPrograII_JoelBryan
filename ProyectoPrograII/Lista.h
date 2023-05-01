@@ -64,8 +64,11 @@ void Lista<T>::eliminar()
 
 template <typename T>
 void Lista<T>::eliminarEspecifico(string id) {
-	// Tenemos que ver si le podemos poner un codigo a los cursos para que tambien
-	// tengan un id porque sino se complica el metodo eliminar especifico con plantillas
+	
+
+
+
+
 }
 //------------------------------------------------------------------------------------------------------
 
@@ -74,10 +77,10 @@ string Lista<T>::toString(){
 	stringstream s;
 	Nodo<T>* temp = primero;
 	if (esVacia()) {
-		s << "Lista vacia" << endl; //Agregar una excpecion aca despues
+		//s << "Lista vacia" << endl; //Agregar una excpecion aca despues
 	}
 	while (temp) {
-		s << *temp;
+		//s << *temp;
 		temp = temp->getSig();
 	}
 	return s.str();

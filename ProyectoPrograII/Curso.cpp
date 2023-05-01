@@ -25,10 +25,19 @@ string Curso::tipoNivel(int n){
     return tn;
 }
 
+/*string Curso::horario(Fecha* inicio, Fecha* fin, int d1, int d2) {//si los trabajamos con 2 dias (ejemplo)
+    stringstream s;
+    s << "Fecha de inicio: " << inicio->toString() << endl;
+    s << "Fecha de fin: " << fin->toString() << endl;
+    s<<"Dias"
+    return s.str();
+}*/
+
 string Curso::toString(){
     stringstream s;
     s << "Descripcion del curso: " << descripcion << endl;
-    s << "Nivel: " << tipoNivel() << endl;
-    s << "Cupo Maximo: " << cupoMax << endl;
+    s << "Nivel: " << tipoNivel(nivel) << endl;
+    s << "Cupo Maximo: " << cupoMax << endl << endl;
+    s << horarioCurso->toString() << endl;
     return s.str();
 }
