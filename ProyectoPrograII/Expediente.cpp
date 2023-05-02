@@ -24,6 +24,7 @@ double Expediente::cuotasPorPagar(int meses, double mensualidad) {
 }
 string Expediente::detallePago(double monto) {
 	//Este metodo lo trabajamos despues
+	return 0;
 }
 
 Lista<Fecha>* Expediente::getHistorialPagos() { return 0; }
@@ -46,5 +47,5 @@ Lista<Fecha>* Expediente::insertarMeses(int m) {
 	}
 	return lista;*/
 
-	//Lo trabajamos despues
+	return 0;
 }

@@ -13,14 +13,13 @@ public:
 	Lista();
 	~Lista();
 	//--------------------------------------------
-	bool esVacia();
+	bool esVacia() const;
 	void agregar(T* dato);
 	void eliminarInicio();  
-	void eliminarUltimo();
 	void eliminarPos(int pos);
 	Nodo<T>* getNodoEsp(int pos);
 	//--------------------------------------------
-	string toString();
+	string toString() const;
 
 };
 
@@ -30,7 +29,7 @@ template <typename T>
 Lista<T>::Lista() : primero(NULL), size(0) { }
 
 template <typename T>
-bool Lista<T>::esVacia(){ return primero == NULL; }
+bool Lista<T>::esVacia() const { return primero == NULL; }
 
 //------------------------------------------------------------------------------------------------------
 
@@ -107,7 +106,7 @@ Nodo<T>* Lista<T>::getNodoEsp(int pos) {
 //------------------------------------------------------------------------------------------------------
 
 template <typename T> 
-string Lista<T>::toString(){
+string Lista<T>::toString() const{
 	stringstream s;
 	Nodo<T>* temp = primero;
 	if (esVacia()) {
@@ -125,4 +124,12 @@ Lista<T>::~Lista() {
 	while (!esVacia()) {
 		eliminarInicio();
 	}
+}
+
+//------------------------------------------------------------------------------------------------------
+
+template <typename T>
+ostream& operator<<(ostream& output, const Lista<T>& list) {
+	output << list.toString();
+	return output;
 }
