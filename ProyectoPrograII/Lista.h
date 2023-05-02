@@ -16,7 +16,9 @@ public:
 	bool esVacia();
 	void agregar(T* dato);
 	void eliminarInicio();  
+	void eliminarUltimo();
 	void eliminarPos(int pos);
+	Nodo<T>* getNodoEsp(int pos);
 	//--------------------------------------------
 	string toString();
 
@@ -64,21 +66,17 @@ void Lista<T>::eliminarInicio()
 	size--;
 }
 
-
 template <typename T>
 void Lista<T>::eliminarPos(int pos) {
 	Nodo<T>* actual = primero;
 	Nodo<T>* borrar;
 
-	if (pos > size || pos < 0) {
+	if (pos > size || pos < 0 || pos == size) {
 		return; //Hacer excepcion
 	}
 	if (pos == 0) {
 		eliminarInicio();
 		return;
-	}
-	if (pos == size) {
-
 	}
 	for (int i = 0; i < pos - 1; i++) {
 		if (actual->getSig() != NULL) {
@@ -89,6 +87,23 @@ void Lista<T>::eliminarPos(int pos) {
 	actual->setSig(borrar->getSig());
 	delete borrar;
 }
+
+//------------------------------------------------------------------------------------------------------
+
+template <typename T>
+Nodo<T>* Lista<T>::getNodoEsp(int pos) {
+	if (pos == 0) {
+		return primero;
+	}
+	Nodo<T>* actual = primero;
+	for (int i = 0; i < pos; i++) {
+		if (actual->getSig() != NULL) {
+			actual = actual->getSig();
+		}
+	}
+	return actual;
+}
+
 //------------------------------------------------------------------------------------------------------
 
 template <typename T> 

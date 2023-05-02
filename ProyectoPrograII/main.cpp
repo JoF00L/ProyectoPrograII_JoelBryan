@@ -8,14 +8,6 @@ using namespace std;
 int main()
 {
 	Fecha* fechaActual = new Fecha;
-	//ManejoArchivos* files = new ManejoArchivos;
-	//
-	//cout << fechaActual->toString() << endl;
-	//cout << files->Logo() << endl;
-
-	//system("cls");
-
-
 	Biometricos* bm = new Biometricos(1.0, 1.0, 1.0, 1.0);
 ;	Cliente* test = new Cliente("test1", "", fechaActual, 'a', bm);
 ;	Cliente* test2 = new Cliente("test2", "", fechaActual, 'b', bm);
@@ -29,10 +21,13 @@ int main()
 	cout << l1->toString() << endl;
 	cin.get();
 	system("cls");
-	l1->eliminarPos(3); //probando el eliminar basico
+	cout << *l1->getNodoEsp(1) << endl; //retorna un nodo especifico en este caso test2
+	cin.get();
+	system("cls");
+	l1->eliminarPos(1); //probando el eliminar posicion (test2) y el basico porque son los dos metodos juntos
 	cout << l1->toString() << endl;
 
-	delete fechaActual, test, bm, l1;
+	delete fechaActual, test, test2, test3, bm, l1;
 
     return 0;
 }
