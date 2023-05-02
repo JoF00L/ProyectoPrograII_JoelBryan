@@ -3,7 +3,6 @@
 #include "Clientes.h"
 #include "Lista.h"
 #include <iostream> 
-#include "Horario.h"
 using namespace std;
 
 int main()
@@ -18,22 +17,22 @@ int main()
 
 
 	Biometricos* bm = new Biometricos(1.0, 1.0, 1.0, 1.0);
-;	Cliente* test = new Cliente("test1", "", fechaActual, 't', bm);
-	Nodo<Cliente>* n1 = new Nodo<Cliente>(test);
+;	Cliente* test = new Cliente("test1", "", fechaActual, 'a', bm);
+;	Cliente* test2 = new Cliente("test2", "", fechaActual, 'b', bm);
+;	Cliente* test3 = new Cliente("test3", "", fechaActual, 'c', bm);
 
 	Lista<Cliente>* l1 = new Lista<Cliente>;
 	l1->agregar(test);
+	l1->agregar(test2);
+	l1->agregar(test3);
 
 	cout << l1->toString() << endl;
-	l1->eliminar(); //probando el eliminar basico
+	cin.get();
+	system("cls");
+	l1->eliminarPos(3); //probando el eliminar basico
 	cout << l1->toString() << endl;
 
-	Fecha* x = new Fecha(10, 5, 2023);
-	Horario* h = new Horario(fechaActual, x);
-	h->agregaDias(1);
-	h->agregaHoras(5, 30);
-	cout << endl << h->toString() << endl;
-	delete fechaActual, test, bm, l1, x, h;
+	delete fechaActual, test, bm, l1;
 
     return 0;
 }

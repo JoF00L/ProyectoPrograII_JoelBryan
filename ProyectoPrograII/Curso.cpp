@@ -38,6 +38,5 @@ string Curso::toString(){
     s << "Descripcion del curso: " << descripcion << endl;
     s << "Nivel: " << tipoNivel(nivel) << endl;
     s << "Cupo Maximo: " << cupoMax << endl << endl;
-    s << horarioCurso->toString() << endl;
     return s.str();
 }

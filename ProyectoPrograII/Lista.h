@@ -7,7 +7,7 @@ template <typename T>
 class Lista {
 private:
 	Nodo<T>* primero;
-	
+	int size;
 public:
 
 	Lista();
@@ -15,8 +15,8 @@ public:
 	//--------------------------------------------
 	bool esVacia();
 	void agregar(T* dato);
-	void eliminar(); //Elimina primer elemento de la lista | para el destructor o pruebas 
-	void eliminarEspecifico(string id); //Para uso especifico
+	void eliminarInicio();  
+	void eliminarPos(int pos);
 	//--------------------------------------------
 	string toString();
 
@@ -25,7 +25,7 @@ public:
 //------------------------------------------------------------------------------------------------------
 
 template <typename T>
-Lista<T>::Lista() { primero = NULL; }
+Lista<T>::Lista() : primero(NULL), size(0) { }
 
 template <typename T>
 bool Lista<T>::esVacia(){ return primero == NULL; }
@@ -49,26 +49,45 @@ void Lista<T>::agregar(T* dato){
 		}
 		temp->setSig(nuevo);
 	}
+	size++;
 }
 
 //------------------------------------------------------------------------------------------------------
 
 template <typename T>
-void Lista<T>::eliminar() 
+void Lista<T>::eliminarInicio() 
 {
 	//No estoy seguro de porque no funciona :/
 	Nodo<T>* actual = primero;
 	primero = primero->getSig();
 	delete actual;
+	size--;
 }
 
+
 template <typename T>
-void Lista<T>::eliminarEspecifico(string id) {
-	
+void Lista<T>::eliminarPos(int pos) {
+	Nodo<T>* actual = primero;
+	Nodo<T>* borrar;
 
+	if (pos > size || pos < 0) {
+		return; //Hacer excepcion
+	}
+	if (pos == 0) {
+		eliminarInicio();
+		return;
+	}
+	if (pos == size) {
 
-
-
+	}
+	for (int i = 0; i < pos - 1; i++) {
+		if (actual->getSig() != NULL) {
+			actual = actual->getSig();
+		}
+	}
+	borrar = actual->getSig();
+	actual->setSig(borrar->getSig());
+	delete borrar;
 }
 //------------------------------------------------------------------------------------------------------
 
@@ -77,10 +96,10 @@ string Lista<T>::toString(){
 	stringstream s;
 	Nodo<T>* temp = primero;
 	if (esVacia()) {
-		//s << "Lista vacia" << endl; //Agregar una excpecion aca despues
+		cout << "lista vacia" << endl; //Agregar una excpecion aca despues
 	}
 	while (temp) {
-		//s << *temp;
+		s << *temp;
 		temp = temp->getSig();
 	}
 	return s.str();
@@ -89,8 +108,6 @@ string Lista<T>::toString(){
 template <typename T>
 Lista<T>::~Lista() {
 	while (!esVacia()) {
-		eliminar();
+		eliminarInicio();
 	}
 }
-
-//------------------------------------ ITERADOR DE LA LISTA ------------------------------------------

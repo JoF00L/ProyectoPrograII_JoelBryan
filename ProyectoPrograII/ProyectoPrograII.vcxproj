@@ -132,7 +132,6 @@
     <ClCompile Include="Expediente.cpp" />
     <ClCompile Include="Fecha.cpp" />
     <ClCompile Include="Grupo.cpp" />
-    <ClCompile Include="Horario.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Biometricos.cpp" />
     <ClCompile Include="ManejoArchivos.cpp" />
@@ -143,7 +142,6 @@
     <ClInclude Include="Expediente.h" />
     <ClInclude Include="Fecha.h" />
     <ClInclude Include="Grupo.h" />
-    <ClInclude Include="Horario.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="ManejoArchivos.h" />
     <ClInclude Include="Nodo.h" />
