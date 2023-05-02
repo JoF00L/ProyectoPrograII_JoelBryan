@@ -1,14 +1,27 @@
 #pragma once
 #include "Lista.h"
 #include <sstream>
-class Expediente{
+#include"Fecha.h"
+
+class Expediente {
 private:
-	bool activo;//no estoy seguro si esto es un atributo o metodo
-	//faltan datos, me imagino que son fechas
+	Fecha* inicio;
+	Fecha* ultimo;
+	bool estado;
+	//Clase tipo lista fecha
+
 public:
 	Expediente();
-	Expediente(bool);
 	~Expediente();
-	string toString();
-};
 
+	bool getEstado();
+	void setEstado(bool);
+
+	int mesesPorPagar();
+	double cuotasPorPagar(int, double);
+	string detallePago(double);
+
+	Lista<Fecha>* getHistorialPagos();
+	Lista<Fecha>* insertarMeses(int);
+
+};
