@@ -1,7 +1,6 @@
 #include "ListaClientes.h"
-ListaClientes::ListaClientes() {
-	customers = new Lista<Cliente>;
-}
+
+ListaClientes::ListaClientes() { customers = new Lista<Cliente>; }
 
 ListaClientes::~ListaClientes() { delete customers; }
 
@@ -11,11 +10,11 @@ Lista<Cliente>* ListaClientes::getLista() { return customers; }
 
 //-------------------------------------------------------------------------
 
-void ListaClientes::agregar(Cliente* newClient) { customers->agregar(newClient); }
+void ListaClientes::agregarCliente(Cliente* newClient) { customers->agregar(newClient); }
 
 //-------------------------------------------------------------------------
 
-void ListaClientes::eliminarEsp(string ID) {
+void ListaClientes::eliminarCliente(string ID) {
 	int borrar = 0;
 	if (customers->getNodoEsp(0)->getDato()->getCedula() == ID) {
 		customers->eliminarPos(0);

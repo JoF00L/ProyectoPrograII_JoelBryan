@@ -13,8 +13,8 @@ public:
 	~ListaClientes();
 	//--------------------------------------------
 	Lista<Cliente>* getLista();
-	void agregar(Cliente* nuevo);
-	void eliminarEsp(string ID);
+	void agregarCliente(Cliente* nuevo);
+	void eliminarCliente(string ID);
 	Cliente* getClienteEsp(string ID);
 	//--------------------------------------------
 	string toString();

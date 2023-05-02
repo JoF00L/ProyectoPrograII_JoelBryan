@@ -13,6 +13,7 @@ public:
 	Lista();
 	~Lista();
 	//--------------------------------------------
+	int getSize();
 	bool esVacia() const;
 	void agregar(T* dato);
 	void eliminarInicio();  
@@ -29,9 +30,17 @@ template <typename T>
 Lista<T>::Lista() : primero(NULL), size(0) { }
 
 template <typename T>
-bool Lista<T>::esVacia() const { return primero == NULL; }
-
+Lista<T>::~Lista() {
+	while (!esVacia()) {
+		eliminarInicio();
+	}
+}
 //------------------------------------------------------------------------------------------------------
+template<typename T>
+int Lista<T>::getSize() { return size; }
+
+template <typename T>
+bool Lista<T>::esVacia() const { return primero == NULL; }
 
 template <typename T>
 void Lista<T>::agregar(T* dato){
@@ -117,13 +126,6 @@ string Lista<T>::toString() const{
 		temp = temp->getSig();
 	}
 	return s.str();
-}
-
-template <typename T>
-Lista<T>::~Lista() {
-	while (!esVacia()) {
-		eliminarInicio();
-	}
 }
 
 //------------------------------------------------------------------------------------------------------
