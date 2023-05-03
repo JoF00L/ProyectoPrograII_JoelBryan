@@ -5,7 +5,7 @@ Curso::Curso(){
     descripcion = "Sin descripcion";
     nivel = 1;
     cupoMax = 30;
-    alumnos = new ListaClientes;
+    grupitos = new ListaGrupos;
 }
 
 Curso::Curso(string code, string info, int lvl, int amount) {
@@ -13,11 +13,12 @@ Curso::Curso(string code, string info, int lvl, int amount) {
     descripcion = info;
     nivel = lvl;
     cupoMax = amount;
-    alumnos = new ListaClientes;
+    grupitos = new ListaGrupos;
 }
 
-Curso::~Curso() { delete alumnos; }
-//-------------------------------------------------------------------------
+Curso::~Curso() { delete grupitos; }
+
+//-----------------------------------------------------------------------------------------------------
 
 void Curso::setCodigo(string code) { codigo = code; }
 void Curso::setDescripcion(string info) { descripcion = info; }
@@ -28,26 +29,27 @@ void Curso::setNivel(int lvl) {
     nivel = lvl;
 }
 void Curso::setCupo(int amount) { cupoMax = amount; }
-void Curso::agregarAlumno(Cliente* add) { alumnos->agregarCliente(add); }
 
-//-------------------------------------------------------------------------
+void Curso::nuevoGrupo(Grupo* add) { grupitos->nuevoGrupo(add); }
+
+//-----------------------------------------------------------------------------------------------------
 
 string Curso::getCodigo() { return codigo; };
 string Curso::getDescripcion() { return descripcion; }
 int Curso::getNivel() { return nivel; }
 int Curso::getCupo() { return cupoMax; }
-ListaClientes* Curso::getAlumnos() { return alumnos; }
+ListaGrupos* Curso::getGrupos() { return grupitos; }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 string Curso::tipoNivel(int n) const{
-    string tn;
+    stringstream tn;
     switch (n) {
-    case 1: tn = "Principiante"; break;
-    case 2: tn = "Intermedio"; break;
-    case 3: tn = "Avanzado"; break;
+    case 1: tn << "Principiante"; break;
+    case 2: tn << "Intermedio"; break;
+    case 3: tn << "Avanzado"; break;
     }
-    return tn;
+    return tn.str();
 }
 
 /*string Curso::horario(Fecha* inicio, Fecha* fin, int d1, int d2) { //si los trabajamos con 2 dias (ejemplo)
@@ -58,18 +60,21 @@ string Curso::tipoNivel(int n) const{
     return s.str();
 }*/
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 string Curso::toString() const{
     stringstream s;
+    s << "-=-=-=- INFO DEL CURSO -=-=-=-\n" << endl;
+    s << "Codigo del curso: " << codigo << endl;
     s << "Descripcion del curso: " << descripcion << endl;
     s << "Nivel: " << tipoNivel(nivel) << endl;
     s << "Cupo Maximo: " << cupoMax << endl;
-    // Fechas del curso
+    s << "\n-=-=-=-=-=- GRUPOS -=-=-=-=-=-\n" << endl;
+    s << *grupitos->getLista();
     return s.str();
 }
 
 ostream& operator<<(ostream& output, const Curso& info) {
-    output << info.toString();
+    output << info.toString() << endl;
     return output;
 }

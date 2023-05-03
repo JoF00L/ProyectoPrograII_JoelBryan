@@ -3,12 +3,6 @@
 #include <iostream>
 using namespace std;
 
-/// DATOS BIOMETRICOS:
-///		-> peso
-///		-> altura
-///		-> masaMuscular
-///		-> grasaCorporal
-
 class Biometricos
 {
 private:

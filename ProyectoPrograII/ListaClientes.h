@@ -1,6 +1,9 @@
 #pragma once
 #include "Clientes.h"
 #include "Lista.h"
+
+class Cliente;
+
 class ListaClientes
 {
 private:
@@ -18,4 +21,5 @@ public:
 	Cliente* getClienteEsp(string ID);
 	//--------------------------------------------
 	string toString();
+
 };

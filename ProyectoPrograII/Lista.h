@@ -1,13 +1,13 @@
 #pragma once
 #include "Nodo.h"
 
-/// Clase de tipo plantilla por lo que no usamos .cpp
-
 template <typename T>
 class Lista {
 private:
+
 	Nodo<T>* primero;
 	int size;
+
 public:
 
 	Lista();

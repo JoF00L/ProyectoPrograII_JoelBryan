@@ -4,15 +4,15 @@ ListaClientes::ListaClientes() { customers = new Lista<Cliente>; }
 
 ListaClientes::~ListaClientes() { delete customers; }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 Lista<Cliente>* ListaClientes::getLista() { return customers; }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 void ListaClientes::agregarCliente(Cliente* newClient) { customers->agregar(newClient); }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 void ListaClientes::eliminarCliente(string ID) {
 	int borrar = 0;
@@ -37,7 +37,7 @@ Cliente* ListaClientes::getClienteEsp(string ID) {
 	return customers->getNodoEsp(buscar)->getDato();
 }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 string ListaClientes::toString() {
 	stringstream s; 

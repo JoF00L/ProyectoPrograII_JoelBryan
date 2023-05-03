@@ -4,7 +4,9 @@ ListaCursos::ListaCursos() { subjects = new Lista<Curso>; }
 
 ListaCursos::~ListaCursos() { delete subjects; }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
+
+Lista<Curso>* ListaCursos::getLista() { return subjects; }
 
 void ListaCursos::agregarCurso(Curso* nuevo) { subjects->agregar(nuevo); }
 
@@ -31,7 +33,7 @@ Curso* ListaCursos::getCursoEsp(string code) {
 	return subjects->getNodoEsp(buscar)->getDato();
 }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 string ListaCursos::toString() {
 	stringstream s;

@@ -1,14 +1,27 @@
 #pragma once
-#include "Lista.h"
+#include "ListaClientes.h"
 #include <sstream>
+
+class ListaClientes; //por cualquier cosa si no es necesario lo pueden borrar despues
 
 class Grupo{
 private:
-	//nose que atributos van
+	
+	int numGrupo;
+	//agregar el atributo lista de clientes
 
 public:
+
 	Grupo();
+	Grupo(int num);
 	~Grupo();
-	string toString();
+	//-------------------------------
+	void setNumGrupo(int num);
+	//-------------------------------
+	int getnumGrupo();
+	//-------------------------------
+	string toString() const;
+
 };
 
+ostream& operator<<(ostream& output, const Grupo& g);

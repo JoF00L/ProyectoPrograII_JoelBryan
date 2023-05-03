@@ -17,7 +17,8 @@ Fecha::Fecha(int d, int m, int a) {
 
 Fecha::~Fecha() { }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
+
 int Fecha::getDia() { return dia; }
 int Fecha::getMes() { return mes; }
 int Fecha::getAnio() { return anio; }
@@ -25,7 +26,9 @@ int Fecha::getAnio() { return anio; }
 void Fecha::setDia(int d) { dia = d; }
 void Fecha::setMes(int m) { mes = m; }
 void Fecha::setAnio(int a) { anio = a; }
-//-------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------------------------------
+
 string Fecha::diferenciaFechas(Fecha* f) {
 	stringstream s;
 	s << "Dias: " << abs((f->fecha[0] - fecha[0])) << endl;
@@ -52,7 +55,7 @@ int Fecha::devuelveEdad(Fecha* f) {
 	return edad;
 }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 string Fecha::toString() {
 	stringstream s;

@@ -1,12 +1,15 @@
 #pragma once
 #include "Lista.h"
 #include "Curso.h"
+
+class Curso;
+
 class ListaCursos
 {
 private:
 	
 	Lista<Curso>* subjects;
-
+	
 public:
 
 	ListaCursos();

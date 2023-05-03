@@ -1,17 +1,9 @@
 #pragma once
 #include "Fecha.h"
+#include "Curso.h"
 #include "ListaCursos.h"
 #include "Biometricos.h"
 #define MAX_CURSOS 4
-
-/// DATOS PERSONALES:
-///		-> nombre
-///		-> cedula
-///		-> fecha nacimiento
-///		-> sexo
-/// EXPEDIENTE
-/// LISTA DE CURSOS
-///		-> Datos cada curso 
 
 class Cliente
 {
@@ -24,7 +16,7 @@ private:
     char sexo;
     //Expediente
     Biometricos* bio;
-    ListaCursos* cursos;
+    //Creo que le agregamos la lista de cursos despues
 
 public:
     
@@ -58,4 +50,4 @@ public:
     // pero para que pueda matricular tiene que verificar que el expediente de pagos este actualizado
 };
 
-ostream& operator<<(ostream& output, const Cliente& a);
+ostream& operator<<(ostream& output, const Cliente& client);

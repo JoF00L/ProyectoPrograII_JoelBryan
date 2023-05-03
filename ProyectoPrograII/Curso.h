@@ -1,16 +1,19 @@
 #pragma once
-#include "Lista.h"
 #include "ListaClientes.h"
+#include "ListaGrupos.h"
 #include <sstream>
+
+class Grupo;
+class ListaGrupos; //NO BORRAR ESTO
 
 class Curso{
 private:
 	
-	string codigo; // para identificarlos tipo EIF200 es funda
-	string descripcion; // esto explicaria que es el curso
+	string codigo; 
+	string descripcion; 
 	int nivel;
 	int cupoMax;
-	ListaClientes* alumnos;
+	ListaGrupos* grupitos;
 
 public:
 
@@ -22,17 +25,17 @@ public:
 	void setDescripcion(string info);
 	void setNivel(int lvl);
 	void setCupo(int amount);
-	void agregarAlumno(Cliente* add);
+	void nuevoGrupo(Grupo* add);
 	//--------------------------------------------
 	string getCodigo();
 	string getDescripcion();
 	int getNivel();
 	int getCupo();
-	ListaClientes* getAlumnos();
+	ListaGrupos* getGrupos();
 	//--------------------------------------------
 	string tipoNivel(int lvl) const;
 	string toString() const;
 
 };
 
-ostream& operator<<(ostream& output, const Curso& data);
+ostream& operator<<(ostream& output, const Curso& subject);

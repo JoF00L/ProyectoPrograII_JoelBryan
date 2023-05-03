@@ -14,21 +14,21 @@ Biometricos::Biometricos(float p, float a, float mm, float gc) {
 	grasa_corporal = gc;
 }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 void Biometricos::setPeso(float p) { peso = p; }
 void Biometricos::setAltura(float a) { altura = a; }
 void Biometricos::setMasaMuscular(float mm) { masa_muscular = mm; }
 void Biometricos::setGrasaCorporal(float gc) { grasa_corporal = gc; }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 float Biometricos::getPeso() { return peso; }
 float Biometricos::getAltura() { return altura; }
 float Biometricos::getMasaMuscular() { return masa_muscular; }
 float Biometricos::getGrasaCorporal() { return grasa_corporal; }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 string Biometricos::toString() const{
 	stringstream s;
@@ -47,7 +47,7 @@ string Biometricos::toString() const{
 	return s.str();
 }
 
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------
 
 ostream& operator<<(ostream& output, const Biometricos& b) {
 	output << b.toString();

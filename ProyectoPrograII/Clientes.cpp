@@ -8,7 +8,6 @@ Cliente::Cliente()
 	fecha_nacimiento = new Fecha;
 	sexo = '-';
 	bio = new Biometricos;
-	cursos = new ListaCursos;
 }
 
 Cliente::Cliente(string nom, string id, string phone, Fecha* nacimiento, char sex, Biometricos* bioData)
@@ -46,7 +45,6 @@ float Cliente::getPeso() { return bio->getPeso(); }
 float Cliente::getAltura() { return bio->getAltura(); }
 float Cliente::getMasaMuscular() { return bio->getMasaMuscular(); }
 float Cliente::getGrasaCorporal() { return bio->getGrasaCorporal(); }
-ListaCursos* Cliente::getCursos() { return cursos; }
 
 //------------------------------------------------------------------------------------------------------
 
