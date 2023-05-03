@@ -131,6 +131,7 @@
     <ClCompile Include="Curso.cpp" />
     <ClCompile Include="Expediente.cpp" />
     <ClCompile Include="Fecha.cpp" />
+    <ClCompile Include="Gimnasio.cpp" />
     <ClCompile Include="Grupo.cpp" />
     <ClCompile Include="ListaClientes.cpp" />
     <ClCompile Include="ListaCursos.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="Curso.h" />
     <ClInclude Include="Expediente.h" />
     <ClInclude Include="Fecha.h" />
+    <ClInclude Include="Gimnasio.h" />
     <ClInclude Include="Grupo.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="ListaClientes.h" />
