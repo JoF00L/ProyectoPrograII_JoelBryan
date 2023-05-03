@@ -86,7 +86,7 @@ void Gimnasio::controlCursos(){
 		cout << "\n2. Repote de curso especifico" << endl;
 		cout << "\n3. Modificacion de curso especifico" << endl << endl;
 		cout << "\nDigite una opcion: "; cin >> opcion;
-	} while (opcion < 1 || opcion > 2);
+	} while (opcion < 1 || opcion > 3);
 
 	system("cls");
 	switch (opcion) {
@@ -96,8 +96,32 @@ void Gimnasio::controlCursos(){
 	}
 }
 
-void Gimnasio::controlGrupos()
-{
+void Gimnasio::controlGrupos(){
+	int opcion;
+
+	do {
+		system("cls");
+		cout << "\t( 4 ) Control de Grupos" << endl << endl;
+		cout << "\n1. Ingreso nuevo grupo" << endl;
+		cout << "\n2. Modificacion de grupo especifico" << endl;
+		cout << "\n3. Matricula en grupo especifico" << endl;
+		cout << "\n4. Reporte de grupo especifico" << endl;
+		cout << "\n5. Reporte deportistas matriculados en grupo" << endl;
+		cout << "\n6. Cancelacion de matricula en grupo" << endl << endl;
+		
+		cout << "\nDigite una opcion: "; cin >> opcion;
+	} while (opcion < 1 || opcion > 6);
+
+
+	system("cls");
+	switch (opcion) {
+	case 1: ingresoGrupo(); break;
+	case 2:	modifGrupo(); break;
+	case 3: matriculaGrupo(); break;
+	case 4: reporteGrupo(); break;
+	case 5: reporteDepMat(); break;
+	case 6: cancelacionMatricula(); break;
+	}
 }
 
 void Gimnasio::controlPagos(){
@@ -245,4 +269,51 @@ void Gimnasio::modifCurso(){
 		cout << "\nDigite una opcion: "; cin >> opcion;
 	} while (opcion < 1 || opcion > 5);
 
+}
+
+void Gimnasio::ingresoGrupo(){
+	string codigo, id, nombre;
+	int cupoMax,d, m, a, semanas;
+	char dia;
+	cout << "<( 4 ) Control de Grupos> <( 1 ) Ingreso nuevo grupo>" << endl << endl;
+	cout << "\tListado de cursos: " << endl << endl;
+	//mostramos los cursos
+	cout << "\tDigite el codigo de curso: "; cin >> codigo;
+	//encontramos curso e indicamos que curso es
+
+	cout << "\n\tDigite el ID del instructor: "; cin >> id;
+	cout << "\n\tDigite el nombre del instructor: "; cin >>nombre;
+	cout << "\n\tDigite el ID del instructor: "; cin >> id;
+	cout << "\n\tDigite el cupo maximo: "; cin >> cupoMax;
+	cout << "\n\tFecha de inicio (DD/MM/AAAA): ";
+	cin >> d; cout << " / "; cin >> m; cout << " / "; cin >> a;
+	Fecha* inicio = new Fecha(d, m, a);
+	cout << "\n\tSemanas de duracion: "; cin >> semanas;
+	cout << "\n\tHorario: " << endl;
+
+
+	cout << endl << endl;
+
+	system("pause");
+	delete inicio;
+}
+
+void Gimnasio::modifGrupo()
+{
+}
+
+void Gimnasio::matriculaGrupo()
+{
+}
+
+void Gimnasio::reporteGrupo()
+{
+}
+
+void Gimnasio::reporteDepMat()
+{
+}
+
+void Gimnasio::cancelacionMatricula()
+{
 }

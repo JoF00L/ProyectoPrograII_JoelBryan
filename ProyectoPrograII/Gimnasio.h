@@ -21,5 +21,11 @@ public:
 	void ingresoCurso();
 	void reporteCurso();
 	void modifCurso();
+	void ingresoGrupo();
+	void modifGrupo();
+	void matriculaGrupo();
+	void reporteGrupo();
+	void reporteDepMat();
+	void cancelacionMatricula();
 };
 
