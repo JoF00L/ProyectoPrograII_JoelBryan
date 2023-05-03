@@ -18,5 +18,8 @@ public:
 	void modifDeportista();
 	void listadoDeportistas();
 	void detalleDeportista();
+	void ingresoCurso();
+	void reporteCurso();
+	void modifCurso();
 };
 
