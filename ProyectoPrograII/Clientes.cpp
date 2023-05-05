@@ -7,6 +7,7 @@ Cliente::Cliente()
 	telefono = "NULL";
 	fecha_nacimiento = new Fecha;
 	sexo = '-';
+	estado = true;
 	bio = new Biometricos;
 }
 
@@ -16,6 +17,7 @@ Cliente::Cliente(string nom, string id, string phone, Fecha* nacimiento, char se
 	cedula = id;
 	telefono = phone;
 	fecha_nacimiento = nacimiento;
+	estado = true;
 	sexo = sex;
 	bio = bioData;
 }
@@ -33,6 +35,7 @@ void Cliente::setPeso(float p) { bio->setPeso(p); }
 void Cliente::setAltura(float a) { bio->setAltura(a); }
 void Cliente::setMasaMuscular(float mm) { bio->setMasaMuscular(mm); }
 void Cliente::setGrasaCorporal(float gc) { bio->setGrasaCorporal(gc); }
+void Cliente::setEstado(bool active) { estado = active; }
 
 //------------------------------------------------------------------------------------------------------
 
@@ -41,6 +44,7 @@ string Cliente::getCedula() { return cedula; }
 string Cliente::getTelefono() { return telefono; }
 Fecha* Cliente::getFechaNacimiento() { return fecha_nacimiento; }
 char Cliente::getSexo() { return sexo; }
+bool Cliente::getEstado() { return estado; }
 float Cliente::getPeso() { return bio->getPeso(); }
 float Cliente::getAltura() { return bio->getAltura(); }
 float Cliente::getMasaMuscular() { return bio->getMasaMuscular(); }
@@ -56,6 +60,13 @@ string Cliente::toString() const{
 	s << "- Nombre: " << nombre << endl;
 	s << "- C" << char(130) << "dula: " << cedula << endl;
 	s << "- Sexo: " << sexo << endl;
+	s << "- Estado: ";
+	switch (estado)	{
+	case true:
+		s << "activo" << endl;
+	case false:
+		s << "inactivo" << endl;
+ 	}
 	s << "- Tel" << char(130) << "fono: " << telefono << endl;
 	s << "- Fecha de nacimiento: " << *fecha_nacimiento << endl;
 	s << *bio << endl; //Ya hice la sobrecarga

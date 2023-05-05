@@ -166,6 +166,7 @@ void Gimnasio::ingresoDeportista() {
 
 void Gimnasio::modifDeportista() {
 	string name, cedula, telefono;
+	Fecha* date = new Fecha;
 	int d, m, a, opcion;
 	float estatura, peso, grasa, masa;
 	char sexo;
@@ -201,7 +202,7 @@ void Gimnasio::modifDeportista() {
 			cin.ignore();
 			getline(cin, name);
 			deportistas->getClienteEsp(cedula)->setNombre(name);
-			cout << "\n\n Se ha modificado el nombre correctamente! \n" << endl;
+			cout << endl << endl;
 			break;
 		case 2:
 			cout << "Telefono actual del deportista: " << deportistas->getClienteEsp(cedula)->getTelefono() << endl;
@@ -209,7 +210,7 @@ void Gimnasio::modifDeportista() {
 			cin.ignore();
 			getline(cin, telefono);
 			deportistas->getClienteEsp(cedula)->setNombre(telefono);
-			cout << "\n\n Se ha modificado el telefono correctamente! \n" << endl;
+			cout << endl << endl;
 			break;
 		case 3:
 			cout << "Fecha de nacimiento actual del deportista: " << *deportistas->getClienteEsp(cedula)->getFechaNacimiento() << endl;
@@ -220,47 +221,52 @@ void Gimnasio::modifDeportista() {
 			cin >> m;
 			cout << "A" << char(164) << "o: ";
 			cin >> a;
-			Fecha* date = new Fecha(d, m, a);
+			date->setDia(d); 
+			date->setMes(m);
+			date->setAnio(a);
 			deportistas->getClienteEsp(cedula)->setFechaNacimiento(date);
-			cout << "\n\n Se ha modificado la fecha de nacimiento correctamente! \n" << endl;
+			cout << endl << endl;
 			break;
 		case 4:
 			cout << "Sexo actual del deportista: " << deportistas->getClienteEsp(cedula)->getSexo() << endl;
 			cout << "Ingrese el nuevo sexo: ";
 			cin >> sexo;
 			deportistas->getClienteEsp(cedula)->setSexo(sexo);
-			cout << "\n\n Se ha modificado el sexo correctamente! \n" << endl;
+			cout << endl << endl;
 			break;
 		case 5:
 			cout << "Estatura actual del deportista: " << deportistas->getClienteEsp(cedula)->getAltura() << endl;
 			cout << "Ingrese la nueva estatura: ";
 			cin >> estatura;
 			deportistas->getClienteEsp(cedula)->setAltura(estatura);
-			cout << "\n\n Se ha modificado la estatura correctamente! \n" << endl;
+			cout << endl << endl;
 			break;
 		case 6:
 			cout << "Peso actual del deportista: " << deportistas->getClienteEsp(cedula)->getPeso() << endl;
 			cout << "Ingrese el nuevo peso: ";
 			cin >> peso;
 			deportistas->getClienteEsp(cedula)->setPeso(peso);
-			cout << "\n\n Se ha modificado el peso correctamente! \n" << endl;
 			break;
 		case 7:
 			cout << "Grasa corporal actual del deportista: " << deportistas->getClienteEsp(cedula)->getGrasaCorporal() << endl;
 			cout << "Ingrese la nueva grasa corporal: ";
 			cin >> grasa;
 			deportistas->getClienteEsp(cedula)->setGrasaCorporal(grasa);
-			cout << "\n\n Se ha modificado la grasa corporal correctamente! \n" << endl;
+			cout << endl << endl;
 			break;
 		case 8:
 			cout << "Masa muscular actual del deportista: " << deportistas->getClienteEsp(cedula)->getMasaMuscular() << endl;
 			cout << "Ingrese el nuevo telefono: ";
 			cin >> masa;
 			deportistas->getClienteEsp(cedula)->setMasaMuscular(masa);
-			cout << "\n\n Se ha modificado el telefono correctamente! \n" << endl;
+			cout << endl << endl;
 			break;
 		case 9:
-			// POR HACER
+			cout << "Estado actual del deportista: " << deportistas->getClienteEsp(cedula)->getEstado() << endl;
+			cout << "Ingrese el nuevo estado: ";
+			cin >> estado;
+			deportistas->getClienteEsp(cedula)->setEstado(estado);
+			cout << endl << endl;
 			break;
 		case 10:
 			break;
