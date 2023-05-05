@@ -290,7 +290,7 @@ void Gimnasio::listadoDeportistas() {
 		cout << *deportistas->getLista() << endl;
 		break;
 	case 2:
-
+		break;
 	}
 	system("pause");
 }
