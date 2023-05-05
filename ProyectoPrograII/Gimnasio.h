@@ -1,8 +1,21 @@
 #pragma once
-#include "Lista.h"
+#include "ManejoArchivos.h"
+#include "ListaCursos.h"
+#include "ListaClientes.h"
+#include "ListaGrupos.h"
 #include "Fecha.h"
 class Gimnasio{
+private:
+	
+	string nombre;
+	int montoMensual;
+	Fecha* currentDate;
+	ListaClientes* deportistas;
+	ListaCursos* cursos;
+	ListaGrupos* grupos;
+
 public:
+
 	Gimnasio();
 	~Gimnasio();
 	void menu();
@@ -27,5 +40,6 @@ public:
 	void reporteGrupo();
 	void reporteDepMat();
 	void cancelacionMatricula();
+
 };
 

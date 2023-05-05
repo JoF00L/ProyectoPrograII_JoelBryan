@@ -57,7 +57,7 @@ string Cliente::toString() const{
 	s << "- C" << char(130) << "dula: " << cedula << endl;
 	s << "- Sexo: " << sexo << endl;
 	s << "- Tel" << char(130) << "fono: " << telefono << endl;
-	s << "- Fecha de nacimiento: " << fecha_nacimiento->toString() << endl;
+	s << "- Fecha de nacimiento: " << *fecha_nacimiento << endl;
 	s << *bio << endl; //Ya hice la sobrecarga
 	
 	s << "\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" << endl;

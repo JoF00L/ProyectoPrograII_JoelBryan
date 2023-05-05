@@ -1,8 +1,8 @@
 #include "Expediente.h"
 
 Expediente::Expediente() {
-	inicio = Fecha::getFechaActual();
-	ultimo = Fecha::getFechaActual();
+	inicio = new Fecha;
+	ultimo = new Fecha;
 	estado = true;
 }
 Expediente::~Expediente() {}
@@ -11,13 +11,13 @@ bool Expediente::getEstado() { return estado; }
 void Expediente::setEstado(bool est) { estado = est; }
 
 int Expediente::mesesPorPagar() {
-	int meses = 0;
-
-	for (int i = ultimo->getAnio(); i <= Fecha::getFechaActual()->getAnio(); i++) {
-		for (int j = ultimo->getMes(); j < Fecha::getFechaActual()->getMes(); (j++, meses++));
+	/*int meses = 0;
+	Fecha* porpagar = new Fecha;
+	for (int i = ultimo->getAnio(); i <= porpagar->getAnio(); i++) {
+		for (int j = ultimo->getMes(); j < porpagar->getMes(); (j++, meses++));
 	}
-	return meses;
-
+	return meses;*/
+	return 0;
 }
 double Expediente::cuotasPorPagar(int meses, double mensualidad) {
 	return meses * mensualidad;
