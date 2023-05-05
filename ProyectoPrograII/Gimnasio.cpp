@@ -308,6 +308,10 @@ void Gimnasio::listadoDeportistas() {
 		cout << *deportistas->getLista() << endl;
 		break;
 	case 2:
+		cout << "Control de Deportistas\\Listado de activos\\" << endl << endl;
+		break;
+	case 3:
+		cout << "Control de Deportistas\\Listado de inactivos\\" << endl << endl;
 		break;
 	}
 	system("pause");
