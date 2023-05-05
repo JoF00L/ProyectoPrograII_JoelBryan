@@ -21,5 +21,7 @@ public:
 	Cliente* getClienteEsp(string ID);
 	//--------------------------------------------
 	string toString();
-
+	string Activos();
+	string Inactivos();
+	string Morosos();
 };
