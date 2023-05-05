@@ -210,7 +210,7 @@ void Gimnasio::modifDeportista() {
 			cout << "Ingrese el nuevo telefono: ";
 			cin.ignore();
 			getline(cin, temp);
-			deportistas->getClienteEsp(cedula)->setNombre(temp);
+			deportistas->getClienteEsp(cedula)->setTelefono(temp);
 			cout << endl << endl;
 			break; 
 		case 3:
@@ -232,6 +232,7 @@ void Gimnasio::modifDeportista() {
 			cout << endl << endl;
 			break;}
 		case 4:
+			cout << "Control de Deportistas\\Modificacion deportista\\Sexo" << endl << endl;
 			cout << "Sexo actual del deportista: " << deportistas->getClienteEsp(cedula)->getSexo() << endl;
 			cout << "Ingrese el nuevo sexo: ";
 			cin >> sexo;
@@ -239,6 +240,7 @@ void Gimnasio::modifDeportista() {
 			cout << endl << endl;
 			break;
 		case 5:
+			cout << "Control de Deportistas\\Modificacion deportista\\Estatura" << endl << endl;
 			cout << "Estatura actual del deportista: " << deportistas->getClienteEsp(cedula)->getAltura() << endl;
 			cout << "Ingrese la nueva estatura: ";
 			cin >> dato;
@@ -246,12 +248,14 @@ void Gimnasio::modifDeportista() {
 			cout << endl << endl;
 			break;
 		case 6:
+			cout << "Control de Deportistas\\Modificacion deportista\\Deportista" << endl << endl;
 			cout << "Peso actual del deportista: " << deportistas->getClienteEsp(cedula)->getPeso() << endl;
 			cout << "Ingrese el nuevo peso: ";
 			cin >> dato;
 			deportistas->getClienteEsp(cedula)->setPeso(dato);
 			break;
 		case 7:
+			cout << "Control de Deportistas\\Modificacion deportista\\Grasa corporal" << endl << endl;
 			cout << "Grasa corporal actual del deportista: " << deportistas->getClienteEsp(cedula)->getGrasaCorporal() << endl;
 			cout << "Ingrese la nueva grasa corporal: ";
 			cin >> dato;
@@ -259,6 +263,7 @@ void Gimnasio::modifDeportista() {
 			cout << endl << endl;
 			break;
 		case 8:
+			cout << "Control de Deportistas\\Modificacion deportista\\Masa muscular" << endl << endl;
 			cout << "Masa muscular actual del deportista: " << deportistas->getClienteEsp(cedula)->getMasaMuscular() << endl;
 			cout << "Ingrese el nuevo telefono: ";
 			cin >> dato;
@@ -266,6 +271,7 @@ void Gimnasio::modifDeportista() {
 			cout << endl << endl;
 			break;
 		case 9:
+			cout << "Control de Deportistas\\Modificacion deportista\\Estado" << endl << endl;
 			cout << "Estado actual del deportista: " << deportistas->getClienteEsp(cedula)->getEstado() << endl;
 			cout << "Ingrese el nuevo estado: ";
 			cin >> estado;
@@ -275,7 +281,6 @@ void Gimnasio::modifDeportista() {
 		case 10:
 			break;
 		}
-		if (opcion == 10) { break; }
 	} while (opcion < 1 || opcion > 10);
 
 	system("pause");
