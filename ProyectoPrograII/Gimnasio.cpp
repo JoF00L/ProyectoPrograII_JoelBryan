@@ -313,6 +313,9 @@ void Gimnasio::listadoDeportistas() {
 	case 3:
 		cout << "Control de Deportistas\\Listado de inactivos\\" << endl << endl;
 		break;
+	case 4:
+		cout << "Control de Deportistas\\Listado en estado de morososidad\\" << endl << endl;
+		break;
 	}
 	system("pause");
 }
@@ -324,7 +327,7 @@ void Gimnasio::controlCursos(){
 		system("cls");
 		cout << "\t( 3 ) Control de Cursos" << endl << endl;
 		cout << "\n1. Ingreso de nuevo curso" << endl;
-		cout << "\n2. Repote de curso especifico" << endl;
+		cout << "\n2. Reporte de curso especifico" << endl;
 		cout << "\n3. Modificacion de curso especifico" << endl << endl;
 		cout << "\nDigite una opcion: "; cin >> opcion;
 	} while (opcion < 1 || opcion > 3);
