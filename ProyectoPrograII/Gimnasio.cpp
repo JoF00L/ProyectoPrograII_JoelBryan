@@ -176,6 +176,7 @@ void Gimnasio::modifDeportista() {
 		cout << "Control de Deportistas\\Modificacion deportista\\" << endl << endl;
 		cout << "Digite la cedula del deportista: ";
 		cin >> cedula;
+		system("cls");
 		// HACER condicion si la lista esta vacia para que ni siquiera lo deje entrar
 		cout << "Que dato desea modificar: " << endl;
 		cout << "\n----------------------------------------------" << endl;
@@ -274,8 +275,9 @@ void Gimnasio::modifDeportista() {
 			cout << "Control de Deportistas\\Modificacion deportista\\Estado" << endl << endl;
 			cout << "Estado actual del deportista: " << deportistas->getClienteEsp(cedula)->getEstado() << endl;
 			cout << "Ingrese el nuevo estado: ";
-			cin >> estado;
-			deportistas->getClienteEsp(cedula)->setEstado(estado);
+			cin.ignore();
+			getline(cin, temp);
+			deportistas->getClienteEsp(cedula)->setEstado(temp);
 			cout << endl << endl;
 			break;
 		case 10:

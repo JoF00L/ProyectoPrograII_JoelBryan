@@ -35,7 +35,7 @@ void Cliente::setPeso(float p) { bio->setPeso(p); }
 void Cliente::setAltura(float a) { bio->setAltura(a); }
 void Cliente::setMasaMuscular(float mm) { bio->setMasaMuscular(mm); }
 void Cliente::setGrasaCorporal(float gc) { bio->setGrasaCorporal(gc); }
-void Cliente::setEstado(bool active) { estado = active; }
+void Cliente::setEstado(string active) { estado = active; }
 
 //------------------------------------------------------------------------------------------------------
 
@@ -44,7 +44,7 @@ string Cliente::getCedula() { return cedula; }
 string Cliente::getTelefono() { return telefono; }
 Fecha* Cliente::getFechaNacimiento() { return fecha_nacimiento; }
 char Cliente::getSexo() { return sexo; }
-bool Cliente::getEstado() { return estado; }
+string Cliente::getEstado() { return estado; }
 float Cliente::getPeso() { return bio->getPeso(); }
 float Cliente::getAltura() { return bio->getAltura(); }
 float Cliente::getMasaMuscular() { return bio->getMasaMuscular(); }

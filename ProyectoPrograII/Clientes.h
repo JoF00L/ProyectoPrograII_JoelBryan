@@ -14,7 +14,7 @@ private:
     string telefono;
     Fecha* fecha_nacimiento;
     char sexo;
-    bool estado;
+    string estado;
     //Expediente
     Biometricos* bio;
     //Creo que le agregamos la lista de cursos despues
@@ -33,7 +33,7 @@ public:
     void setAltura(float a);
     void setMasaMuscular(float mm);
     void setGrasaCorporal(float gc);
-    void setEstado(bool active);
+    void setEstado(string active);
     void setFechaNacimiento(Fecha* fecha_nacimiento);
     //--------------------------------------------
     char getSexo();
@@ -44,7 +44,7 @@ public:
     float getAltura();
     float getMasaMuscular();
     float getGrasaCorporal(); 
-    bool getEstado();
+    string getEstado();
     Fecha* getFechaNacimiento();
     //--------------------------------------------
     string toString() const;
