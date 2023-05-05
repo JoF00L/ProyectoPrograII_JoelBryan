@@ -64,8 +64,10 @@ string Cliente::toString() const{
 	switch (estado)	{
 	case true:
 		s << "activo" << endl;
+		break;
 	case false:
 		s << "inactivo" << endl;
+		break;
  	}
 	s << "- Tel" << char(130) << "fono: " << telefono << endl;
 	s << "- Fecha de nacimiento: " << *fecha_nacimiento << endl;
