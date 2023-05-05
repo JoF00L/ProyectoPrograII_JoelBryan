@@ -7,7 +7,7 @@ Cliente::Cliente()
 	telefono = "NULL";
 	fecha_nacimiento = new Fecha;
 	sexo = '-';
-	estado = true;
+	estado = "activo";
 	bio = new Biometricos;
 }
 
@@ -17,7 +17,7 @@ Cliente::Cliente(string nom, string id, string phone, Fecha* nacimiento, char se
 	cedula = id;
 	telefono = phone;
 	fecha_nacimiento = nacimiento;
-	estado = true;
+	estado = "activo";
 	sexo = sex;
 	bio = bioData;
 }
