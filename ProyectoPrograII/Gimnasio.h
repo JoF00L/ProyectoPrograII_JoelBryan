@@ -24,6 +24,8 @@ public:
 	void controlCursos();
 	void controlGrupos();
 	void controlPagos();
+	void registroPago();
+	void reportePagos();
 	void guardarArchSalir();
 	void nombreGim();
 	void montoMensualidad();

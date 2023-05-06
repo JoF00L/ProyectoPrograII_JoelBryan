@@ -369,7 +369,33 @@ void Gimnasio::controlGrupos(){
 }
 
 void Gimnasio::controlPagos(){
+	int opcion;
 
+	do {
+		system("cls");
+		cout << "Control de Pagos" << endl;
+		cout << "\n_._._._._._._._._._._._._._._._._._._._" << endl;
+		cout << "\n1. Registro de nuevo pago" << endl;
+		cout << "\n2. Reporte de pagos por deportista" << endl;
+		cout << "\n_._._._._._._._._._._._._._._._._._._._\n" << endl;
+		cout << "\nDigite una opcion: ";
+		cin >> opcion;
+	} while (opcion < 1 || opcion > 2);
+
+	system("cls");
+	switch (opcion) {
+	case 1: registroPago(); break;
+	case 2: reportePagos(); break;
+	}
+}
+
+void Gimnasio::registroPago(){
+	cout << "Control de Pagos\\Registro de nuevo pago\\" << endl;
+	cout << "\nFecha actual: " << *currentDate << endl;
+}
+
+void Gimnasio::reportePagos()
+{
 }
 
 void Gimnasio::guardarArchSalir()
