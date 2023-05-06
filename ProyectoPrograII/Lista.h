@@ -119,7 +119,7 @@ string Lista<T>::toString() const{
 	stringstream s;
 	Nodo<T>* temp = primero;
 	if (esVacia()) {
-		cout << "lista vacia" << endl; //Agregar una excpecion aca despues
+		return "vacia"; //Agregar una excpecion aca despues
 	}
 	while (temp) {
 		s << *temp;

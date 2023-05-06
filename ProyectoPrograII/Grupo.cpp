@@ -1,11 +1,19 @@
 #include "Grupo.h"
 
 Grupo::Grupo() { 
-	numGrupo = -1; 
+	dia = 'n';
+	numGrupo = -1;
+	nomInstructor = "NULL";
+	idInstructor = "NULL";
+	alumnos = new ListaClientes;
 }
 
-Grupo::Grupo(int num) {
+Grupo::Grupo(char day, int num, string instruct, string idIns) {
+	dia = day;
 	numGrupo = num;
+	nomInstructor = instruct;
+	idInstructor = idIns;
+	alumnos = new ListaClientes;
 }
 
 Grupo::~Grupo() { }
@@ -13,10 +21,16 @@ Grupo::~Grupo() { }
 //-----------------------------------------------------------------------------------------------------
 
 void Grupo::setNumGrupo(int num) { numGrupo = num; }
+void Grupo::setDia(char d) { dia = d; }
+void Grupo::setNomInst(string nom) { nomInstructor = nom; }
+void Grupo::setIdInst(string id) { idInstructor = id; }
 
 //-----------------------------------------------------------------------------------------------------
 
 int Grupo::getnumGrupo() { return numGrupo; }
+char Grupo::getDia() { return dia; }
+string Grupo::getNomInst() { return nomInstructor; }
+string Grupo::getIdInst() { return idInstructor; }
 
 //-----------------------------------------------------------------------------------------------------
 

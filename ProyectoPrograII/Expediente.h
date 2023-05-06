@@ -1,14 +1,17 @@
 #pragma once
 #include "Lista.h"
-#include <sstream>
 #include"Fecha.h"
+#include <sstream>
+using namespace std;
 
 class Expediente {
+
 private:
+	
 	Fecha* inicio;
 	Fecha* ultimo;
 	bool estado;
-	//Clase tipo lista fecha
+	Lista<Fecha>* historialPagos;
 
 public:
 	Expediente();
@@ -18,10 +21,10 @@ public:
 	void setEstado(bool);
 
 	int mesesPorPagar();
-	double cuotasPorPagar(int, double);
-	string detallePago(double);
+	int cuotasPorPagar(int, int);
+	string detallePago(int);
 
 	Lista<Fecha>* getHistorialPagos();
-	Lista<Fecha>* insertarMeses(int);
+	Lista<Fecha>* insertarMes(int);
 
 };

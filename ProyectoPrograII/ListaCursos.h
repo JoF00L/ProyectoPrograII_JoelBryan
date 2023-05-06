@@ -21,7 +21,7 @@ public:
 	Curso* getCursoEsp(string ID);  
 	//--------------------------------------------
 	string toString(); //El toString general
-	string porNivel(int n); //Muestra los cursos del nivel que se indico | EXTRA si quieren lo borramos jaja
-
+	string cursoBasicos();
+	string cupos();
 };
 

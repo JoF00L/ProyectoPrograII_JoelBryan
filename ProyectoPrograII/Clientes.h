@@ -1,9 +1,11 @@
 #pragma once
 #include "Fecha.h"
-#include "Curso.h"
 #include "ListaCursos.h"
 #include "Biometricos.h"
 #define MAX_CURSOS 4
+
+class Curso;
+class ListaCursos;
 
 class Cliente
 {
@@ -14,10 +16,12 @@ private:
     string telefono;
     Fecha* fecha_nacimiento;
     char sexo;
-    string estado;
+    int estado;
     //Expediente
     Biometricos* bio;
-    //Creo que le agregamos la lista de cursos despues
+    ListaCursos* cursos;
+    //Agreagar lista de cursos como atributo, modificar los atributos, el metodo agregar recibe un Curso*
+    //tira una excepcion si el tamaño o "size" de la lista es mayor que MAX_CURSOS
 
 public:
     
@@ -33,7 +37,7 @@ public:
     void setAltura(float a);
     void setMasaMuscular(float mm);
     void setGrasaCorporal(float gc);
-    void setEstado(string active);
+    void setEstado(int est);
     void setFechaNacimiento(Fecha* fecha_nacimiento);
     //--------------------------------------------
     char getSexo();
@@ -44,9 +48,10 @@ public:
     float getAltura();
     float getMasaMuscular();
     float getGrasaCorporal(); 
-    string getEstado();
+    int getEstado();
     Fecha* getFechaNacimiento();
     //--------------------------------------------
+	void agregarCurso(Curso* cur);
     string toString() const;
     //--------------------------------------------
     // void matricular(Curso* c) -> metodo que agrega un curso de la lista principal de cursos

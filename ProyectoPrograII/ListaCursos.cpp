@@ -8,7 +8,7 @@ ListaCursos::~ListaCursos() { delete subjects; }
 
 Lista<Curso>* ListaCursos::getLista() { return subjects; }
 
-void ListaCursos::agregarCurso(Curso* nuevo) { subjects->agregar(nuevo); }
+void ListaCursos::agregarCurso(Curso* nuevo) { 	subjects->agregar(nuevo); }
 
 void ListaCursos::eliminarCurso(string code) {
 	int borrar = 0;
@@ -41,12 +41,22 @@ string ListaCursos::toString() {
 	return s.str();
 }
 
-string ListaCursos::porNivel(int lvl) {
+string ListaCursos::cursoBasicos() {
 	stringstream s;
+	s << "Listado de cursos: \n" << endl;
 	for (int i = 0; i < subjects->getSize(); i++) {
-		if (subjects->getNodoEsp(i) != NULL && subjects->getNodoEsp(i)->getDato()->getNivel() == lvl) {
-			s << *subjects->getNodoEsp(i) << endl;
-		}
+		s << "-> " << subjects->getNodoEsp(i)->getDato()->getCodigo() << " - " << subjects->getNodoEsp(i)->getDato()->getNombre() << endl;
+	}
+	return s.str();
+}
+
+string ListaCursos::cupos() {
+	stringstream s;
+	s << "#Grupo\tCupo\tCantidad" << endl;
+	for (int i = 0; i < subjects->getSize(); i++) {
+		s << subjects->getNodoEsp(i)->getDato()->getGrupos()->getLista()->getNodoEsp(i)->getDato()->getnumGrupo();
+		s << "\t" << subjects->getNodoEsp(i)->getDato()->getCupo();
+		s << "\t" << subjects->getNodoEsp(i)->getDato()->getGrupos()->getLista()->getSize() << endl;
 	}
 	return s.str();
 }

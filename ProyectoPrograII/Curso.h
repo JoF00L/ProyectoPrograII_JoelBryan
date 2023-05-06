@@ -8,26 +8,29 @@ class ListaGrupos; //NO BORRAR ESTO
 
 class Curso{
 private:
-	
+
+	int nivel;
+	int cupoMax;
+	int cantGrupo;
 	string nombre;
 	string codigo; 
 	string descripcion; 
-	int nivel;
-	int cupoMax;
 	ListaGrupos* grupitos;
 
 public:
 
 	Curso();
-	Curso(string nom, string code, string info, int lvl, int amount);//falta fechas y reeservas
+	Curso(string nom, string code, string info, int lvl, int amount, int cant);//falta fechas y reeservas
 	~Curso();
 	//--------------------------------------------
 	void setNombre(string nom);
 	void setCodigo(string code);
 	void setDescripcion(string info);
+	void setCantGrupo(int cant);
 	void setNivel(int lvl);
 	void setCupo(int amount);
 	void nuevoGrupo(Grupo* add);
+	int getCantGrupo();
 	//--------------------------------------------
 	string getNombre();
 	string getCodigo();

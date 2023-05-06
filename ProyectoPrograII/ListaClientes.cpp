@@ -39,6 +39,38 @@ Cliente* ListaClientes::getClienteEsp(string ID) {
 
 //-----------------------------------------------------------------------------------------------------
 
+string ListaClientes::Activos() {
+	stringstream s;
+	for (int i = 0; i < customers->getSize(); i++) {
+		if (customers->getNodoEsp(i)->getDato()->getEstado() == 1) {
+			s << *customers->getNodoEsp(i) << endl;
+		}
+	}
+	return s.str();
+}
+
+string ListaClientes::Inactivos() {
+	stringstream s;
+	for (int i = 0; i < customers->getSize(); i++) {
+		if (customers->getNodoEsp(i)->getDato()->getEstado() == 2) {
+			s << *customers->getNodoEsp(i) << endl;
+		}
+	}
+	return s.str();
+}
+
+string ListaClientes::Morosos() {
+	stringstream s;
+	for (int i = 0; i < customers->getSize(); i++) {
+		if (customers->getNodoEsp(i)->getDato()->getEstado() == 3) {
+			s << *customers->getNodoEsp(i) << endl;
+		}
+	}
+	return s.str();
+}
+
+//-----------------------------------------------------------------------------------------------------
+
 string ListaClientes::toString() {
 	stringstream s; 
 	s << *customers << endl;

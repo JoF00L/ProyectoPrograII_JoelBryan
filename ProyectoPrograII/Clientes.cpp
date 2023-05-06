@@ -7,8 +7,9 @@ Cliente::Cliente()
 	telefono = "NULL";
 	fecha_nacimiento = new Fecha;
 	sexo = '-';
-	estado = "activo";
+	estado = 1;
 	bio = new Biometricos;
+	cursos = new ListaCursos();
 }
 
 Cliente::Cliente(string nom, string id, string phone, Fecha* nacimiento, char sex, Biometricos* bioData)
@@ -17,9 +18,10 @@ Cliente::Cliente(string nom, string id, string phone, Fecha* nacimiento, char se
 	cedula = id;
 	telefono = phone;
 	fecha_nacimiento = nacimiento;
-	estado = "activo";
+	estado = 1;
 	sexo = sex;
 	bio = bioData;
+	cursos = new ListaCursos();
 }
 
 Cliente::~Cliente() { delete fecha_nacimiento, bio; }
@@ -35,7 +37,7 @@ void Cliente::setPeso(float p) { bio->setPeso(p); }
 void Cliente::setAltura(float a) { bio->setAltura(a); }
 void Cliente::setMasaMuscular(float mm) { bio->setMasaMuscular(mm); }
 void Cliente::setGrasaCorporal(float gc) { bio->setGrasaCorporal(gc); }
-void Cliente::setEstado(string active) { estado = active; }
+void Cliente::setEstado(int est) { estado = est; }
 
 //------------------------------------------------------------------------------------------------------
 
@@ -44,13 +46,19 @@ string Cliente::getCedula() { return cedula; }
 string Cliente::getTelefono() { return telefono; }
 Fecha* Cliente::getFechaNacimiento() { return fecha_nacimiento; }
 char Cliente::getSexo() { return sexo; }
-string Cliente::getEstado() { return estado; }
+int Cliente::getEstado() { return estado; }
 float Cliente::getPeso() { return bio->getPeso(); }
 float Cliente::getAltura() { return bio->getAltura(); }
 float Cliente::getMasaMuscular() { return bio->getMasaMuscular(); }
 float Cliente::getGrasaCorporal() { return bio->getGrasaCorporal(); }
 
 //------------------------------------------------------------------------------------------------------
+
+void Cliente::agregarCurso(Curso* cur){
+	if(cursos->getLista()->getSize() <= MAX_CURSOS){ //Cambiar a excepcion
+		cursos->agregarCurso(cur);
+	}
+}
 
 string Cliente::toString() const{
 	stringstream s;
@@ -62,18 +70,25 @@ string Cliente::toString() const{
 	s << "- Sexo: " << sexo << endl;
 	s << "- Estado: ";
 	switch (estado)	{
-	case true:
-		s << "activo" << endl;
+	case 1:
+		s << "Activo" << endl;
 		break;
-	case false:
-		s << "inactivo" << endl;
+	case 2:
+		s << "Inactivo" << endl;
+		break;
+	case 3:
+		s << "Moroso" << endl;
 		break;
  	}
 	s << "- Tel" << char(130) << "fono: " << telefono << endl;
 	s << "- Fecha de nacimiento: " << *fecha_nacimiento << endl;
-	s << *bio << endl; //Ya hice la sobrecarga
+	s << *bio << endl; 
 	
-	s << "\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" << endl;
+	if (estado != 2) {
+		s << "\n\t Cursos del cliente:" << endl;
+		s << *cursos->getLista() << endl;
+	}
+	
 	return s.str();
 }
 
