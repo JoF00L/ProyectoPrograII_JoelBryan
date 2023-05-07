@@ -12,7 +12,6 @@ private:
 	Fecha* currentDate;
 	ListaClientes* deportistas;
 	ListaCursos* cursos;
-	ListaGrupos* grupos;
 
 public:
 

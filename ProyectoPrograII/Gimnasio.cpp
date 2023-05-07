@@ -7,10 +7,9 @@ Gimnasio::Gimnasio()
 	currentDate = new Fecha;
 	deportistas = new ListaClientes;
 	cursos = new ListaCursos;
-	grupos = new ListaGrupos;
 }
 
-Gimnasio::~Gimnasio() { delete currentDate, deportistas, cursos, grupos; }
+Gimnasio::~Gimnasio() { delete currentDate, deportistas, cursos; }
 
 void Gimnasio::menu(){
 	
@@ -576,7 +575,7 @@ void Gimnasio::ingresoGrupo() {
 	cout << endl << endl;
 
 	Fecha* inicio = new Fecha(d, m, a);
-	Grupo* nuevo = new Grupo(dia, grupos->getLista()->getSize() + 1, cupoMax, nombreIns, id, inicio);
+	Grupo* nuevo = new Grupo(dia, cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getSize() + 1, cupoMax, nombreIns, id, inicio);
 	
 	cursos->getCursoEsp(codigo)->nuevoGrupo(nuevo);
 
@@ -653,6 +652,7 @@ void Gimnasio::matriculaGrupo() {
 	cout << "\n\nPara el curso selecionado existen los siguientes grupos disponibles: " << endl;
 	cout << "\n----------------------------------------------\n" << endl;
 
+
 }
 
 void Gimnasio::reporteGrupo() {
@@ -663,8 +663,8 @@ void Gimnasio::reporteDepMat(){
 	
 }
 
-void Gimnasio::cancelacionMatricula()
-{
+void Gimnasio::cancelacionMatricula(){
+
 }
 
 //opcion 5
