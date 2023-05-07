@@ -22,6 +22,5 @@ public:
 	//--------------------------------------------
 	string toString(); //El toString general
 	string cursoBasicos();
-	string cupos();
 };
 

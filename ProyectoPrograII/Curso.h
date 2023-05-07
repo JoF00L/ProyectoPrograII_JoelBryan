@@ -10,7 +10,6 @@ class Curso{
 private:
 
 	int nivel;
-	int cupoMax;
 	int cantGrupo;
 	string nombre;
 	string codigo; 
@@ -20,7 +19,7 @@ private:
 public:
 
 	Curso();
-	Curso(string nom, string code, string info, int lvl, int amount, int cant);//falta fechas y reeservas
+	Curso(string nom, string code, string info, int lvl, int cant);//falta fechas y reeservas
 	~Curso();
 	//--------------------------------------------
 	void setNombre(string nom);
@@ -28,7 +27,6 @@ public:
 	void setDescripcion(string info);
 	void setCantGrupo(int cant);
 	void setNivel(int lvl);
-	void setCupo(int amount);
 	void nuevoGrupo(Grupo* add);
 	int getCantGrupo();
 	//--------------------------------------------
@@ -36,12 +34,11 @@ public:
 	string getCodigo();
 	string getDescripcion();
 	int getNivel();
-	int getCupo();
 	ListaGrupos* getGrupos();
 	//--------------------------------------------
 	string tipoNivel(int lvl) const;
 	string toString() const;
-
+	string detalleGrupos();
 };
 
 ostream& operator<<(ostream& output, const Curso& subject);

@@ -53,6 +53,7 @@ public:
     //--------------------------------------------
 	void agregarCurso(Curso* cur);
     string toString() const;
+    string gruposMatriculados() const;
     //--------------------------------------------
     // void matricular(Curso* c) -> metodo que agrega un curso de la lista principal de cursos
     // pero para que pueda matricular tiene que verificar que el expediente de pagos este actualizado

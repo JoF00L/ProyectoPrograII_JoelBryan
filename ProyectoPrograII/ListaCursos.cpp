@@ -49,14 +49,3 @@ string ListaCursos::cursoBasicos() {
 	}
 	return s.str();
 }
-
-string ListaCursos::cupos() {
-	stringstream s;
-	s << "#Grupo\tCupo\tCantidad" << endl;
-	for (int i = 0; i < subjects->getSize(); i++) {
-		s << subjects->getNodoEsp(i)->getDato()->getGrupos()->getLista()->getNodoEsp(i)->getDato()->getnumGrupo();
-		s << "\t" << subjects->getNodoEsp(i)->getDato()->getCupo();
-		s << "\t" << subjects->getNodoEsp(i)->getDato()->getGrupos()->getLista()->getSize() << endl;
-	}
-	return s.str();
-}

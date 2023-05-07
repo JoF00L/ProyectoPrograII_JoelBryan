@@ -84,11 +84,23 @@ string Cliente::toString() const{
 	s << "- Fecha de nacimiento: " << *fecha_nacimiento << endl;
 	s << *bio << endl; 
 	
-	if (estado != 2) {
-		s << "\n\t Cursos del cliente:" << endl;
-		s << *cursos->getLista() << endl;
+	if (!cursos->getLista()->esVacia()) {
+		s << gruposMatriculados() << endl;
 	}
-	
+
+	return s.str();
+}
+
+
+string Cliente::gruposMatriculados() const{
+	stringstream s;
+	s << "\t  Grupos matriculados:" << endl;
+	s << "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n" << endl;
+	for (int i = 0; i < cursos->getLista()->getSize(); i++) {
+		s << "- [" << cursos->getLista()->getNodoEsp(i)->getDato()->getCodigo() << "] ";
+		s << cursos->getLista()->getNodoEsp(i)->getDato()->getNombre() << ", grupo #";
+		s << cursos->getLista()->getNodoEsp(i)->getDato()->getGrupos()->getLista()->getNodoEsp(i)->getDato()->getnumGrupo() << endl;
+	}
 	return s.str();
 }
 

@@ -5,17 +5,15 @@ Curso::Curso(){
     codigo = "NULL";
     descripcion = "Sin descripcion";
     nivel = 1;
-    cupoMax = 30;
 	cantGrupo = 0;
     grupitos = new ListaGrupos;
 }
 
-Curso::Curso(string nom, string code, string info, int lvl, int amount, int cant) {
+Curso::Curso(string nom, string code, string info, int lvl, int cant) {
     nombre = nom;
     codigo = code;
     descripcion = info;
     nivel = lvl;
-    cupoMax = amount;
     cantGrupo = cant;
     grupitos = new ListaGrupos;
 }
@@ -36,7 +34,6 @@ void Curso::setNivel(int lvl) {
     }
     nivel = lvl;
 }
-void Curso::setCupo(int amount) { cupoMax = amount; }
 
 void Curso::nuevoGrupo(Grupo* add) { 
     //EXCEPCION
@@ -53,7 +50,6 @@ string Curso::getNombre(){ return nombre;}
 string Curso::getCodigo() { return codigo; };
 string Curso::getDescripcion() { return descripcion; }
 int Curso::getNivel() { return nivel; }
-int Curso::getCupo() { return cupoMax; }
 int Curso::getCantGrupo() { return cantGrupo;  }
 ListaGrupos* Curso::getGrupos() { return grupitos; }
 
@@ -78,15 +74,22 @@ string Curso::toString() const{
     s << "- Codigo del curso: " << codigo << endl;
     s << "- Descripcion del curso: " << descripcion << endl;
     s << "- Nivel: " << tipoNivel(nivel) << endl;
-    s << "- Cupo Maximo: " << cupoMax << endl;
-    s << "\n-=-=-=-=-=-=-= GRUPOS =-=-=-=-=-=-=-\n" << endl;
-    s << *grupitos->getLista();
+    s << "\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" << endl;
     return s.str();
 }
 
-// #Grupo = # Grupo; Cupo = cupoMax; 
+string Curso::detalleGrupos() {
+    stringstream s;
+    s << "  #Grupo        Cupo\t   Cantidad" << endl;
+    for (int i = 0; i < grupitos->getLista()->getSize(); i++) {
+        s << "     " << grupitos->getLista()->getNodoEsp(i)->getDato()->getnumGrupo();
+        s << "\t\t " << grupitos->getLista()->getNodoEsp(i)->getDato()->getCupoMaximo();
+        s << "\t      " << grupitos->getLista()->getSize() << endl;
+    }
+    return s.str();
+}
 
 ostream& operator<<(ostream& output, const Curso& info) {
-    output << info.toString() << endl;
+    output << info.toString();
     return output;
 }

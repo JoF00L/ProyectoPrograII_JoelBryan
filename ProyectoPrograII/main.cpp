@@ -4,14 +4,11 @@ using namespace std;
 
 int main()
 {
-	/*Gimnasio* g = new Gimnasio;
+	Gimnasio* g = new Gimnasio;
 
 	g->menu();
 
-	delete g;*/
-
-	Grupo* g = new Grupo();
-	Curso* c = new Curso();
+	delete g;
 
     return 0;
 }
