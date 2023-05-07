@@ -9,5 +9,6 @@ int main()
 	g->menu();
 
 	delete g;
-    return 0;
+
+	return 0;
 }

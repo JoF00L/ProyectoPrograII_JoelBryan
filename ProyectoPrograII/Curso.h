@@ -39,6 +39,7 @@ public:
 	string tipoNivel(int lvl) const;
 	string toString() const;
 	string detalleGrupos();
+	string masDetalleGrupos();
 };
 
 ostream& operator<<(ostream& output, const Curso& subject);

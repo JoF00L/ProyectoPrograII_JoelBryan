@@ -24,4 +24,5 @@ public:
 	string Activos();
 	string Inactivos();
 	string Morosos();
+	string sencilloClientes();
 };

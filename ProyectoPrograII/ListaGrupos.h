@@ -21,6 +21,7 @@ public:
 	Grupo* getGrupoEsp(int num);
 	//--------------------------------------------
 	string toString();
+	
 
 };
 

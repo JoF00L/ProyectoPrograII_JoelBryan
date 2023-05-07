@@ -553,11 +553,11 @@ void Gimnasio::ingresoGrupo() {
 	cout << "\nDigite el cupo m" << char(160) << "ximo: ";
 	cin >> cupoMax;
 	cout << "\nFecha de inicio (DD/MM/AAAA): ";
-	cout << "\nD" << char(161) << "a: ";
+	cout << "\n- D" << char(161) << "a: ";
 	cin >> d;
-	cout << "Mes: ";
+	cout << "- Mes: ";
 	cin >> m;
-	cout << "A" << char(164) << "o: ";
+	cout << "- A" << char(164) << "o: ";
 	cin >> a;
 	cout << "\n-------------- Horario -----------------" << endl;
 	cout << "\nDigite el dia de la semana (L-K-M-J-V-S-D): ";
@@ -583,10 +583,9 @@ void Gimnasio::ingresoGrupo() {
 }
 
 void Gimnasio::modifGrupo() {
-	string codigo, temp;
+	string codigo, temp, temp2;
 	int opcion,num, aux;
 
-	do {
 		do {
 			system("cls");
 			cout << "Control de Grupos\\Modificacion Grupo especifico\\" << endl << endl;
@@ -594,65 +593,133 @@ void Gimnasio::modifGrupo() {
 			cout << "Digite el codigo de curso: ";
 			cin >> codigo;
 			cout << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
+			cout << "Digite el numero de grupo: ";
+			cin >> num;
 			cout << "Cual dato desea modificar: " << endl;
 			cout << "\n-----------------------------\n" << endl;
 			cout << "  -> 1. Datos del instructor" << endl;
-			cout << "  -> 2. Cupo máximo" << endl;
+			cout << "  -> 2. Cupo m" << char(160) << "ximo" << endl;
 			cout << "  -> 3. Fecha de inicio" << endl;
-			cout << "  -> 4. Dia de la semana" << endl;
+			cout << "  -> 4. D" << char(161) << "a de la semana" << endl;
 			cout << "  -> 5. Horario de curso" << endl;
 			cout << "  -> 6. Volver al menu principal" << endl;
 			cout << "\n-----------------------------\n" << endl;
-			cout << "Digite una opcion: "; cin >> opcion;
+			cout << "Digite una opcion: "; 
+			cin >> opcion;
 
 		} while (opcion < 1 || opcion > 6);
 
 
-		/*system("cls");
+		system("cls");
 		switch (opcion) {
 		case 1:
 			cout << "Control de Grupos\\Modificacion Grupo especifico\\Datos instructor" << endl << endl;
-			cout << "Nombre actual del curso: " << grupos->getGrupoEsp() << endl;
-			cout << "ID actual del curso: " << grupos->getGrupoEsp() << endl;
-			cout << "Ingrese el nuevo nombre: ";
+			cout << "Nombre actual del instructor: " << cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->getNomInst() << endl;
+			cout << "ID actual del instructor: " << cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->getIdInst() << endl;
+			cout << "\n===============================" << endl;
+			cout << "  - Nombre [1]" << endl;
+			cout << "  - ID [2]" << endl;
+			cout << "\n===============================" << endl;
+			cout << "Digite una opcion: "; 
+			cin >> opcion;
 			cin.ignore();
-			getline(cin, temp);
-			grupos->getGrupoEsp(1);
+			if (opcion == 1) {
+				cout << "\nIngrese el nuevo nombre: ";
+				getline(cin, temp);
+				cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setNomInst(temp); //NOM
+			}
+			else {
+				cout << "\nDigite el nuevo ID: ";
+				getline(cin, temp2);
+				cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setIdInst(temp2); //ID
+			}
 			cout << endl << endl;
 			system("pause");
 			break;
 		case 2:
+			cout << "Control de Grupos\\Modificacion Grupo especifico\\Cupo m" << char(160) << "ximo" << endl << endl;
+			cout << "Cupo m" << char(160) << "ximo actual: " << cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->getCupoMaximo() << endl;
+			cout << "\nIngrese el nuevo cupo m" << char(161) << "ximo: ";
+			cin >> aux;
+			cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->	setCupoMaximo(aux);
+			system("pause");
 			break;
 		case 3:
-
+			int d, m, a;
+			cout << "Control de Grupos\\Modificacion Grupo especifico\\Fecha de inicio" << endl << endl;
+			cout << "Fecha de inicio actual: " << cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->getInicio() << endl;
+			cout << "\nIngrese la nueva fecha de inicio (DD/MM/AAAA): ";
+			cout << "\n- D" << char(161) << "a: ";
+			cin >> d;
+			cout << "- Mes: ";
+			cin >> m;
+			cout << "- A" << char(164) << "o: ";
+			cin >> a;
+			Fecha* i = new Fecha(d, m, a);
+			cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setInicio(i);
+			system("pause");
 			break;
 		case 4:
-
+			char a;
+			cout << "Control de Grupos\\Modificacion Grupo especifico\\D" << char(161) << "a de la semana" << endl << endl;
+			cout << "D" << char(161) << "a de la semana actual: " << cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->getDia() << endl;
+			cout << "\nIngrese el nuevo d" << char(161) << "a de la semana (L-K-M-J-V-S-D): ";
+			cin >> a;
+			cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setDia(a);
 			break;
 		case 5:
+			int horaI, minI, horaF, minF;
+			cout << "Control de Grupos\\Modificacion Grupo especifico\\Horario de curso" << endl << endl;
+			cout << "Horario de curso actual: " << cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->getHorario() << endl;
+			cout << "\nIngrese la nueva hora de inicio (hora militar): " << endl;
+			cout << "\nHora (1-24): ";
+			cin >> horaI;
+			cout << "\nMinutos (0-59): ";
+			cin >> minI;
+			cout << "\nIngrese la nueva hora de finalizacion (hora militar): " << endl;
+			cout << "\nHora (1-24): ";
+			cin >> horaF;
+			cout << "\nMinutos (0-59): ";
+			cin >> minF;
+			cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setHorario(horaI,minI,horaF,minF);
+			system("pause");
 			break;
 		case 6:
 			break;
-		}*/
-	} while (opcion != 6);
-
+		}
 }
 
 void Gimnasio::matriculaGrupo() {
 	string cedula, codigo;
-	int numGrupo;
+	int numGrupo, d, m, a;
 	cout << "Control de Grupos\\Matricula de grupo espec" << char(161) << "fico\\" << endl << endl;
 	cout << "Digite la cedula del deportista: ";
 	cin.ignore();
 	getline(cin, cedula);
+	cout << endl << cursos->cursoBasicos() << endl;
 	cout << "\nDigite el c" << char(163) << "digo del curso: ";
 	cin.ignore();
 	getline(cin, codigo);
 
 	cout << "\n\nPara el curso selecionado existen los siguientes grupos disponibles: " << endl;
 	cout << "\n----------------------------------------------\n" << endl;
+	cout << cursos->getCursoEsp(codigo)->masDetalleGrupos() << endl;
 
+	cout << "Digite el n" << char(163) << "mero de grupo deseado: ";
+	cin >> numGrupo;
+	cout << "Digite la fecha de matr" << char(161) << "cula (dd/mm/aaaa): ";
+	cout << "\nD" << char(161) << "a: ";
+	cin >> d;
+	cout << "Mes: ";
+	cin >> m;
+	cout << "A" << char(164) << "o: ";
+	cin >> a;
 
+	//Hacer excepcion
+	cursos->getCursoEsp(codigo)->getGrupos()->getGrupoEsp(numGrupo)->agregarCliente(deportistas->getClienteEsp(cedula));
+	
+	cout << endl << endl;
+	system("pause");
 }
 
 void Gimnasio::reporteGrupo() {
@@ -699,6 +766,5 @@ void Gimnasio::controlPagos() {
 }
 
 //opcion 6
-void Gimnasio::guardarArchSalir()
-{
+void Gimnasio::guardarArchSalir(){
 }

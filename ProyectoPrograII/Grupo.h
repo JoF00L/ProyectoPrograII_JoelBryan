@@ -37,12 +37,14 @@ public:
 	char getDia();
 	string getNomInst();
 	string getIdInst();
+	string getHorario();
 	Fecha* getInicio();
 	ListaClientes* getLista();
 	//-------------------------------
 	char diaMayuscula(char d) const;
 	string toString() const;
 	string sencillo();
+	string sencillo2();
 	void agregarCliente(Cliente* student);
 };
 

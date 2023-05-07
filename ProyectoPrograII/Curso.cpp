@@ -82,12 +82,20 @@ string Curso::detalleGrupos() {
     stringstream s;
     s << "  #Grupo        Cupo\t   Cantidad" << endl;
     for (int i = 0; i < grupitos->getLista()->getSize(); i++) {
-        s << "     " << grupitos->getLista()->getNodoEsp(i)->getDato()->getnumGrupo();
-        s << "\t\t " << grupitos->getLista()->getNodoEsp(i)->getDato()->getCupoMaximo();
-        s << "\t      " << grupitos->getLista()->getNodoEsp(i)->getDato()->getLista()->getLista()->getSize() << endl;
+        s << grupitos->getLista()->getNodoEsp(i)->getDato()->sencillo() << endl;
     }
     return s.str();
 }
+
+string Curso::masDetalleGrupos() {
+    stringstream s;
+    s << "#Grupo\t D" << char(161) << "a\t   Horario\tCupo\tCantidad" << endl;
+    for (int i = 0; i < grupitos->getLista()->getSize(); i++) {
+        s << grupitos->getLista()->getNodoEsp(i)->getDato()->sencillo2() << endl;
+    }
+    return s.str();
+}
+
 
 ostream& operator<<(ostream& output, const Curso& info) {
     output << info.toString();

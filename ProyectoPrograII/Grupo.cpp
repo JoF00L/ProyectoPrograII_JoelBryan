@@ -62,6 +62,7 @@ int Grupo::getCupoMaximo() { return cupoMaximo; }
 char Grupo::getDia() { return dia; }
 string Grupo::getNomInst() { return nomInstructor; }
 string Grupo::getIdInst() { return idInstructor; }
+string Grupo::getHorario() { return horario; }
 Fecha* Grupo::getInicio(){ return inicio; }
 ListaClientes* Grupo::getLista() { return alumnos; }
 
@@ -93,7 +94,18 @@ string Grupo::toString() const{
 }
 
 string Grupo::sencillo() {
-	return "";
+	stringstream s;
+	s << "     " << this->numGrupo;
+	s << "\t\t " << this->cupoMaximo;
+	s << "\t      " << alumnos->getLista()->getSize();
+	return s.str();
+}
+
+string Grupo::sencillo2() {
+	stringstream s;
+	s << "   " << this->numGrupo << "\t  " << this->dia << "\t" << horario << "\t " << this->cupoMaximo << "\t   ";
+	s << alumnos->getLista()->getSize();
+	return s.str();
 }
 
 void Grupo::agregarCliente(Cliente* c) {
