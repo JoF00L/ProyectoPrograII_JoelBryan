@@ -55,7 +55,9 @@ float Cliente::getGrasaCorporal() { return bio->getGrasaCorporal(); }
 //------------------------------------------------------------------------------------------------------
 
 void Cliente::agregarCurso(Curso* cur){
-	if(cursos->getLista()->getSize() <= MAX_CURSOS){ //Cambiar a excepcion
+	//excepcion
+
+	if(cursos->getLista()->getSize() <= MAX_CURSOS) { 
 		cursos->agregarCurso(cur);
 	}
 }

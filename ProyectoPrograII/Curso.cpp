@@ -84,7 +84,7 @@ string Curso::detalleGrupos() {
     for (int i = 0; i < grupitos->getLista()->getSize(); i++) {
         s << "     " << grupitos->getLista()->getNodoEsp(i)->getDato()->getnumGrupo();
         s << "\t\t " << grupitos->getLista()->getNodoEsp(i)->getDato()->getCupoMaximo();
-        s << "\t      " << grupitos->getLista()->getSize() << endl;
+        s << "\t      " << grupitos->getLista()->getNodoEsp(i)->getDato()->getLista()->getLista()->getSize() << endl;
     }
     return s.str();
 }

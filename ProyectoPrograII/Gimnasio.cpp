@@ -73,6 +73,7 @@ void Gimnasio::adminGeneral(){
 }
 
 void Gimnasio::nombreGim() {
+	system("cls");
 	cout << "Administraci" << char(162) << "n General\\Nombre del Gimnasio\\" << endl << endl;
 	cout << "Ingrese el nombre del Gimnasio: ";
 	cin.ignore();
@@ -83,6 +84,7 @@ void Gimnasio::nombreGim() {
 }
 
 void Gimnasio::montoMensualidad() {
+	system("cls");
 	cout << "Administraci" << char(162) << "n General\\Monto de mensualidad\\" << endl << endl;
 	cout << "Ingrese el monto de mensualidad: ";
 	//Hacer excepcion 
@@ -124,6 +126,7 @@ void Gimnasio::ingresoDeportista() {
 	float estatura, peso, grasa, masa;
 	char sexo;
 	
+	system("cls");
 	cout << "Control de Deportistas\\Ingreso nuevo deportista\\" << endl;
 	cout << "\nDatos generales: " << endl << endl;
 	cout << "-> Nombre: ";
@@ -171,27 +174,29 @@ void Gimnasio::modifDeportista() {
 	char sexo;
 
 	do {
-		system("cls");
-		cout << "Control de Deportistas\\Modificacion deportista\\" << endl << endl;
-		cout << "Digite la cedula del deportista: ";
-		cin >> cedula;
-		system("cls");
-		// HACER condicion si la lista esta vacia para que ni siquiera lo deje entrar
-		cout << "Que dato desea modificar: " << endl;
-		cout << "\n----------------------------------------------" << endl;
-		cout << "\n  ->  1. Nombre" << endl;
-		cout << "\n  ->  2. Telefono" << endl;
-		cout << "\n  ->  3. Fecha de nacimiento" << endl;
-		cout << "\n  ->  4. Sexo" << endl;
-		cout << "\n  ->  5. Estatura" << endl;
-		cout << "\n  ->  6. Peso" << endl;
-		cout << "\n  ->  7. Porcentaje de grasa corporal" << endl;
-		cout << "\n  ->  8. Porcentaje de masa muscular" << endl;
-		cout << "\n  ->  9. Estado" << endl;
-		cout << "\n  -> 10. Volver al menu principal" << endl;
-		cout << "\n----------------------------------------------" << endl;
-		cout << "\nDigite una opcion: ";
-		cin >> opcion;
+		do{
+			system("cls");
+			cout << "Control de Deportistas\\Modificacion deportista\\" << endl << endl;
+			cout << "Digite la cedula del deportista: ";
+			cin >> cedula;
+			system("cls");
+			// HACER condicion si la lista esta vacia para que ni siquiera lo deje entrar
+			cout << "Que dato desea modificar: " << endl;
+			cout << "\n----------------------------------------------" << endl;
+			cout << "\n  ->  1. Nombre" << endl;
+			cout << "\n  ->  2. Telefono" << endl;
+			cout << "\n  ->  3. Fecha de nacimiento" << endl;
+			cout << "\n  ->  4. Sexo" << endl;
+			cout << "\n  ->  5. Estatura" << endl;
+			cout << "\n  ->  6. Peso" << endl;
+			cout << "\n  ->  7. Porcentaje de grasa corporal" << endl;
+			cout << "\n  ->  8. Porcentaje de masa muscular" << endl;
+			cout << "\n  ->  9. Estado" << endl;
+			cout << "\n  -> 10. Volver al menu principal" << endl;
+			cout << "\n----------------------------------------------" << endl;
+			cout << "\nDigite una opcion: ";
+			cin >> opcion;
+		} while (opcion < 1 || opcion > 10);
 
 		system("cls");
 		switch (opcion) {
@@ -286,7 +291,7 @@ void Gimnasio::modifDeportista() {
 		case 10:
 			break;
 		}
-	} while (opcion < 1 || opcion > 10);
+	}while (opcion != 10);
 
 	system("pause");
 }
@@ -304,9 +309,9 @@ void Gimnasio::listadoDeportistas() {
 		cout << "\n4. Listado de deportista en morosidad" << endl;
 		cout << "\n----------------------------------------------" << endl;
 		cout << "\nDigite una opcion: "; cin >> opcion;
-		system("cls");
 	} while (opcion < 1 || opcion > 4);
 
+	system("cls");
 	switch (opcion) {
 	case 1:
 		cout << "Control de Deportistas\\Listado de deportistas\\" << endl << endl;
@@ -331,6 +336,8 @@ void Gimnasio::listadoDeportistas() {
 
 void Gimnasio::detalleDeportista() {
 	string cedula;
+
+	system("cls");
 	cout << "Control de Deportistas\\Detalle de deportista especifico\\" << endl << endl;
 	cout << "-> Digite el ID del deportista: "; 
 	cin.ignore();
@@ -367,6 +374,7 @@ void Gimnasio::ingresoCurso() {
 	string nombre, codigo, descripcion;
 	int nivel, cantGrupos;
 
+	system("cls");
 	cout << "Control de Cursos\\Ingreso nuevo curso\\" << endl;
 	cout << "\n----------------------------------------------" << endl;
 	cout << "\nDigite el nombre del curso: "; 
@@ -393,8 +401,9 @@ void Gimnasio::ingresoCurso() {
 
 void Gimnasio::reporteCurso() {
 	string codigo;
+	system("cls");
 	cout << "Control de Cursos\\Reporte de curso especifico\\" << endl << endl;
-	cout << "\n----------------------------------------------\n" << endl;
+	cout << "\n-------------------------------------\n" << endl;
 	cout << cursos->cursoBasicos() << endl;
 	cout << "\nDigite el codigo de curso: "; 
 	cin >> codigo;
@@ -408,110 +417,109 @@ void Gimnasio::reporteCurso() {
 }
 
 void Gimnasio::modifCurso() {
-	string codigo;
-	int opcion;
+	string codigo, temp;
+	int opcion, aux;
 
-	cout << "Control de Cursos\\Modificacion de curso especifico\\" << endl << endl;
-	cout << "Digite el codigo de curso: "; 
-	cin >> codigo;
 	do {
-		cout << "Cual dato desea modificar: " << endl;
-		cout << "\n-----------------------------\n" << endl;
-		cout << "1. Nombre del curso" << endl;
-		cout << "2. Codigo de curso" << endl;
-		cout << "3. Nivel" << endl;
-		cout << "4. Descripcion" << endl;
-		cout << "5. Cantidad de grupos" << endl;
-		cout << "\n-----------------------------\n" << endl;
+		do {
+			system("cls");
+			cout << "Control de Cursos\\Modificacion curso especifico\\" << endl << endl;
+			cout << "\n----------------------------------------------\n" << endl;
+			cout << cursos->cursoBasicos() << endl;
+			cout << "Digite el codigo de curso: ";
+			cin >> codigo;
+		
+			cout << "Cual dato desea modificar: " << endl;
+			cout << "\n-----------------------------\n" << endl;
+			cout << "  -> 1. Nombre del curso" << endl;
+			cout << "  -> 2. Codigo de curso" << endl;
+			cout << "  -> 3. Nivel" << endl;
+			cout << "  -> 4. Descripcion" << endl;
+			cout << "  -> 5. Cantidad de grupos" << endl;
+			cout << "  -> 6. Volver al menu principal" << endl;
+			cout << "\n-----------------------------\n" << endl;
+			cout << "Digite una opcion: "; cin >> opcion;
 
-		cout << "Digite una opcion: "; cin >> opcion;
+		} while (opcion < 1 || opcion > 6);
 
-	} while (opcion < 1 || opcion > 5);
+
+		system("cls");
+		switch (opcion) {
+		case 1:
+			cout << "Control de Cursos\\Modificacion curso especifico\\Nombre" << endl << endl;
+			cout << "Nombre actual del curso: " << cursos->getCursoEsp(codigo)->getNombre() << endl;
+			cout << "Ingrese el nuevo nombre: ";
+			cin.ignore();
+			getline(cin, temp);
+			cursos->getCursoEsp(codigo)->setNombre(temp);
+			cout << endl << endl;
+			system("pause");
+			break;
+		case 2:
+			cout << "Control de Cursos\\Modificacion curso especifico\\Codigo" << endl << endl;
+			cout << "Codigo actual del curso: " << cursos->getCursoEsp(codigo)->getCodigo() << endl;
+			cout << "Ingrese el nuevo codigo: ";
+			cin.ignore();
+			getline(cin, temp);
+			cursos->getCursoEsp(codigo)->setNombre(temp);
+			cout << endl << endl;
+			system("pause");
+			break;
+		case 3:
+			cout << "Control de Cursos\\Modificacion curso especifico\\Nivel" << endl << endl;
+			cout << "Nivel actual del curso: " << cursos->getCursoEsp(codigo)->getNivel() << endl;
+			cout << "\n===============================" << endl;
+			cout << "\n     - Principiante [1]" << endl;
+			cout << "     - Intermedio [2]" << endl;
+			cout << "     - Avanzado [3]" << endl;
+			cout << "\n===============================" << endl;
+			cout << "Ingrese el nuevo nivel: ";
+			cin >> aux;
+			cursos->getCursoEsp(codigo)->setNivel(aux);
+			cout << endl << endl;
+			system("pause");
+			break;
+		case 4:
+			cout << "Control de Cursos\\Modificacion curso especifico\\Descripcion" << endl << endl;
+			cout << "Descripcion actual del curso: " << cursos->getCursoEsp(codigo)->getDescripcion() << endl;
+			cout << "Ingrese la nueva descripcion: ";
+			cin.ignore();
+			getline(cin, temp);
+			cursos->getCursoEsp(codigo)->setDescripcion(temp);
+			cout << endl << endl;
+			system("pause");
+			break;
+		case 5:
+			cout << "Control de Cursos\\Modificacion curso especifico\\Cantidad Grupos" << endl << endl;
+			cout << "Cantidad de grupos actual del curso: " << cursos->getCursoEsp(codigo)->getCantGrupo() << endl;
+			cout << "Ingrese la nueva cantidad de grupos: ";
+			cin >> aux;
+			cursos->getCursoEsp(codigo)->setCantGrupo(aux);
+			cout << endl << endl;
+			system("pause");
+			break;
+		case 6:
+			break;
+		}
+	} while (opcion != 6);
 
 }
 
 //opcion 4
-void Gimnasio::ingresoGrupo() {
-	string codigo, id, nombre;
-	int cupoMax, d, m, a, semanas;
-	char dia;
-	cout << "Control de Grupos\\Ingreso nuevo grupo\\" << endl;
-	cout << "\nListado de cursos: " << endl << endl;
-	cout << cursos->cursoBasicos() << endl;
-	cout << "\tDigite el codigo de curso: ";
-	cin >> codigo;
-	cout << *cursos->getCursoEsp(codigo) << endl;
-
-	cout << "\nDigite el ID del instructor: "; 
-	cin >> id;
-	cout << "\nDigite el nombre del instructor: "; 
-	cin >> nombre;
-	cout << "\nDigite el ID del instructor: "; 
-	cin >> id;
-	cout << "\nDigite el cupo m" << char(160) << "ximo: ";
-	cin >> cupoMax;
-	cout << "\nFecha de inicio (DD/MM/AAAA): ";
-	cout << "\nD" << char(161) << "a: ";
-	cin >> d;
-	cout << "Mes: ";
-	cin >> m;
-	cout << "A" << char(164) << "o: ";
-	cin >> a;
-	cout << "\nSemanas de duracion: "; 
-	cin >> semanas;
-	cout << "\nHorario: " << endl;
-	cout << endl << endl;
-
-	Fecha* inicio = new Fecha(d, m, a);
-	system("pause");
-}
-
-//opcion 4
-void Gimnasio::registroPago(){
-	cout << "Control de Pagos\\Registro de nuevo pago\\" << endl;
-	cout << "\nFecha actual: " << *currentDate << endl;
-}
-
-void Gimnasio::reportePagos()
-{
-}
-
-void Gimnasio::guardarArchSalir()
-{
-}
-
-void Gimnasio::modifGrupo()
-{
-}
-
-void Gimnasio::matriculaGrupo()
-{
-}
-
-void Gimnasio::reporteGrupo()
-{
-}
-
-void Gimnasio::reporteDepMat()
-{
-}
-
-void Gimnasio::cancelacionMatricula()
-{
-}
-
 void Gimnasio::controlGrupos() {
 	int opcion;
 
 	do {
 		system("cls");
-		cout << "\t( 4 ) Control de Grupos" << endl << endl;
+		cout << "Control de Grupos" << endl;
+		cout << "\n_._._._._._._._._._._._._._._._._._._._" << endl;
 		cout << "\n1. Ingreso nuevo grupo" << endl;
 		cout << "\n2. Modificacion de grupo especifico" << endl;
 		cout << "\n3. Matricula en grupo especifico" << endl;
 		cout << "\n4. Reporte de grupo especifico" << endl;
 		cout << "\n5. Reporte deportistas matriculados en grupo" << endl;
 		cout << "\n6. Cancelacion de matricula en grupo" << endl << endl;
+		cout << "\n_._._._._._._._._._._._._._._._._._._._" << endl;
 
 		cout << "\nDigite una opcion: "; cin >> opcion;
 	} while (opcion < 1 || opcion > 6);
@@ -526,6 +534,147 @@ void Gimnasio::controlGrupos() {
 	case 5: reporteDepMat(); break;
 	case 6: cancelacionMatricula(); break;
 	}
+}
+
+void Gimnasio::ingresoGrupo() {
+	string codigo, id, nombreIns;
+	int cupoMax, d, m, a, horaI, minI, horaF, minF;
+	char dia;
+	cout << "Control de Grupos\\Ingreso nuevo grupo\\" << endl;
+	cout << cursos->cursoBasicos() << endl;
+	cout << "Digite el codigo de curso: ";
+	cin.get();
+	getline(cin, codigo);
+	cout << "\n\n" << *cursos->getCursoEsp(codigo) << endl;
+
+	cout << "\nDigite el nombre del instructor: ";
+	getline(cin, nombreIns);
+	cout << "\nDigite el ID del instructor: ";
+	getline(cin, id);
+	cout << "\nDigite el cupo m" << char(160) << "ximo: ";
+	cin >> cupoMax;
+	cout << "\nFecha de inicio (DD/MM/AAAA): ";
+	cout << "\nD" << char(161) << "a: ";
+	cin >> d;
+	cout << "Mes: ";
+	cin >> m;
+	cout << "A" << char(164) << "o: ";
+	cin >> a;
+	cout << "\n-------------- Horario -----------------" << endl;
+	cout << "\nDigite el dia de la semana (L-K-M-J-V-S-D): ";
+	cin >> dia;
+	cout << "\nDigite la hora de inicio (hora militar): " << endl;
+	cout << "\nHora (1-24): ";
+	cin >> horaI;
+	cout << "\nMinutos (0-59): ";
+	cin >> minI;
+	cout << "\nDigite la hora de finalizacion (hora militar): " << endl;
+	cout << "\nHora (1-24): ";
+	cin >> horaF;
+	cout << "\nMinutos (0-59): ";
+	cin >> minF;
+	cout << endl << endl;
+
+	Fecha* inicio = new Fecha(d, m, a);
+	Grupo* nuevo = new Grupo(dia, grupos->getLista()->getSize() + 1, cupoMax, nombreIns, id, inicio);
+	
+	cursos->getCursoEsp(codigo)->nuevoGrupo(nuevo);
+
+	system("pause");
+}
+
+void Gimnasio::modifGrupo() {
+	string codigo, temp;
+	int opcion,num, aux;
+
+	do {
+		do {
+			system("cls");
+			cout << "Control de Grupos\\Modificacion Grupo especifico\\" << endl << endl;
+			cout << cursos->cursoBasicos() << endl;
+			cout << "Digite el codigo de curso: ";
+			cin >> codigo;
+			cout << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
+			cout << "Cual dato desea modificar: " << endl;
+			cout << "\n-----------------------------\n" << endl;
+			cout << "  -> 1. Datos del instructor" << endl;
+			cout << "  -> 2. Cupo máximo" << endl;
+			cout << "  -> 3. Fecha de inicio" << endl;
+			cout << "  -> 4. Dia de la semana" << endl;
+			cout << "  -> 5. Horario de curso" << endl;
+			cout << "  -> 6. Volver al menu principal" << endl;
+			cout << "\n-----------------------------\n" << endl;
+			cout << "Digite una opcion: "; cin >> opcion;
+
+		} while (opcion < 1 || opcion > 6);
+
+
+		/*system("cls");
+		switch (opcion) {
+		case 1:
+			cout << "Control de Grupos\\Modificacion Grupo especifico\\Datos instructor" << endl << endl;
+			cout << "Nombre actual del curso: " << grupos->getGrupoEsp() << endl;
+			cout << "ID actual del curso: " << grupos->getGrupoEsp() << endl;
+			cout << "Ingrese el nuevo nombre: ";
+			cin.ignore();
+			getline(cin, temp);
+			grupos->getGrupoEsp(1);
+			cout << endl << endl;
+			system("pause");
+			break;
+		case 2:
+			break;
+		case 3:
+
+			break;
+		case 4:
+
+			break;
+		case 5:
+			break;
+		case 6:
+			break;
+		}*/
+	} while (opcion != 6);
+
+}
+
+void Gimnasio::matriculaGrupo() {
+	string cedula, codigo;
+	int numGrupo;
+	cout << "Control de Grupos\\Matricula de grupo espec" << char(161) << "fico\\" << endl << endl;
+	cout << "Digite la cedula del deportista: ";
+	cin.ignore();
+	getline(cin, cedula);
+	cout << "\nDigite el c" << char(163) << "digo del curso: ";
+	cin.ignore();
+	getline(cin, codigo);
+
+	cout << "\n\nPara el curso selecionado existen los siguientes grupos disponibles: " << endl;
+	cout << "\n----------------------------------------------\n" << endl;
+
+}
+
+void Gimnasio::reporteGrupo() {
+
+}
+
+void Gimnasio::reporteDepMat(){
+	
+}
+
+void Gimnasio::cancelacionMatricula()
+{
+}
+
+//opcion 5
+void Gimnasio::registroPago(){
+	cout << "Control de Pagos\\Registro de nuevo pago\\" << endl;
+	cout << "\nFecha actual: " << *currentDate << endl;
+}
+
+void Gimnasio::reportePagos()
+{
 }
 
 void Gimnasio::controlPagos() {
@@ -547,4 +696,9 @@ void Gimnasio::controlPagos() {
 	case 1: registroPago(); break;
 	case 2: reportePagos(); break;
 	}
+}
+
+//opcion 6
+void Gimnasio::guardarArchSalir()
+{
 }

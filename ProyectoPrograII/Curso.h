@@ -4,7 +4,7 @@
 #include <sstream>
 
 class Grupo;
-class ListaGrupos; //NO BORRAR ESTO
+class ListaGrupos; 
 
 class Curso{
 private:

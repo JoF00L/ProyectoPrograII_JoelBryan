@@ -20,8 +20,6 @@ private:
     //Expediente
     Biometricos* bio;
     ListaCursos* cursos;
-    //Agreagar lista de cursos como atributo, modificar los atributos, el metodo agregar recibe un Curso*
-    //tira una excepcion si el tamaño o "size" de la lista es mayor que MAX_CURSOS
 
 public:
     
@@ -55,8 +53,6 @@ public:
     string toString() const;
     string gruposMatriculados() const;
     //--------------------------------------------
-    // void matricular(Curso* c) -> metodo que agrega un curso de la lista principal de cursos
-    // pero para que pueda matricular tiene que verificar que el expediente de pagos este actualizado
 };
 
 ostream& operator<<(ostream& output, const Cliente& client);

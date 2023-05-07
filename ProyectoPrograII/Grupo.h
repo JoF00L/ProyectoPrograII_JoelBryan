@@ -1,8 +1,10 @@
 #pragma once
+#include "Fecha.h"
 #include "ListaClientes.h"
 #include <sstream>
 
-class ListaClientes; //por cualquier cosa si no es necesario lo pueden borrar despues
+class Cliente;
+class ListaClientes; 
 
 class Grupo{
 private:
@@ -13,12 +15,13 @@ private:
 	string horario;
 	string nomInstructor;
 	string idInstructor;
-	ListaClientes* alumnos; //cantidad de matriculados = getSize() de alumnos
+	Fecha* inicio;
+	ListaClientes* alumnos; 
 
 public:
 
 	Grupo();
-	Grupo(char day, int num, int cupo, string instruct, string idIns);
+	Grupo(char day, int num, int cupo, string instruct, string idIns, Fecha* fInicio);
 	~Grupo();
 	//-------------------------------
 	void setNumGrupo(int num);
@@ -26,17 +29,21 @@ public:
 	void setNomInst(string nom);
 	void setIdInst(string id);
 	void setCupoMaximo(int cupo);
+	void setInicio(Fecha* fInicio);
+	void setHorario(int horaC, int minC, int horaF, int minF);
 	//-------------------------------
 	int getnumGrupo();
 	int getCupoMaximo();
 	char getDia();
 	string getNomInst();
 	string getIdInst();
+	Fecha* getInicio();
 	ListaClientes* getLista();
 	//-------------------------------
+	char diaMayuscula(char d) const;
 	string toString() const;
 	string sencillo();
-
+	void agregarCliente(Cliente* student);
 };
 
 ostream& operator<<(ostream& output, const Grupo& g);
