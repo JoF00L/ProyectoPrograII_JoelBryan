@@ -734,14 +734,14 @@ void Gimnasio::reporteGrupo() {
 	int numGrupo;
 	cout << "Control de Grupos\\Reporte de grupo espec" << char(161) << "fico\\" << endl << endl;
 	cout << endl << cursos->cursoBasicos() << endl;
-	cout << "\nDigite el c" << char(163) << "digo del curso: ";
+	cout << "\nDigite el c" << char(162) << "digo del curso: ";
 	cin.get();
 	getline(cin, codigo);
 	cout << endl << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
 	cout << "Digite el n" << char(163) << "mero de grupo deseado: ";
 	cin >> numGrupo;
 	cout << "\n----------------------------------------------------------------------------------\n" << endl;
-	cout << "\nA continuaci" << char(162) << "n se muestra la informaci" << char(162) << "n del grupo deseado: " << endl;
+	cout << "A continuaci" << char(162) << "n se muestra la informaci" << char(162) << "n del grupo deseado: " << endl;
 	cout << "\n" << *cursos->getCursoEsp(codigo)->getGrupos()->getGrupoEsp(numGrupo) << endl << endl;
 
 	system("pause");
