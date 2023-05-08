@@ -51,7 +51,7 @@ float Cliente::getPeso() { return bio->getPeso(); }
 float Cliente::getAltura() { return bio->getAltura(); }
 float Cliente::getMasaMuscular() { return bio->getMasaMuscular(); }
 float Cliente::getGrasaCorporal() { return bio->getGrasaCorporal(); }
-
+ListaCursos* Cliente::getLista() { return cursos; }
 //------------------------------------------------------------------------------------------------------
 
 void Cliente::agregarCurso(Curso* cur){
@@ -87,7 +87,7 @@ string Cliente::toString() const{
 	s << *bio << endl; 
 	
 	if (!cursos->getLista()->esVacia()) {
-		s << gruposMatriculados() << endl;
+		s << endl << gruposMatriculados() << endl;
 	}
 
 	return s.str();

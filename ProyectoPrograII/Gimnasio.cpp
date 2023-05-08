@@ -576,7 +576,8 @@ void Gimnasio::ingresoGrupo() {
 
 	Fecha* inicio = new Fecha(d, m, a);
 	Grupo* nuevo = new Grupo(dia, cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getSize() + 1, cupoMax, nombreIns, id, inicio);
-	
+	nuevo->setHorario(horaI, minI, horaF, minF);
+
 	cursos->getCursoEsp(codigo)->nuevoGrupo(nuevo);
 
 	system("pause");
@@ -645,7 +646,7 @@ void Gimnasio::modifGrupo() {
 			system("pause");
 			break;
 		case 3:
-			int d, m, a;
+			{int d, m, a;
 			cout << "Control de Grupos\\Modificacion Grupo especifico\\Fecha de inicio" << endl << endl;
 			cout << "Fecha de inicio actual: " << cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->getInicio() << endl;
 			cout << "\nIngrese la nueva fecha de inicio (DD/MM/AAAA): ";
@@ -658,15 +659,15 @@ void Gimnasio::modifGrupo() {
 			Fecha* i = new Fecha(d, m, a);
 			cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setInicio(i);
 			system("pause");
-			break;
+			break; }
 		case 4:
-			char a;
+			{char a;
 			cout << "Control de Grupos\\Modificacion Grupo especifico\\D" << char(161) << "a de la semana" << endl << endl;
 			cout << "D" << char(161) << "a de la semana actual: " << cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->getDia() << endl;
 			cout << "\nIngrese el nuevo d" << char(161) << "a de la semana (L-K-M-J-V-S-D): ";
 			cin >> a;
 			cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setDia(a);
-			break;
+			break; }
 		case 5:
 			int horaI, minI, horaF, minF;
 			cout << "Control de Grupos\\Modificacion Grupo especifico\\Horario de curso" << endl << endl;
@@ -694,17 +695,22 @@ void Gimnasio::matriculaGrupo() {
 	int numGrupo, d, m, a;
 	cout << "Control de Grupos\\Matricula de grupo espec" << char(161) << "fico\\" << endl << endl;
 	cout << "Digite la cedula del deportista: ";
-	cin.ignore();
+	//expecion
+	cin.get();
 	getline(cin, cedula);
 	cout << endl << cursos->cursoBasicos() << endl;
-	cout << "\nDigite el c" << char(163) << "digo del curso: ";
-	cin.ignore();
+	cout << "\nDigite el c" << char(162) << "digo del curso: ";
+	//excepcion
 	getline(cin, codigo);
 
 	cout << "\n\nPara el curso selecionado existen los siguientes grupos disponibles: " << endl;
-	cout << "\n----------------------------------------------\n" << endl;
-	cout << cursos->getCursoEsp(codigo)->masDetalleGrupos() << endl;
+	
+	cout << "\n---------------------------------------------------------------------\n" << endl;
+	if (!cursos->getLista()->esVacia()) {
+		cout << cursos->getCursoEsp(codigo)->masDetalleGrupos() << endl;
+	}
 
+	cout << "---------------------------------------------------------------------\n" << endl;
 	cout << "Digite el n" << char(163) << "mero de grupo deseado: ";
 	cin >> numGrupo;
 	cout << "Digite la fecha de matr" << char(161) << "cula (dd/mm/aaaa): ";
@@ -715,23 +721,74 @@ void Gimnasio::matriculaGrupo() {
 	cout << "A" << char(164) << "o: ";
 	cin >> a;
 
-	//Hacer excepcion
+	//Hacer excepcion si el cupo esta lleno
 	cursos->getCursoEsp(codigo)->getGrupos()->getGrupoEsp(numGrupo)->agregarCliente(deportistas->getClienteEsp(cedula));
+	deportistas->getClienteEsp(cedula)->agregarCurso(cursos->getCursoEsp(codigo));
 	
 	cout << endl << endl;
 	system("pause");
 }
 
 void Gimnasio::reporteGrupo() {
+	string cedula, codigo;
+	int numGrupo;
+	cout << "Control de Grupos\\Reporte de grupo espec" << char(161) << "fico\\" << endl << endl;
+	cout << endl << cursos->cursoBasicos() << endl;
+	cout << "\nDigite el c" << char(163) << "digo del curso: ";
+	cin.get();
+	getline(cin, codigo);
+	cout << endl << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
+	cout << "Digite el n" << char(163) << "mero de grupo deseado: ";
+	cin >> numGrupo;
+	cout << "\n----------------------------------------------------------------------------------\n" << endl;
+	cout << "\nA continuaci" << char(162) << "n se muestra la informaci" << char(162) << "n del grupo deseado: " << endl;
+	cout << "\n" << *cursos->getCursoEsp(codigo)->getGrupos()->getGrupoEsp(numGrupo) << endl << endl;
 
+	system("pause");
 }
 
 void Gimnasio::reporteDepMat(){
-	
+	string codigo;
+	int numGrupo;
+	cout << "Control de Grupos\\Reporte deportistas matriculados por grupo\\" << endl << endl;
+	cout << endl << cursos->cursoBasicos() << endl;
+	cout << "\nDigite el c" << char(163) << "digo del curso: ";
+	//excepcion
+	cin.get();
+	getline(cin, codigo);
+	cout << endl << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
+	cout << "\nDigite el n" << char(163) << "mero de grupo deseado: ";
+	//excepcion
+	cin >> numGrupo;
+
+	cout << "\n------------------------------------------------\n" << endl;
+	cout << "Listado de matriculados en el grupo #" << numGrupo << " del curso " << codigo << ": \n" << endl;
+	cout << cursos->getCursoEsp(codigo)->getGrupos()->getGrupoEsp(numGrupo)->getLista()->sencilloClientes() << endl;
+
+	system("pause");
 }
 
 void Gimnasio::cancelacionMatricula(){
+	string cedula, codigo;
+	int numGrupo;
+	cout << "Control de Grupos\\Matricula de grupo espec" << char(161) << "fico\\" << endl << endl;
+	cout << "Digite la cedula del deportista: ";
+	//expecion
+	cin.get();
+	getline(cin, cedula);
+	cout << endl << cursos->cursoBasicos() << endl;
+	cout << "\nDigite el c" << char(162) << "digo del curso: ";
+	//excepcion
+	getline(cin, codigo);
+	cout << endl << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
+	cout << "\nDigite el n" << char(163) << "mero de grupo deseado: ";
+	//excepcion
+	cin >> numGrupo;
+	cout << "\nSe ha retirado la matr" << char(161) << "cula del deportista del grupo\n" << endl;
 
+	cursos->getCursoEsp(codigo)->getGrupos()->getGrupoEsp(numGrupo)->getLista()->eliminarCliente(cedula);
+	deportistas->getClienteEsp(cedula)->getLista()->eliminarCurso(codigo);
+	system("pause");
 }
 
 //opcion 5

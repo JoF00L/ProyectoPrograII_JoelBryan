@@ -77,5 +77,10 @@ string ListaClientes::toString() {
 	return s.str();
 }
 
-//Agregue el toString() commo extra porque por la forma en la que hice la lista podemos llamarlo 
-//de otra forma: cout << *ListaClientes->getLista() << endl
+string ListaClientes::sencilloClientes() {
+	stringstream s;
+	for (int i = 0; i < customers->getSize(); i++) {
+		s << customers->getNodoEsp(i)->getDato()->getCedula() << " - " << customers->getNodoEsp(i)->getDato()->getNombre() << endl;
+	}
+	return s.str();
+}

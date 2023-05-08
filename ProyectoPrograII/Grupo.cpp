@@ -69,7 +69,7 @@ ListaClientes* Grupo::getLista() { return alumnos; }
 //-----------------------------------------------------------------------------------------------------
 
 char Grupo::diaMayuscula(char d) const{
-	char c;
+	char c = ' ';
 	switch(d){
 	case 'l': c = 'L'; break;
 	case 'k': c = 'K'; break;
@@ -87,8 +87,8 @@ string Grupo::toString() const{
 	s << "Nombre del instructor: " << nomInstructor << endl;
 	s << "Id del instructor: " << idInstructor << endl;
 	s << "Cupo m" << char(162) << "ximo: " << cupoMaximo << endl;
-	s << "Cantidad de matriculados" << alumnos->getLista()->getSize() << endl;
-	s << "Dia del curso: " << diaMayuscula(dia) << endl;
+	s << "Cantidad de matriculados: " << alumnos->getLista()->getSize() << endl;
+	s << "Dia del curso: " << dia << endl;
 	s << "Horario: " << horario << endl;
 	return s.str();
 }

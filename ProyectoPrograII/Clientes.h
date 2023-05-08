@@ -48,6 +48,7 @@ public:
     float getGrasaCorporal(); 
     int getEstado();
     Fecha* getFechaNacimiento();
+    ListaCursos* getLista();
     //--------------------------------------------
 	void agregarCurso(Curso* cur);
     string toString() const;
