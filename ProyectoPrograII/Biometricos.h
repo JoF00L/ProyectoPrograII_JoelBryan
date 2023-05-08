@@ -1,6 +1,7 @@
 #pragma once
 #include <sstream>
 #include <iostream>
+#include "ManejoArchivos.h"
 using namespace std;
 
 class Biometricos
@@ -28,6 +29,9 @@ public:
 	virtual float getGrasaCorporal();
 	//--------------------------------------------
 	string toString() const;
+	//--------------------------------------------
+	void guardarBio(ostream& salida);
+	static Biometricos* leerBio(istream& entrada);
 };
 
 ostream& operator<<(ostream& output, const Biometricos& b);

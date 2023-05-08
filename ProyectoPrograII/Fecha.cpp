@@ -76,6 +76,25 @@ string Fecha::toString() const{
 	return s.str();
 }
 
+//-----------------------------------------------------------------------------------------------------
+
+void Fecha::guardarFecha(ostream& salida) {
+	salida << dia << '\t';
+	salida << mes << '\t';
+	salida << anio << '\n';
+}
+
+Fecha* Fecha::leerFecha(istream& entrada) {
+	string _dia = "", _mes = "", _anio = "";
+	getline(entrada, _dia, '\t');
+	getline(entrada, _mes, '\t');
+	getline(entrada, _anio, '\n');
+	int valDia = convertirInt(_dia);
+	int valMes = convertirInt(_mes);
+	int valAnio = convertirInt(_anio);
+	return new Fecha(valDia, valMes, valAnio);
+}
+
 ostream& operator<<(ostream& output, const Fecha& data) {
 	output << data.toString();
 	return output;

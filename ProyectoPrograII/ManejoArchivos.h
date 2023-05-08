@@ -17,3 +17,7 @@ public:
 	string Logo();
 };
 
+int convertirInt(string s);
+double convertirFloat(string s);
+char convertirChar(string s);
+bool convertirBool(string s);

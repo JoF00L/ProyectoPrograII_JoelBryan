@@ -793,12 +793,30 @@ void Gimnasio::cancelacionMatricula(){
 
 //opcion 5
 void Gimnasio::registroPago(){
+	string temp;
+	int aux;
 	cout << "Control de Pagos\\Registro de nuevo pago\\" << endl;
 	cout << "\nFecha actual: " << *currentDate << endl;
+	cout << "\nDigite el ID del deportista: ";
+	cin.ignore();
+	getline(cin, temp);
+	//se muestra hasta que mes esta cancelado
+	cout << "\nCu" << char(160) << "ntas cuotas desea cancelar o pagar: ";
+	cin >> aux;
+	//se muestra el monto a pagar
+	//cuales meses se ha cancelado
+
 }
 
-void Gimnasio::reportePagos()
-{
+void Gimnasio::reportePagos(){
+	string temp;
+	cout << "Control de Pagos\\Reporte de pagos por deportista\\" << endl;
+	cout << "\nFecha actual: " << *currentDate << endl;
+	cout << "\nDigite el ID del deportista: ";
+	cin.ignore();
+	getline(cin, temp);
+	//detalle de pagos
+	//fecha pago, mes cancelado, monto cancelado
 }
 
 void Gimnasio::controlPagos() {
