@@ -25,7 +25,7 @@ void Gimnasio::menu(){
 	int opcion;
 
 	cout << *currentDate << endl;
-	cout << "\nBienvenido al Gimnasio " << nombre << endl << endl; 
+	cout << "\nBienvenido al Gimnasio -[ " << nombre << " ]-" << endl << endl;
 	system("pause");
 
 	do{
@@ -889,7 +889,7 @@ void Gimnasio::guardarGimnasio(){
 		cursos->guardarListaGrupos();
 		salida << nombre << '\t';
 		salida << montoMensual << '\n';
-		cout << "\n\nLos datos se han guardado correctamente!!!" << endl << endl;
+		cout << "Los datos se han guardado correctamente!!!" << endl << endl;
 	}
 	else {
 		cout << "Error de intento para guardar datos!!!" << endl << endl;
@@ -907,7 +907,7 @@ void Gimnasio::leerGimnasio(){
 	string _nom = "", _monto = "";  
 
 	ifstream entrada; 
-	entrada.open("../ContenedorJuego.txt"); 
+	entrada.open("../Gimnasio.txt"); 
 	if (entrada.good()) {
 		getline(entrada, _nom, '\t'); 
 		getline(entrada, _monto, '\n');

@@ -1,3009 +1,3011 @@
 Bryan	402620925	87914682	M	1
 14	1	2004
 75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF204	Patrones de Diseno	2	7
-K	1	25	08:00 a 09:40	Karol Leiton	123456789
-Bryan	402620925	87914682	M	1
-14	1	2004
-75	1.69	17	22
-Programacion II	EIF2
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+0	1	25
+0	402620925
+14	1	2004
+75	1
+0	0	0
+0	1
+0	402620925	87914682
+14	1
+75	1	17
+0	0
+-858993460	-858993460	-858993460
+-858993460	-858993460

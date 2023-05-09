@@ -99,7 +99,7 @@ void ListaCursos::leerListaCursos(){
 		while (!entrada.eof()) {
 			curs = Curso::leerCurso(entrada);
 			if (curs != nullptr) {
-				subjects->agregar(curs);
+				agregarCurso(curs);
 			}
 		}
 	}
