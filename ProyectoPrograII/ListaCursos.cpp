@@ -51,21 +51,32 @@ string ListaCursos::cursoBasicos() {
 }
 
 void ListaCursos::guardarListaGrupos(){
+	ofstream salida;
+	Nodo<Curso>* actual = subjects->getNodoEsp(0);
 
+	salida.open("../ListaCursos.txt");
+	while (actual != NULL)
+	{
+		if (salida.good()) {
+			actual->getDato()->guardarCurso(salida);
+		}
+		actual = actual->getSig();
+	}
+	salida.close();
 }
 
-ListaCursos* ListaCursos::leerListaCursos(){
+void ListaCursos::leerListaCursos(){
 	ifstream entrada;
+	Curso* curs;
 	entrada.open("../ListaCursos.txt");
 
 	if (entrada.good()) {
 		while (!entrada.eof()) {
-			j = JugadorGenerico::leerJugadorGenerico(entrada);
-			if (j != nullptr) {
-				insertar(j);
+			curs = Curso::leerCurso(entrada);
+			if (curs != nullptr) {
+				subjects->agregar(curs);
 			}
 		}
 	}
 	entrada.close();
-	return nullptr;
 }

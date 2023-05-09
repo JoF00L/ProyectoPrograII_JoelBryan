@@ -24,6 +24,6 @@ public:
 	string cursoBasicos();
 	//--------------------------------------------
 	void guardarListaGrupos();
-	static ListaCursos* leerListaCursos();
+	void leerListaCursos();
 };
 
