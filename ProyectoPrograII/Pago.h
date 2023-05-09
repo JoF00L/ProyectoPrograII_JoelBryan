@@ -14,6 +14,6 @@ private:
 public:
 	Pago();
 	Pago(Fecha* efectuado, string month, int cash);
-
+	
 };
 
