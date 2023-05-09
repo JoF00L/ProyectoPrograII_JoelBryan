@@ -49,6 +49,26 @@ string Biometricos::toString() const{
 
 //-----------------------------------------------------------------------------------------------------
 
+void Biometricos::guardarBio(ostream& salida) {
+	salida << peso << '\t';
+	salida << altura << '\t';
+	salida << masa_muscular << '\t';
+	salida << grasa_corporal << '\n';
+}
+
+Biometricos* Biometricos::leerBio(istream& entrada) {
+	string _peso = "", _altura = "", _masa = "", _grasa;
+	getline(entrada, _peso, '\t');
+	getline(entrada, _altura, '\t');
+	getline(entrada, _masa, '\t');
+	getline(entrada, _grasa, '\n');
+	float valPeso = convertirFloat(_peso);
+	float valAltura = convertirFloat(_altura);
+	float valMasa = convertirFloat(_masa);
+	float valGrasa = convertirFloat(_grasa);
+	return new Biometricos(valPeso, valAltura, valMasa, valGrasa);
+}
+
 ostream& operator<<(ostream& output, const Biometricos& b) {
 	output << b.toString();
 	return output;
