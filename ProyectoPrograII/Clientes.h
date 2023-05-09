@@ -1,6 +1,7 @@
 #pragma once
 #include "Fecha.h"
 #include "ListaCursos.h"
+#include "ListaPagos.h"
 #include "Biometricos.h"
 #define MAX_CURSOS 4
 
@@ -20,6 +21,7 @@ private:
     //Expediente
     Biometricos* bio;
     ListaCursos* cursos;
+    ListaPagos* pagos;
 
 public:
     
@@ -48,7 +50,8 @@ public:
     float getGrasaCorporal(); 
     int getEstado();
     Fecha* getFechaNacimiento();
-    ListaCursos* getLista();
+    ListaCursos* getListaCursos();
+    ListaPagos* getListaPagos();
     //--------------------------------------------
 	void agregarCurso(Curso* cur);
     string toString() const;

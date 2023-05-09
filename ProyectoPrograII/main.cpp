@@ -1,18 +1,19 @@
 #include "Gimnasio.h"
 #include <iostream> 
-#include "Pago.h"
 using namespace std;
 
 int main()
 {
-	//Gimnasio* g = new Gimnasio;
+	Gimnasio* g = new Gimnasio;
 
-	//g->menu();
+	g->menu();
 
-	//delete g;
+	delete g;
+	//Pago* p = new Pago(25000);
+	//ListaPagos* pl = new ListaPagos;
+	//pl->nuevoPago(p);
 
-	Pago* exp = new Pago;
-
+	//cout << pl->retornaMesCancelado() << endl;
 
 	return 0;
 }

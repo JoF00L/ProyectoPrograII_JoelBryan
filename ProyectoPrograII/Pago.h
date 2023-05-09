@@ -9,11 +9,22 @@ class Pago
 {
 private:
 	Fecha* fechaPago;
-	string mes;
-	int montoDelPago;
+	int mes;
+	int monto;
 public:
-	Pago();
-	Pago(Fecha* efectuado, string month, int cash);
-	
+	Pago(int costo);
+	~Pago();
+	//--------------------------------------------
+	void setMes(int nuevoMes);
+	void setMonto(int costo);
+	//--------------------------------------------
+	Fecha* getFechaPago();
+	int getMes();
+	int getMonto();
+	//--------------------------------------------
+	string convierteMes(int mes) const;
+	//string pagosCancelados(int cuotas, int montoMensualidad);
+	string toString() const;
 };
 
+ostream& operator<<(ostream& output, const Pago& p);

@@ -10,6 +10,7 @@ Cliente::Cliente()
 	estado = 1;
 	bio = new Biometricos;
 	cursos = new ListaCursos();
+	pagos = new ListaPagos();
 }
 
 Cliente::Cliente(string nom, string id, string phone, Fecha* nacimiento, char sex, Biometricos* bioData)
@@ -22,6 +23,7 @@ Cliente::Cliente(string nom, string id, string phone, Fecha* nacimiento, char se
 	sexo = sex;
 	bio = bioData;
 	cursos = new ListaCursos();
+	pagos = new ListaPagos();
 }
 
 Cliente::~Cliente() { delete fecha_nacimiento, bio; }
@@ -51,7 +53,8 @@ float Cliente::getPeso() { return bio->getPeso(); }
 float Cliente::getAltura() { return bio->getAltura(); }
 float Cliente::getMasaMuscular() { return bio->getMasaMuscular(); }
 float Cliente::getGrasaCorporal() { return bio->getGrasaCorporal(); }
-ListaCursos* Cliente::getLista() { return cursos; }
+ListaCursos* Cliente::getListaCursos() { return cursos; }
+ListaPagos* Cliente::getListaPagos() { return pagos; }
 //------------------------------------------------------------------------------------------------------
 
 void Cliente::agregarCurso(Curso* cur){

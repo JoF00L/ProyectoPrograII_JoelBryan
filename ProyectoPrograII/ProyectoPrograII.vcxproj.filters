@@ -51,6 +51,12 @@
     <ClCompile Include="Pago.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Excepciones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaPagos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fecha.h">
@@ -90,6 +96,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Pago.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Excepciones.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaPagos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,6 @@
 #pragma once
 #include "Nodo.h"
+#include "Excepciones.h"
 
 template <typename T>
 class Lista {
@@ -67,7 +68,6 @@ void Lista<T>::agregar(T* dato){
 template <typename T>
 void Lista<T>::eliminarInicio() 
 {
-	//No estoy seguro de porque no funciona :/
 	Nodo<T>* actual = primero;
 	primero = primero->getSig();
 	delete actual;
@@ -80,7 +80,7 @@ void Lista<T>::eliminarPos(int pos) {
 	Nodo<T>* borrar;
 
 	if (pos > size || pos < 0 || pos == size) {
-		return; //Hacer excepcion
+		notFoundList();
 	}
 	if (pos == 0) {
 		eliminarInicio();
