@@ -35,6 +35,10 @@ void Curso::setNivel(int lvl) {
     nivel = lvl;
 }
 
+void Curso::setLista(ListaGrupos* g){
+    grupitos = g;
+}
+
 void Curso::nuevoGrupo(Grupo* add) { 
     //EXCEPCION
     if (grupitos->getLista()->getSize() < cantGrupo) {
@@ -94,6 +98,31 @@ string Curso::masDetalleGrupos() {
         s << grupitos->getLista()->getNodoEsp(i)->getDato()->sencillo2() << endl;
     }
     return s.str();
+}
+
+void Curso::guardarCurso(ostream& salida) {
+    salida << nombre << '\t';
+    salida << codigo << '\t';
+    salida << descripcion << '\t';
+    salida << nivel << '\t';
+    salida << cantGrupo << '\n';
+    grupitos->guardarListaGrupos(salida);
+}
+
+Curso* Curso::leerCurso(istream& entrada) {
+    ListaGrupos* lista;
+    string name = "", cod = "", niv = "", cant = "", inf = "";
+    getline(entrada, name, '\t');
+    getline(entrada, cod, '\t');
+    getline(entrada, inf, '\t');
+    getline(entrada, niv, '\t');
+    getline(entrada, cant, '\n');
+    int _niv = convertirInt(niv);
+    int _cant = convertirInt(cant);
+    Curso* course = new Curso(name, cod, inf, _niv, _cant);
+    lista = ListaGrupos::leerListaGrupos(entrada);
+    course->setLista(lista);
+    return course;
 }
 
 

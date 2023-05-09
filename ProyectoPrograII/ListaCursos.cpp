@@ -49,3 +49,23 @@ string ListaCursos::cursoBasicos() {
 	}
 	return s.str();
 }
+
+void ListaCursos::guardarListaGrupos(){
+
+}
+
+ListaCursos* ListaCursos::leerListaCursos(){
+	ifstream entrada;
+	entrada.open("../ListaCursos.txt");
+
+	if (entrada.good()) {
+		while (!entrada.eof()) {
+			j = JugadorGenerico::leerJugadorGenerico(entrada);
+			if (j != nullptr) {
+				insertar(j);
+			}
+		}
+	}
+	entrada.close();
+	return nullptr;
+}

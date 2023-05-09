@@ -32,6 +32,7 @@ void Grupo::setDia(char d) { dia = d; }
 void Grupo::setNomInst(string nom) { nomInstructor = nom; }
 void Grupo::setIdInst(string id) { idInstructor = id; }
 void Grupo::setInicio(Fecha* fInicio) { inicio = fInicio; }
+void Grupo::recibeHorario(string h) { horario = h; }
 void Grupo::setHorario(int horaC, int minC, int horaF, int minF) {
 	stringstream s;
 	if (horaC < 10) {
@@ -112,6 +113,38 @@ void Grupo::agregarCliente(Cliente* c) {
 	if ((alumnos->getLista()->getSize() < cupoMaximo) && (c->getEstado() == 1)) {
 		alumnos->agregarCliente(c);
 	}
+}
+
+void Grupo::guardarGrupo(ostream& salida) {
+	salida << dia << '\t';
+	salida << numGrupo << '\t';
+	salida << cupoMaximo << '\t';
+	salida << horario << '\t';
+	salida << nomInstructor << '\t';
+	salida << idInstructor << '\n';
+	//alumnos->guardaListaClientes(salida);
+	inicio->guardarFecha(salida);
+}
+
+Grupo* Grupo::leerGrupo(istream& entrada) {
+	Fecha* fech;
+	ListaClientes* lista;
+	string d = "", num = "", cupo = "", hor = "", nomi = "", idi = "";
+	getline(entrada, d, '\t');
+	getline(entrada, num, '\t');
+	getline(entrada, cupo, '\t');
+	getline(entrada, hor, '\t');
+	getline(entrada, nomi, '\t');
+	getline(entrada, idi, '\n');
+	char _d = convertirChar(d);
+	int _num = convertirInt(num);
+	int _cupo = convertirInt(cupo);
+	fech = Fecha::leerFecha(entrada);
+	Grupo* grup = new Grupo(_d, _num, _cupo, nomi, idi, fech);
+	//lista = listaClientes::leerListaClientes();
+	//grup->setLista(lista);
+	grup->recibeHorario(hor);
+	return grup;
 }
 
 ostream& operator<<(ostream& output, const Grupo& g) {

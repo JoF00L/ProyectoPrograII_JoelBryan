@@ -21,7 +21,8 @@ public:
 	Grupo* getGrupoEsp(int num);
 	//--------------------------------------------
 	string toString();
-	
-
+	//--------------------------------------------
+	void guardarListaGrupos(ostream& salida);
+	static ListaGrupos* leerListaGrupos(istream& entrada);
 };
 

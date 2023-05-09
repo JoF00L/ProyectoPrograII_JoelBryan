@@ -44,3 +44,28 @@ string ListaPagos::toString(){
 	s << *pagos;
 	return s.str();
 }
+
+void ListaPagos::guardarListaPagos(ostream& salida) {
+	Nodo<Pago>* actual = pagos->getNodoEsp(0);
+
+	while (actual != NULL) {
+		if (salida.good()) {
+			actual->getDato()->guardarPago(salida);
+		}
+		actual = actual->getSig();
+	}
+}
+
+ListaPagos* ListaPagos::leerListaPagos(istream& entrada) {
+	Pago* dat = NULL;
+	ListaPagos* lista = new ListaPagos();
+	if (entrada.good()) {
+		while (!entrada.eof()) {
+			dat = Pago::leerPago(entrada);
+			if (dat != NULL) {
+				lista->nuevoPago(dat);
+			}
+		}
+	}
+	return lista;
+}

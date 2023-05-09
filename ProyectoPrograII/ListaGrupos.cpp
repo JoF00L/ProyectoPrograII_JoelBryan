@@ -44,3 +44,28 @@ string ListaGrupos::toString(){
 	s << *groups << endl;
 	return s.str();
 }
+
+void ListaGrupos::guardarListaGrupos(ostream& salida) {
+	Nodo<Grupo>* actual = groups->getNodoEsp(0);
+
+	while (actual != NULL) {
+		if (salida.good()) {
+			actual->getDato()->guardarGrupo(salida);
+		}
+		actual = actual->getSig();
+	}
+}
+
+ListaGrupos* ListaGrupos::leerListaGrupos(istream& entrada) {
+	Grupo* dat = NULL;
+	ListaGrupos* lista = new ListaGrupos();
+	if (entrada.good()) {
+		while (!entrada.eof()) {
+			dat = Grupo::leerGrupo(entrada);
+			if (dat != NULL) {
+				lista->getLista()->agregar(dat);
+			}
+		}
+	}
+	return lista;
+}

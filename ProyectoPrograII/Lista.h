@@ -23,8 +23,6 @@ public:
 	//--------------------------------------------
 	string toString() const;
     //--------------------------------------------
-    void guardarLista(ostream& salida);
-    static Lista<T>* leerLista(istream& entrada);
 };
 
 //------------------------------------------------------------------------------------------------------
@@ -139,33 +137,3 @@ ostream& operator<<(ostream& output, const Lista<T>& list) {
 }
 
 //------------------------------------------------------------------------------------------------------
-
-template <typename T>
-void Lista<T>::guardarLista(ostream& salida) {
-	Nodo<T>* actual = primero;
-	
-	while (actual != NULL) {
-
-		if (salida.good()) {
-
-			actual->getDato()->guardar(salida);
-		}
-
-		actual = actual->getNext();
-	}
-}
-
-template <typename T>
-Lista<T>* Lista<T>::leerLista(istream& entrada) {
-	T* dat = NULL;
-
-	if (entrada.good()) {
-		while (!entrada.eof()) {
-			j = Pago::leerPago(entrada);
-			if (j != NULL) {
-				nuevoPago(j);
-			}
-		}
-	}
-
-}

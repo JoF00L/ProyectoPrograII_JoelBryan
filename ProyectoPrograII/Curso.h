@@ -19,7 +19,7 @@ private:
 public:
 
 	Curso();
-	Curso(string nom, string code, string info, int lvl, int cant);//falta fechas y reeservas
+	Curso(string nom, string code, string info, int lvl, int cant);
 	~Curso();
 	//--------------------------------------------
 	void setNombre(string nom);
@@ -27,6 +27,7 @@ public:
 	void setDescripcion(string info);
 	void setCantGrupo(int cant);
 	void setNivel(int lvl);
+	void setLista(ListaGrupos* g);
 	void nuevoGrupo(Grupo* add);
 	int getCantGrupo();
 	//--------------------------------------------
@@ -40,6 +41,9 @@ public:
 	string toString() const;
 	string detalleGrupos();
 	string masDetalleGrupos();
+	//--------------------------------------------
+	void guardarCurso(ostream& salida);
+	static Curso* leerCurso(istream& entrada);
 };
 
 ostream& operator<<(ostream& output, const Curso& subject);

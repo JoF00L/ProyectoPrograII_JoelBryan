@@ -22,6 +22,7 @@ public:
 	string pagosCancelados(int cuotas, int monto);
 	string toString();
     //--------------------------------------------
-	
+	void guardarListaPagos(ostream& salida);
+	static ListaPagos* leerListaPagos(istream& entrada);
 };
 

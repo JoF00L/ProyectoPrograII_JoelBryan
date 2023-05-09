@@ -31,6 +31,7 @@ public:
 	void setCupoMaximo(int cupo);
 	void setInicio(Fecha* fInicio);
 	void setHorario(int horaC, int minC, int horaF, int minF);
+	void recibeHorario(string h);
 	//-------------------------------
 	int getnumGrupo();
 	int getCupoMaximo();
@@ -46,6 +47,9 @@ public:
 	string sencillo();
 	string sencillo2();
 	void agregarCliente(Cliente* student);
+	//-------------------------------
+	void guardarGrupo(ostream& salida);
+	static Grupo* leerGrupo(istream& entrada);
 };
 
 ostream& operator<<(ostream& output, const Grupo& g);

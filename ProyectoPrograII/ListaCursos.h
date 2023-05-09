@@ -22,5 +22,8 @@ public:
 	//--------------------------------------------
 	string toString(); //El toString general
 	string cursoBasicos();
+	//--------------------------------------------
+	void guardarListaGrupos();
+	static ListaCursos* leerListaCursos();
 };
 
