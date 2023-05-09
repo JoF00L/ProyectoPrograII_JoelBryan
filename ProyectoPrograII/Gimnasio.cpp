@@ -12,6 +12,14 @@ Gimnasio::Gimnasio()
 
 Gimnasio::~Gimnasio() { delete currentDate, deportistas, cursos; }
 
+void Gimnasio::setNombre(string nom){
+	nombre = nom;
+}
+
+void Gimnasio::setMonto(int monto){
+	montoMensual = monto;
+}
+
 void Gimnasio::menu(){
 	bool yes = true;
 	int opcion;
@@ -869,4 +877,43 @@ void Gimnasio::reportePagos(){
 
 //opcion 6
 void Gimnasio::guardarArchSalir(){
+	guardarGimnasio();
+	cout << "Se ha salido correctamente!!!" << endl << endl;
+}
+
+void Gimnasio::guardarGimnasio(){
+	ofstream salida; 
+	salida.open("../Gimnasio.txt"); 
+	if (salida.good()) {
+		deportistas->guardarListaClientes();
+		cursos->guardarListaGrupos();
+		salida << nombre << '\t';
+		salida << montoMensual << '\n';
+		cout << "\n\nLos datos se han guardado correctamente!!!" << endl << endl;
+	}
+	else {
+		cout << "Error de intento para guardar datos!!!" << endl << endl;
+	}
+	system("pause");
+	system("cls");
+	salida.close(); 
+}
+
+void Gimnasio::leerGimnasio(){
+
+	deportistas->leerListaClientes();
+	cursos->leerListaCursos();
+
+	string _nom = "", _monto = "";  
+
+	ifstream entrada; 
+	entrada.open("../ContenedorJuego.txt"); 
+	if (entrada.good()) {
+		getline(entrada, _nom, '\t'); 
+		getline(entrada, _monto, '\n');
+		int monto = convertirInt(_monto);
+		setNombre(_nom);
+		setMonto(monto);
+	}
+	entrada.close();
 }

@@ -93,3 +93,59 @@ string ListaClientes::sencilloClientes() {
 	}
 	return s.str();
 }
+
+void ListaClientes::enviaArchivoList(ostream& salida){
+	Nodo<Cliente>* actual = customers->getNodoEsp(0);
+
+	while (actual != NULL) {
+		if (salida.good()) {
+			actual->getDato()->guardarCliente(salida);
+		}
+		actual = actual->getSig();
+	}
+}
+
+ListaClientes* ListaClientes::recuperaArchivoList(istream& entrada){
+	Cliente* dat = NULL;
+	ListaClientes* lista = new ListaClientes();
+	if (entrada.good()) {
+		while (!entrada.eof()) {
+			dat = Cliente::leerCliente(entrada);
+			if (dat != NULL) {
+				lista->getLista()->agregar(dat);
+			}
+		}
+	}
+	return lista;
+}
+
+void ListaClientes::guardarListaClientes(){
+	ofstream salida;
+	Nodo<Cliente>* actual = customers->getNodoEsp(0);
+
+	salida.open("../ListaClientes.txt");
+	while (actual != NULL)
+	{
+		if (salida.good()) {
+			actual->getDato()->guardarCliente(salida);
+		}
+		actual = actual->getSig();
+	}
+	salida.close();
+}
+
+void ListaClientes::leerListaClientes(){
+	ifstream entrada; 
+	Cliente* client; 
+	entrada.open("../ListaClientes.txt");
+
+	if (entrada.good()) {
+		while (!entrada.eof()) {
+			client = Cliente::leerCliente(entrada);
+			if (client != nullptr) {
+				customers->agregar(client);
+			}
+		}
+	}
+	entrada.close();
+}

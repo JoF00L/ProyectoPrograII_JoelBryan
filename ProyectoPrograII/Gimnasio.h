@@ -17,6 +17,10 @@ public:
 
 	Gimnasio();
 	~Gimnasio();
+	//-----------------------------
+	void setNombre(string nom);
+	void setMonto(int monto);
+	//-----------------------------
 	void menu();
 	void adminGeneral();
 	void controlDeportistas();
@@ -41,6 +45,7 @@ public:
 	void reporteGrupo();
 	void reporteDepMat();
 	void cancelacionMatricula();
-
+	void guardarGimnasio();
+	void leerGimnasio();
 };
 

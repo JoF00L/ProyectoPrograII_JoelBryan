@@ -26,4 +26,9 @@ public:
 	string Inactivos();
 	string Morosos();
 	string sencilloClientes();
+	//--------------------------------------------
+	void enviaArchivoList(ostream& salida);
+	static ListaClientes* recuperaArchivoList(istream& entrada);
+	void guardarListaClientes();
+	void leerListaClientes();
 };

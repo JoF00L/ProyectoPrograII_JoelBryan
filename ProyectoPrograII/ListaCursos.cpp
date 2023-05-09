@@ -50,6 +50,31 @@ string ListaCursos::cursoBasicos() {
 	return s.str();
 }
 
+void ListaCursos::enviaArchivoList(ostream& salida){
+	Nodo<Curso>* actual = subjects->getNodoEsp(0);
+
+	while (actual != NULL) {
+		if (salida.good()) {
+			actual->getDato()->guardarCurso(salida);
+		}
+		actual = actual->getSig();
+	}
+}
+
+ListaCursos* ListaCursos::recuperaArchivoList(istream& entrada){
+	Curso* dat = NULL;
+	ListaCursos* lista = new ListaCursos();
+	if (entrada.good()) { 
+		while (!entrada.eof()) { 
+			dat = Curso::leerCurso(entrada);
+			if (dat != NULL) {
+				lista->getLista()->agregar(dat);
+			}
+		}
+	}
+	return lista;
+}
+
 void ListaCursos::guardarListaGrupos(){
 	ofstream salida;
 	Nodo<Curso>* actual = subjects->getNodoEsp(0);

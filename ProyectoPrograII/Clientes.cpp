@@ -40,6 +40,8 @@ void Cliente::setAltura(float a) { bio->setAltura(a); }
 void Cliente::setMasaMuscular(float mm) { bio->setMasaMuscular(mm); }
 void Cliente::setGrasaCorporal(float gc) { bio->setGrasaCorporal(gc); }
 void Cliente::setEstado(int est) { estado = est; }
+void Cliente::setListaCursos(ListaCursos* li) { cursos = li; }
+void Cliente::setListaPagos(ListaPagos* lp) { pagos = lp; }
 
 //------------------------------------------------------------------------------------------------------
 
@@ -114,4 +116,40 @@ string Cliente::gruposMatriculados() const{
 ostream& operator<<(ostream& output, const Cliente& c) {
 	output << c.toString() << endl;
 	return output;
+}
+
+void Cliente::guardarCliente(ostream& salida) {
+	salida << nombre << '\t';
+	salida << cedula << '\t';
+	salida << telefono << '\t';
+	salida << sexo << '\t';
+	salida << estado << '\n';
+	fecha_nacimiento->guardarFecha(salida);
+	bio->guardarBio(salida);
+	cursos->enviaArchivoList(salida);
+	pagos->guardarListaPagos(salida);
+}
+
+Cliente* Cliente::leerCliente(istream& entrada) {
+	ListaCursos* lista;
+	ListaPagos* listPagos;
+	Fecha* fech;
+	Biometricos* biom;
+	string name = "", ced = "", tel = "", sex = "", est = "";
+	getline(entrada, name, '\t');
+	getline(entrada, ced, '\t');
+	getline(entrada, tel, '\t');
+	getline(entrada, sex, '\t');
+	getline(entrada, est, '\n'); 
+	char _sex = convertirChar(sex); 
+	int _est = convertirInt(est);
+	fech = Fecha::leerFecha(entrada);
+	biom = Biometricos::leerBio(entrada);
+	Cliente* clie = new Cliente(name, ced, tel, fech, _sex, biom);
+	listPagos = ListaPagos::leerListaPagos(entrada);
+	lista = ListaCursos::recuperaArchivoList(entrada);
+	clie->setEstado(_est);
+	clie->setListaPagos(listPagos);
+	clie->setListaCursos(lista);
+	return clie;
 }

@@ -33,6 +33,7 @@ void Grupo::setNomInst(string nom) { nomInstructor = nom; }
 void Grupo::setIdInst(string id) { idInstructor = id; }
 void Grupo::setInicio(Fecha* fInicio) { inicio = fInicio; }
 void Grupo::recibeHorario(string h) { horario = h; }
+void Grupo::setLista(ListaClientes* li) { alumnos = li; }
 void Grupo::setHorario(int horaC, int minC, int horaF, int minF) {
 	stringstream s;
 	if (horaC < 10) {
@@ -122,7 +123,7 @@ void Grupo::guardarGrupo(ostream& salida) {
 	salida << horario << '\t';
 	salida << nomInstructor << '\t';
 	salida << idInstructor << '\n';
-	//alumnos->guardaListaClientes(salida);
+	alumnos->enviaArchivoList(salida);
 	inicio->guardarFecha(salida);
 }
 
@@ -141,8 +142,8 @@ Grupo* Grupo::leerGrupo(istream& entrada) {
 	int _cupo = convertirInt(cupo);
 	fech = Fecha::leerFecha(entrada);
 	Grupo* grup = new Grupo(_d, _num, _cupo, nomi, idi, fech);
-	//lista = listaClientes::leerListaClientes();
-	//grup->setLista(lista);
+	lista = ListaClientes::recuperaArchivoList(entrada);
+	grup->setLista(lista);
 	grup->recibeHorario(hor);
 	return grup;
 }

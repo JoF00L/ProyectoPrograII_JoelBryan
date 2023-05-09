@@ -39,6 +39,8 @@ public:
     void setGrasaCorporal(float gc);
     void setEstado(int est);
     void setFechaNacimiento(Fecha* fecha_nacimiento);
+    void setListaCursos(ListaCursos* li);
+    void setListaPagos(ListaPagos* lp);
     //--------------------------------------------
     char getSexo();
     string getNombre();
@@ -57,6 +59,8 @@ public:
     string toString() const;
     string gruposMatriculados() const;
     //--------------------------------------------
+    void guardarCliente(ostream& salida);
+    static Cliente* leerCliente(istream& entrada);
 };
 
 ostream& operator<<(ostream& output, const Cliente& client);

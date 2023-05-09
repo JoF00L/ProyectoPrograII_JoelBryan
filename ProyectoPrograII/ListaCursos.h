@@ -23,6 +23,8 @@ public:
 	string toString(); //El toString general
 	string cursoBasicos();
 	//--------------------------------------------
+	void enviaArchivoList(ostream& salida);
+	static ListaCursos* recuperaArchivoList(istream& entrada);
 	void guardarListaGrupos();
 	void leerListaCursos();
 };

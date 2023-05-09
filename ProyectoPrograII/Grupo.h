@@ -32,6 +32,7 @@ public:
 	void setInicio(Fecha* fInicio);
 	void setHorario(int horaC, int minC, int horaF, int minF);
 	void recibeHorario(string h);
+	void setLista(ListaClientes* li);
 	//-------------------------------
 	int getnumGrupo();
 	int getCupoMaximo();
