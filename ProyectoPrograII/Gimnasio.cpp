@@ -481,7 +481,7 @@ void Gimnasio::modifCurso() {
 			cout << "Ingrese el nuevo codigo: ";
 			cin.ignore();
 			getline(cin, temp);
-			cursos->getCursoEsp(codigo)->setNombre(temp);
+			cursos->getCursoEsp(codigo)->setCodigo(temp);
 			cout << endl << endl;
 			system("pause");
 			break;
@@ -614,7 +614,7 @@ void Gimnasio::modifGrupo() {
 			cout << cursos->cursoBasicos() << endl;
 			cout << "Digite el codigo de curso: ";
 			cin >> codigo;
-			cout << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
+			cout << endl << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
 			cout << "Digite el numero de grupo: ";
 			cin >> num;
 			cout << "Cual dato desea modificar: " << endl;
@@ -639,7 +639,7 @@ void Gimnasio::modifGrupo() {
 			cout << "Nombre actual del instructor: " << cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->getNomInst() << endl;
 			cout << "ID actual del instructor: " << cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->getIdInst() << endl;
 			cout << "\n===============================" << endl;
-			cout << "  - Nombre [1]" << endl;
+			cout << "\n  - Nombre [1]" << endl;
 			cout << "  - ID [2]" << endl;
 			cout << "\n===============================" << endl;
 			cout << "Digite una opcion: "; 
@@ -836,11 +836,13 @@ void Gimnasio::registroPago(){
 	cin.get();
 	getline(cin, temp);
 	cout <<  endl;
+	cout << "\nEl deportista " << deportistas->getClienteEsp(temp)->getNombre() << " tiene cancelado hasta el mes de ";
+	cout << deportistas->getClienteEsp(temp)->getListaPagos()->retornaMesCancelado() << endl;
 	cout << "\nCu" << char(160) << "ntas cuotas desea cancelar o pagar: ";
 	cin >> aux;
 	cout << "\nMonto a pagar " << (montoMensual * aux) << " ( " << montoMensual << " x " << aux << " meses)" << endl;
 	cout << deportistas->getClienteEsp(temp)->getListaPagos()->pagosCancelados(aux, montoMensual);
-	cout << "El deportista " << deportistas->getClienteEsp(temp)->getNombre() << " ahora tiene cancelado hasta el mes de ";
+	cout << "\nEl deportista " << deportistas->getClienteEsp(temp)->getNombre() << " ahora tiene cancelado hasta el mes de ";
 	cout << deportistas->getClienteEsp(temp)->getListaPagos()->retornaMesCancelado() << endl;
 
 	cout << endl << endl;
@@ -849,17 +851,18 @@ void Gimnasio::registroPago(){
 }
 
 void Gimnasio::reportePagos(){
+
 	string temp;
 	cout << "Control de Pagos\\Reporte de pagos por deportista\\" << endl;
 	cout << "\nFecha actual: " << *currentDate << endl;
 	cout << "\nDigite el ID del deportista: ";
 	cin.ignore();
 	getline(cin, temp);
-	cout << "A continuaci" << char(162) << "n se detalla el historial de pagos: " << endl;
+	cout << "\nA continuaci" << char(162) << "n se detalla el historial de pagos: " << endl;
+	cout << "\n-----------------------------------------------------\n" << endl;
 	cout << "  Fecha de pago\t     Mes-cancelado\tMonto cancelado" << endl;
-	cout << endl << deportistas->getClienteEsp(temp)->getListaPagos()->toString() << endl;
-
-	cout << endl << endl;
+	cout << deportistas->getClienteEsp(temp)->getListaPagos()->toString() << endl;
+	cout << "\n-----------------------------------------------------\n" << endl << endl;
 
 	system("pause");
 }
