@@ -58,7 +58,7 @@ void ListaGrupos::guardarListaGrupos(ostream& salida) {
 
 ListaGrupos* ListaGrupos::leerListaGrupos(istream& entrada) {
 	Grupo* dat = NULL;
-	ListaGrupos* lista;
+	ListaGrupos* lista = new ListaGrupos;
 	if (entrada.good()) {
 		while (!entrada.eof()) {
 			dat = Grupo::leerGrupo(entrada);
