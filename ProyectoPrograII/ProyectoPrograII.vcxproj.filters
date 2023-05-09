@@ -33,9 +33,6 @@
     <ClCompile Include="Curso.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Expediente.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Grupo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -46,6 +43,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ListaGrupos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gimnasio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pago.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -71,9 +74,6 @@
     <ClInclude Include="Curso.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Expediente.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Grupo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -84,6 +84,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ListaGrupos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gimnasio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pago.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

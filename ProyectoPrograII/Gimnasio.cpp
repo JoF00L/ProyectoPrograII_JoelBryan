@@ -713,13 +713,6 @@ void Gimnasio::matriculaGrupo() {
 	cout << "---------------------------------------------------------------------\n" << endl;
 	cout << "Digite el n" << char(163) << "mero de grupo deseado: ";
 	cin >> numGrupo;
-	cout << "Digite la fecha de matr" << char(161) << "cula (dd/mm/aaaa): ";
-	cout << "\nD" << char(161) << "a: ";
-	cin >> d;
-	cout << "Mes: ";
-	cin >> m;
-	cout << "A" << char(164) << "o: ";
-	cin >> a;
 
 	//Hacer excepcion si el cupo esta lleno
 	cursos->getCursoEsp(codigo)->getGrupos()->getGrupoEsp(numGrupo)->agregarCliente(deportistas->getClienteEsp(cedula));
@@ -793,11 +786,30 @@ void Gimnasio::cancelacionMatricula(){
 
 //opcion 5
 void Gimnasio::registroPago(){
+	string temp;
+	int aux;
 	cout << "Control de Pagos\\Registro de nuevo pago\\" << endl;
 	cout << "\nFecha actual: " << *currentDate << endl;
+	cout << "\nDigite el ID del deportista: ";
+	cin.ignore();
+	getline(cin, temp);
+	//se muestra hasta que mes esta cancelado
+	cout << "\nCu" << char(160) << "ntas cuotas desea cancelar o pagar: ";
+	cin >> aux;
+	//se muestra el monto a pagar
+	//cuales meses se ha cancelado
+
 }
 
 void Gimnasio::reportePagos(){
+	string temp;
+	cout << "Control de Pagos\\Reporte de pagos por deportista\\" << endl;
+	cout << "\nFecha actual: " << *currentDate << endl;
+	cout << "\nDigite el ID del deportista: ";
+	cin.ignore();
+	getline(cin, temp);
+	//detalle de pagos
+	//fecha pago, mes cancelado, monto cancelado
 }
 
 void Gimnasio::controlPagos() {

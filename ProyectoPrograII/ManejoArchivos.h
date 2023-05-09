@@ -19,5 +19,6 @@ public:
 
 int convertirInt(string s);
 float convertirFloat(string s);
+double convertirFloat(string s);
 char convertirChar(string s);
 bool convertirBool(string s);

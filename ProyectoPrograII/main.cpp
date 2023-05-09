@@ -1,6 +1,6 @@
 #include "Gimnasio.h"
 #include <iostream> 
-#include "Expediente.h"
+#include "Pago.h"
 using namespace std;
 
 int main()
@@ -11,7 +11,8 @@ int main()
 
 	//delete g;
 
-	Expediente* exp = new Expediente;
+	Pago* exp = new Pago;
+
 
 	return 0;
 }
