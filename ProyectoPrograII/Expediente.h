@@ -10,15 +10,11 @@ private:
 	
 	Fecha* inicio;
 	Fecha* ultimo;
-	bool estado;
 	Lista<Fecha>* historialPagos;
 
 public:
 	Expediente();
 	~Expediente();
-
-	bool getEstado();
-	void setEstado(bool);
 
 	int mesesPorPagar();
 	int cuotasPorPagar(int, int);

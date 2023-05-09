@@ -797,8 +797,7 @@ void Gimnasio::registroPago(){
 	cout << "\nFecha actual: " << *currentDate << endl;
 }
 
-void Gimnasio::reportePagos()
-{
+void Gimnasio::reportePagos(){
 }
 
 void Gimnasio::controlPagos() {

@@ -3,15 +3,12 @@
 Expediente::Expediente() {
 	inicio = new Fecha;
 	ultimo = new Fecha;
-	estado = true;
 }
 
 Expediente::~Expediente() {}
 
 //------------------------------------------------------------------------------------------------------
 
-bool Expediente::getEstado() { return estado; }
-void Expediente::setEstado(bool est) { estado = est; }
 Lista<Fecha>* Expediente::getHistorialPagos() { return historialPagos; }
 
 //------------------------------------------------------------------------------------------------------
