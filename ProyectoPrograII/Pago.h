@@ -14,6 +14,7 @@ private:
 	int monto;
 public:
 	Pago(int costo);
+	Pago(Fecha* fechaNueva, int nuevoMes, int costo);
 	~Pago();
 	//--------------------------------------------
 	void setMes(int nuevoMes);
@@ -24,8 +25,10 @@ public:
 	int getMonto();
 	//--------------------------------------------
 	string convierteMes(int mes) const;
-	//string pagosCancelados(int cuotas, int montoMensualidad);
 	string toString() const;
+	//--------------------------------------------
+	void guardarPago(ostream& salida);
+	static Pago* leerPago(istream& entrada);
 };
 
 ostream& operator<<(ostream& output, const Pago& p);

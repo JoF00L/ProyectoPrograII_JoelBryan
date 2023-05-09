@@ -347,7 +347,7 @@ void Gimnasio::listadoDeportistas() {
 		break;
 	case 4:
 		cout << "Control de Deportistas\\Listado en estado de morososidad\\" << endl << endl;
-		//metodo que lo setea
+		deportistas->setMorosos();
 		cout << deportistas->Morosos() << endl;
 		break;
 	}

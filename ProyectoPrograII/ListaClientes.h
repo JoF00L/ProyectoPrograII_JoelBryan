@@ -18,6 +18,7 @@ public:
 	Lista<Cliente>* getLista();
 	void agregarCliente(Cliente* nuevo);
 	void eliminarCliente(string ID);
+	void setMorosos();
 	Cliente* getClienteEsp(string ID);
 	//--------------------------------------------
 	string toString();

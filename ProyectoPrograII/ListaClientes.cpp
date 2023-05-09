@@ -59,6 +59,15 @@ string ListaClientes::Inactivos() {
 	return s.str();
 }
 
+void ListaClientes::setMorosos() {
+	Fecha* actual = new Fecha;
+	for (int i = 0; i < customers->getSize(); i++) {
+		if (customers->getNodoEsp(i)->getDato()->getListaPagos()->getLista()->getNodoEsp(customers->getNodoEsp(i)->getDato()->getListaPagos()->getLista()->getSize())->getDato()->getMes() < actual->getMes()) {
+			customers->getNodoEsp(i)->getDato()->setEstado(3);
+		}
+	}
+}
+
 string ListaClientes::Morosos() {
 	stringstream s;
 	for (int i = 0; i < customers->getSize(); i++) {

@@ -6,6 +6,12 @@ Pago::Pago(int costo) {
 	monto = costo;
 }
 
+Pago::Pago(Fecha* fechaNueva, int nuevoMes, int costo){
+	fechaPago = fechaNueva;
+	mes = nuevoMes;
+	monto = costo;
+}
+
 Pago::~Pago() { delete fechaPago; }
 
 void Pago::setMes(int nuevoMes){
@@ -59,6 +65,23 @@ string Pago::toString() const{
 
 	s << setw(10) << *fechaPago << setw(wMes) << convierteMes(mes)  << setw(wMes+4) << monto << endl;
 	return s.str();
+}
+
+void Pago::guardarPago(ostream& salida){
+	fechaPago->guardarFecha(salida);
+	salida << mes << '\t';
+	salida << monto << '\n';
+}
+
+Pago* Pago::leerPago(istream& entrada){
+	Fecha* fech;
+	string m = "", mo = "";
+	fech = Fecha::leerFecha(entrada);
+	getline(entrada, m, '\t');
+	getline(entrada, mo, '\n');
+	int _m = convertirInt(m);
+	int _mo = convertirInt(mo);
+	return new Pago(fech, _m, _mo);
 }
 
 ostream& operator<<(ostream& output, const Pago& data) {

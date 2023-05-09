@@ -21,6 +21,7 @@ public:
 	string retornaMesCancelado();
 	string pagosCancelados(int cuotas, int monto);
 	string toString();
+    //--------------------------------------------
 	
 };
 

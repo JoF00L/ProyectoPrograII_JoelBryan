@@ -10,18 +10,6 @@ void ListaPagos::nuevoPago(Pago* nuevo) {
 	pagos->agregar(nuevo); 
 }
 
-/*void ListaPagos::seteaPagos(){
-	int numeros = pagos->getSize();
-	if(numeros == 12){
-		eliminarPagos();
-	}
-}
-
-void ListaPagos::eliminarPagos(){
-	for (int i = 0; i < pagos->getSize(); i++) {
-		pagos->eliminarPos(i);
-	}
-}*/
 
 string ListaPagos::retornaMesCancelado(){
 	stringstream s;
