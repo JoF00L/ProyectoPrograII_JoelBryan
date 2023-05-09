@@ -49,8 +49,15 @@ string Pago::convierteMes(int Mes) const {
 
 string Pago::toString() const{
 	stringstream s;
-	s << "Fecha de pago   Mes cancelado   Monto cancelado";
-	s << *fechaPago << "   " << mes << "   " << monto;
+	int wMes;
+	switch (mes){
+	case 1: case 4:case 5: case 6: case 7: case 3: wMes = 16; break;
+	case 2: case 8: case 10: wMes = 17; break;
+	case 9: case 11: wMes = 19; break;
+	case 12: wMes = 18; break; 
+	}
+
+	s << setw(10) << *fechaPago << setw(wMes) << convierteMes(mes)  << setw(wMes+4) << monto << endl;
 	return s.str();
 }
 

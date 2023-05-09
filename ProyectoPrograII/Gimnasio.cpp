@@ -843,6 +843,8 @@ void Gimnasio::registroPago(){
 	cout << "El deportista " << deportistas->getClienteEsp(temp)->getNombre() << " ahora tiene cancelado hasta el mes de ";
 	cout << deportistas->getClienteEsp(temp)->getListaPagos()->retornaMesCancelado() << endl;
 
+	cout << endl << endl;
+
 	system("pause");
 }
 
@@ -854,7 +856,10 @@ void Gimnasio::reportePagos(){
 	cin.ignore();
 	getline(cin, temp);
 	cout << "A continuaci" << char(162) << "n se detalla el historial de pagos: " << endl;
+	cout << "  Fecha de pago\t     Mes-cancelado\tMonto cancelado" << endl;
 	cout << endl << deportistas->getClienteEsp(temp)->getListaPagos()->toString() << endl;
+
+	cout << endl << endl;
 
 	system("pause");
 }
