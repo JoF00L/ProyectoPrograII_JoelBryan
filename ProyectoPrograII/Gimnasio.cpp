@@ -23,6 +23,10 @@ void Gimnasio::setMonto(int monto){
 void Gimnasio::menu(){
 	bool yes = true;
 	int opcion;
+	ManejoArchivos* m = new ManejoArchivos;
+	cout << m->Logo() << endl;
+	system("pause");
+	system("cls");
 
 	cout << *currentDate << endl;
 	cout << "\nBienvenido al Gimnasio -[ " << nombre << " ]-" << endl << endl;
@@ -1004,13 +1008,65 @@ void Gimnasio::matriculaGrupo() {
 	int numGrupo;
 	cout << "Control de Grupos\\Matricula de grupo espec" << char(161) << "fico\\" << endl << endl;
 	cout << "Digite la cedula del deportista: ";
-	//expecion
 	cin.get();
 	getline(cin, cedula);
+	try {
+		if (cursos->getLista()->esVacia()) {
+			throw invalid_argument("Lista Vacia!!!");
+		}
+		else {
+			try {
+				cursos->getCursoEsp(codigo);
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				system("pause");
+				return;
+			}
+		}
+	}
+	catch (invalid_argument& e) {
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
 	cout << endl << cursos->cursoBasicos() << endl;
 	cout << "\nDigite el c" << char(162) << "digo del curso: ";
-	//excepcion
 	getline(cin, codigo);
+	try {
+		if (cursos->getLista()->esVacia()) {
+			throw invalid_argument("Lista Vacia!!!");
+		}
+		else {
+			try {
+				cursos->getCursoEsp(codigo);
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				system("pause");
+				return;
+			}
+		}
+	}
+	catch (invalid_argument& e) {
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
+	try {
+		cout << endl << endl << *cursos->getCursoEsp(codigo);
+		cout << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
+	}
+	catch (invalid_argument& e) {
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
 
 	cout << "\n\nPara el curso selecionado existen los siguientes grupos disponibles: " << endl;
 	
@@ -1022,6 +1078,15 @@ void Gimnasio::matriculaGrupo() {
 	cout << "---------------------------------------------------------------------\n" << endl;
 	cout << "Digite el n" << char(163) << "mero de grupo deseado: ";
 	cin >> numGrupo;
+	try {
+		cursos->getCursoEsp(codigo)->getGrupos()->getGrupoEsp(numGrupo);
+	}
+	catch (invalid_argument& e) {
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
 
 	//Hacer excepcion si el cupo esta lleno
 	cursos->getCursoEsp(codigo)->getGrupos()->getGrupoEsp(numGrupo)->agregarCliente(deportistas->getClienteEsp(cedula));
@@ -1039,9 +1104,49 @@ void Gimnasio::reporteGrupo() {
 	cout << "\nDigite el c" << char(162) << "digo del curso: ";
 	cin.get();
 	getline(cin, codigo);
+	try {
+		if (cursos->getLista()->esVacia()) {
+			throw invalid_argument("Lista Vacia!!!");
+		}
+		else {
+			try {
+				cursos->getCursoEsp(codigo);
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				system("pause");
+				return;
+			}
+		}
+	}
+	catch (invalid_argument& e) {
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
 	cout << endl << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
 	cout << "Digite el n" << char(163) << "mero de grupo deseado: ";
 	cin >> numGrupo;
+	try {
+		cursos->getCursoEsp(codigo)->getGrupos()->getGrupoEsp(numGrupo);
+	}
+	catch (invalid_argument& e) {
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
+	try {
+		intNegative(numGrupo);
+	}
+	catch (invalid_argument& e) {
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
 	cout << "\n----------------------------------------------------------------------------------\n" << endl;
 	cout << "A continuaci" << char(162) << "n se muestra la informaci" << char(162) << "n del grupo deseado: " << endl;
 	cout << "\n" << *cursos->getCursoEsp(codigo)->getGrupos()->getGrupoEsp(numGrupo) << endl << endl;
