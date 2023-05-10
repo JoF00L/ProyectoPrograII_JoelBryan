@@ -45,9 +45,9 @@ void Gimnasio::menu(){
 			try {
 				IntOutRange(1, 6, opcion, yes);
 			}
-			catch (invalid_argument) {
+			catch (invalid_argument &e) {
 				system("cls");
-				cout << "Valor invalido!!!\n" << endl;
+				cout << e.what() << "\n" << endl;
 				system("pause");
 				yes = false;
 			}
@@ -109,14 +109,25 @@ void Gimnasio::nombreGim() {
 }
 
 void Gimnasio::montoMensualidad() {
-	system("cls");
-	cout << "Administraci" << char(162) << "n General\\Monto de mensualidad\\" << endl << endl;
-	cout << "Ingrese el monto de mensualidad: ";
-	
-	//Hacer excepcion de CARACTER y STRING
+	bool pass = true;
+	do {
+		system("cls");
+		cout << "Administraci" << char(162) << "n General\\Monto de mensualidad\\" << endl << endl;
+		cout << "Ingrese el monto de mensualidad: ";
 
-	cin >> montoMensual; 
-	cout << endl << endl;
+		//Hacer excepcion de CARACTER y STRING
+		try {
+			cin >> montoMensual;
+			intNegative(montoMensual);
+		}
+		catch (invalid_argument& e) {
+			cout << e.what() << endl << endl;
+			pass = false;
+		}
+		if (montoMensual) {
+			pass = true;
+		}
+	} while (!pass);
 
 	system("pause");
 }
@@ -140,9 +151,9 @@ void Gimnasio::controlDeportistas(){
 		try {
 			IntOutRange(1, 4, opcion, yes);
 		}
-		catch (invalid_argument) {
+		catch (invalid_argument &e) {
 			system("cls");
-			cout << "Valor invalido!!!\n" << endl;
+			cout << e.what() << endl << endl;
 			yes = false;
 			system("pause");
 		}
@@ -223,8 +234,35 @@ void Gimnasio::modifDeportista() {
 			cout << "Control de Deportistas\\Modificacion deportista\\" << endl << endl;
 			cout << "Digite el ID del deportista: ";
 			cin >> cedula;
+			try {
+				if (deportistas->getLista()->esVacia()) {
+					throw invalid_argument("Lista Vacia!!!");
+				}
+				else {
+					try {
+						deportistas->getClienteEsp(cedula);
+					}
+					catch (invalid_argument& e) {
+						system("cls");
+						cout << e.what() << endl << endl;
+						system("pause");
+						return;
+					}
+				}
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				system("pause");
+				return;
+			}
+			try {
+				cout << endl << endl << *deportistas->getClienteEsp(cedula);
+			}
+			catch (invalid_argument& e) {
+				cout << e.what() << endl << endl;
+			}
 			system("cls");
-			// HACER condicion si la lista esta vacia para que ni siquiera lo deje entrar
 			cout << "Que dato desea modificar: " << endl;
 			cout << "\n----------------------------------------------" << endl;
 			cout << "\n  ->  1. Nombre" << endl;
@@ -243,13 +281,13 @@ void Gimnasio::modifDeportista() {
 			try {
 				IntOutRange(1, 10, opcion, yes);
 			}
-			catch (invalid_argument) {
+			catch (invalid_argument& e) {
 				system("cls");
-				cout << "Valor invalido!!!\n" << endl;
+				cout << e.what() << endl << endl;
 				yes = false;
 				system("pause");
 			}
-		} while (opcion < 1 || opcion > 10);
+		} while ((opcion < 1 || opcion > 10 && !yes));
 
 		system("cls");
 		switch (opcion) {
@@ -272,18 +310,33 @@ void Gimnasio::modifDeportista() {
 			cout << endl << endl;
 			break; 
 		case 3:
-			{Fecha* date = new Fecha;
+		{
 			int d, m, a;
+			bool yes = true;
 			cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Fecha" << endl << endl;
 			cout << "Fecha de nacimiento actual del deportista: " << *deportistas->getClienteEsp(cedula)->getFechaNacimiento() << endl;
-			cout << "Ingrese la nueva fecha de nacimiento (DD/MM/AAAA) ";
-			
-			// EXCEPCIONES ACA
-			
-			deportistas->getClienteEsp(cedula)->setFechaNacimiento(date);
+			cout << "Ingrese la nueva fecha de nacimiento (DD/MM/AAAA): " << endl;
+			cout << "\n- Dia: "; cin >> d;
+			cout << "\n- Mes: "; cin >> m;
+			cout << "\n- A" << char(164) << "o: "; cin >> a;
+			try {
+				IntOutRange(0, 31, d, yes);
+				IntOutRange(0, 12, m, yes);
+				intNegative(a);
+			}
+			catch (invalid_argument& e) {
+				cout << e.what() << endl << endl;
+				system("pause");
+				break;
+			}
+			if (yes) {
+				Fecha* date = new Fecha(d, m, a);
+				deportistas->getClienteEsp(cedula)->setFechaNacimiento(date);
+			}
 			cout << endl << endl;
 			
-			break;}
+			break;
+		}
 		case 4:
 			cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Sexo" << endl << endl;
 			cout << "Sexo actual del deportista: " << deportistas->getClienteEsp(cedula)->getSexo() << endl;
@@ -359,6 +412,18 @@ void Gimnasio::listadoDeportistas() {
 		cout << "\nDigite una opcion: "; cin >> opcion;
 	} while (opcion < 1 || opcion > 4);
 
+	try {
+		if (deportistas->getLista()->esVacia()) {
+			throw invalid_argument("Lista Vacia!!!");
+		}
+	}
+	catch(invalid_argument &e){
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
+
 	system("cls");
 	switch (opcion) {
 	case 1:
@@ -380,7 +445,7 @@ void Gimnasio::listadoDeportistas() {
 		break;
 	}
 	system("pause");
-}
+}// excLst
 
 void Gimnasio::detalleDeportista() {
 	string cedula;
@@ -390,15 +455,41 @@ void Gimnasio::detalleDeportista() {
 	cout << "-> Digite el ID del deportista: "; 
 	cin.ignore();
 	getline(cin, cedula);
-	cout << endl << endl << *deportistas->getClienteEsp(cedula);
-
+	try {
+		if (deportistas->getLista()->esVacia()) {
+			throw invalid_argument("Lista Vacia!!!");
+		}
+		else {
+			try {
+				deportistas->getClienteEsp(cedula);
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				system("pause");
+				return;
+			}
+		}
+	}
+	catch (invalid_argument& e) {
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
+	try {
+		cout << endl << endl << *deportistas->getClienteEsp(cedula);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
+	}
 	system("pause");
-}
+} // excLst
 
 //opcion 3
 void Gimnasio::controlCursos(){
 	int opcion;
-
+	bool pass = true;
 	do {
 		system("cls");
 		cout << "Control de Cursos" << endl;
@@ -408,8 +499,17 @@ void Gimnasio::controlCursos(){
 		cout << "\n3. Modificaci" << char(162) << "n de curso espec" << char(161) << "fico" << endl;
 		cout << "\n_._._._._._._._._._._._._._._._._._._._" << endl;
 		cout << "\nDigite una opcion: "; cin >> opcion;
-	} while (opcion < 1 || opcion > 3);
-
+		try {
+			IntOutRange(1, 3, opcion, pass);
+		}
+		catch (invalid_argument& e) {
+			system("cls");
+			cout << e.what() << endl << endl;
+			pass = false;
+			system("pause");
+		}
+	} while ((opcion < 1 || opcion > 3 && !pass));
+	
 	system("cls");
 	switch (opcion) {
 	case 1: ingresoCurso(); break;
@@ -455,10 +555,33 @@ void Gimnasio::reporteCurso() {
 	cout << cursos->cursoBasicos() << endl;
 	cout << "\nDigite el codigo de curso: "; 
 	cin >> codigo;
-	
-	cout << endl << *cursos->getCursoEsp(codigo) << endl;
-	if (!cursos->getLista()->esVacia()) {
-		cout << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
+	try {
+		if (cursos->getLista()->esVacia()) {
+			throw invalid_argument("Lista Vacia!!!");
+		}
+		else {
+			try {
+				cursos->getCursoEsp(codigo);
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				system("pause");
+				return;
+			}
+		}
+	}
+	catch (invalid_argument& e) {
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
+	try {
+		cout << endl << endl << *cursos->getCursoEsp(codigo);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
 	}
 
 	system("pause");

@@ -37,6 +37,8 @@ Cliente* ListaClientes::getClienteEsp(string ID) {
 	return customers->getNodoEsp(buscar)->getDato();
 }
 
+
+
 //-----------------------------------------------------------------------------------------------------
 
 string ListaClientes::Activos() {
@@ -136,7 +138,7 @@ void ListaClientes::guardarListaClientes(){
 
 void ListaClientes::leerListaClientes(){
 	ifstream entrada; 
-	Cliente* client; 
+	Cliente* client = new Cliente; 
 	entrada.open("../ListaClientes.txt");
 
 	if (entrada.good()) {

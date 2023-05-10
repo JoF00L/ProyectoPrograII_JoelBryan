@@ -80,7 +80,7 @@ void Lista<T>::eliminarPos(int pos) {
 	Nodo<T>* borrar;
 
 	if (pos > size || pos < 0 || pos == size) {
-		notFoundList();
+		throw invalid_argument("Posicion invalida!!!");
 	}
 	if (pos == 0) {
 		eliminarInicio();
@@ -100,6 +100,9 @@ void Lista<T>::eliminarPos(int pos) {
 
 template <typename T>
 Nodo<T>* Lista<T>::getNodoEsp(int pos) {
+	if (pos > size || pos < 0 || pos == size) {
+		throw invalid_argument("Posicion invalida!!!");
+	}
 	if (pos == 0) {
 		return primero;
 	}
@@ -119,7 +122,7 @@ string Lista<T>::toString() const{
 	stringstream s;
 	Nodo<T>* temp = primero;
 	if (esVacia()) {
-		return "vacia"; //Agregar una excpecion aca despues
+		return "Vacia"; //Agregar una excpecion aca despues
 	}
 	while (temp) {
 		s << *temp;

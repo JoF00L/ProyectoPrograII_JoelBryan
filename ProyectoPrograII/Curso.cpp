@@ -110,7 +110,7 @@ void Curso::guardarCurso(ostream& salida) {
 }
 
 Curso* Curso::leerCurso(istream& entrada) {
-    ListaGrupos* lista;
+    ListaGrupos* lista = new ListaGrupos;
     string name = "", cod = "", niv = "", cant = "", inf = "";
     getline(entrada, name, '\t');
     getline(entrada, cod, '\t');

@@ -62,13 +62,13 @@ void ListaCursos::enviaArchivoList(ostream& salida){
 }
 
 ListaCursos* ListaCursos::recuperaArchivoList(istream& entrada){
-	Curso* dat = NULL;
+	Curso* dat = new Curso();
 	ListaCursos* lista = new ListaCursos();
 	if (entrada.good()) { 
 		while (!entrada.eof()) { 
 			dat = Curso::leerCurso(entrada);
 			if (dat != NULL) {
-				lista->getLista()->agregar(dat);
+				lista->agregarCurso(dat);
 			}
 		}
 	}
@@ -92,7 +92,7 @@ void ListaCursos::guardarListaGrupos(){
 
 void ListaCursos::leerListaCursos(){
 	ifstream entrada;
-	Curso* curs;
+	Curso* curs = new Curso;
 	entrada.open("../ListaCursos.txt");
 
 	if (entrada.good()) {

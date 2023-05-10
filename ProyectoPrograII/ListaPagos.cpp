@@ -57,7 +57,7 @@ void ListaPagos::guardarListaPagos(ostream& salida) {
 }
 
 ListaPagos* ListaPagos::leerListaPagos(istream& entrada) {
-	Pago* dat = NULL;
+	Pago* dat =  NULL;
 	ListaPagos* lista = new ListaPagos();
 	if (entrada.good()) {
 		while (!entrada.eof()) {

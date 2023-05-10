@@ -128,8 +128,8 @@ void Grupo::guardarGrupo(ostream& salida) {
 }
 
 Grupo* Grupo::leerGrupo(istream& entrada) {
-	Fecha* fech;
-	ListaClientes* lista;
+	Fecha* fech = new Fecha;
+	ListaClientes* lista = new ListaClientes;
 	string d = "", num = "", cupo = "", hor = "", nomi = "", idi = "";
 	getline(entrada, d, '\t');
 	getline(entrada, num, '\t');

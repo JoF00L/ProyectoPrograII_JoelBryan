@@ -131,10 +131,10 @@ void Cliente::guardarCliente(ostream& salida) {
 }
 
 Cliente* Cliente::leerCliente(istream& entrada) {
-	ListaCursos* lista;
-	ListaPagos* listPagos;
-	Fecha* fech;
-	Biometricos* biom;
+	ListaCursos* lista = new ListaCursos;
+	ListaPagos* listPagos = new ListaPagos;
+	Fecha* fech = new Fecha;
+	Biometricos* biom = new Biometricos;
 	string name = "", ced = "", tel = "", sex = "", est = "";
 	getline(entrada, name, '\t');
 	getline(entrada, ced, '\t');
