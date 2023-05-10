@@ -1020,26 +1020,45 @@ void Gimnasio::modifGrupo() {
 			cout << "\n===============================" << endl;
 			cout << "Digite una opcion: "; 
 			cin >> opcion;
-			cin.ignore();
-			if (opcion == 1) {
-				cout << "\nIngrese el nuevo nombre: ";
-				getline(cin, temp);
-				cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setNomInst(temp); //NOM
+			try {
+				IntOutRange(1, 6, opcion, yes);
 			}
-			else {
-				cout << "\nDigite el nuevo ID: ";
-				getline(cin, temp2);
-				cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setIdInst(temp2); //ID
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				yes = false;
+				system("pause");
 			}
-			cout << endl << endl;
-			system("pause");
-			break;
+			if (yes) {
+				cin.ignore();
+				if (opcion == 1) {
+					cout << "\nIngrese el nuevo nombre: ";
+					getline(cin, temp);
+					cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setNomInst(temp); //NOM
+				}
+				else {
+					cout << "\nDigite el nuevo ID: ";
+					getline(cin, temp2);
+					cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setIdInst(temp2); //ID
+				}
+				cout << endl << endl;
+				system("pause");
+				break;
+			}
 		case 2:
 			cout << "Control de Grupos\\Modificaci" << char(162) << "n Grupo espec" << char(161) << "fico\\Cupo m" << char(160) << "ximo" << endl << endl;
 			cout << "Cupo m" << char(160) << "ximo actual: " << cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->getCupoMaximo() << endl;
 			cout << "\nIngrese el nuevo cupo m" << char(161) << "ximo: ";
 			cin >> aux;
-			cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->	setCupoMaximo(aux);
+			try {
+				intNegative(aux);
+			}
+			catch (invalid_argument& e) {
+				cout << e.what() << endl << endl;
+				system("pause");
+				break;
+			}
+			cursos->getCursoEsp(codigo)->getGrupos()->getLista()->getNodoEsp(num)->getDato()->setCupoMaximo(aux);
 			system("pause");
 			break;
 		case 3:
@@ -1470,6 +1489,28 @@ void Gimnasio::reportePagos(){
 	cout << "\nDigite el ID del deportista: ";
 	cin.ignore();
 	getline(cin, temp);
+	try {
+		if (deportistas->getLista()->esVacia()) {
+			throw invalid_argument("Lista Vacia!!!");
+		}
+		else {
+			try {
+				deportistas->getClienteEsp(temp);
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				system("pause");
+				return;
+			}
+		}
+	}
+	catch (invalid_argument& e) {
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
 	cout << "\nA continuaci" << char(162) << "n se detalla el historial de pagos: " << endl;
 	cout << "\n-----------------------------------------------------\n" << endl;
 	cout << "  Fecha de pago\t     Mes-cancelado\tMonto cancelado" << endl;
