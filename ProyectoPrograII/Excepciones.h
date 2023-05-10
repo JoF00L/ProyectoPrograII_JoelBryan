@@ -7,5 +7,5 @@ using namespace std;
 
 void IntOutRange(int minR, int maxR, int var, bool);
 //void letter_w_int(int, bool);
-void intNegative(int);
-
+void intNegative(int n);
+void charTesting(char comp, char dat);

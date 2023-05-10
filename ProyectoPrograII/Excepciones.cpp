@@ -14,6 +14,11 @@ void intNegative(int n) {
 	}
 }
 
+void charTesting(char comp, char dat) {
+	if (comp != dat) {
+		throw invalid_argument("Caracter no valido!!!"); 
+	}
+}
 //void letter_w_int(int g, bool cont) {
 //	if (!cin) {
 //		throw invalid_argument("Solo se pueden ingresar numeros!!!");
