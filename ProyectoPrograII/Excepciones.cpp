@@ -14,7 +14,7 @@ void intNegative(int n) {
 	}
 }
 
-void charTesting(char comp, char dat) {
+void invalidChar(char comp, char dat) {
 	if (comp != dat) {
 		throw invalid_argument("Caracter no valido!!!"); 
 	}

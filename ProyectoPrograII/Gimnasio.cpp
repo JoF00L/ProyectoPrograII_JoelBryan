@@ -346,20 +346,52 @@ void Gimnasio::modifDeportista() {
 			cout << endl << endl;
 			break;
 		case 5:
-			cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Estatura" << endl << endl;
-			cout << "Estatura actual del deportista: " << deportistas->getClienteEsp(cedula)->getAltura() << endl;
-			cout << "Ingrese la nueva estatura: ";
-			cin >> dato;
-			deportistas->getClienteEsp(cedula)->setAltura(dato);
+			do {
+				cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Estatura" << endl << endl;
+				cout << "Estatura actual del deportista: " << deportistas->getClienteEsp(cedula)->getAltura() << endl;
+				cout << "Ingrese la nueva estatura: ";
+				cin >> dato;
+				try {
+					intNegative(dato);
+				}
+				catch(invalid_argument& e){
+					cout << e.what() << endl << endl;
+					system("pause");
+					yes = false;
+					system("cls");
+				}
+			} while (!yes);
+			
+			if (yes) {
+				deportistas->getClienteEsp(cedula)->setAltura(dato);
+			}
 			cout << endl << endl;
 			break;
+
 		case 6:
-			cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Deportista" << endl << endl;
-			cout << "Peso actual del deportista: " << deportistas->getClienteEsp(cedula)->getPeso() << endl;
-			cout << "Ingrese el nuevo peso: ";
-			cin >> dato;
-			deportistas->getClienteEsp(cedula)->setPeso(dato);
+			do {
+				cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Deportista" << endl << endl;
+				cout << "Peso actual del deportista: " << deportistas->getClienteEsp(cedula)->getPeso() << endl;
+				cout << "Ingrese el nuevo peso: ";
+				cin >> dato;
+				deportistas->getClienteEsp(cedula)->setPeso(dato);
+				try {
+					intNegative(dato);
+				}
+				catch (invalid_argument& e) {
+					cout << e.what() << endl << endl;
+					system("pause");
+					yes = false;
+					system("cls");
+				}
+			} while (!yes);
+			
+			if (dato > 0) {
+				deportistas->getClienteEsp(cedula)->setAltura(dato);
+			}
+			cout << endl << endl;
 			break;
+
 		case 7:
 			cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Grasa corporal" << endl << endl;
 			cout << "Grasa corporal actual del deportista: " << deportistas->getClienteEsp(cedula)->getGrasaCorporal() << endl;
@@ -579,6 +611,7 @@ void Gimnasio::reporteCurso() {
 	}
 	try {
 		cout << endl << endl << *cursos->getCursoEsp(codigo);
+		cout << cursos->getCursoEsp(codigo)->detalleGrupos() << endl;
 	}
 	catch (invalid_argument& e) {
 		cout << e.what() << endl << endl;
