@@ -157,7 +157,7 @@ void Gimnasio::controlDeportistas(){
 			yes = false;
 			system("pause");
 		}
-	} while (opcion < 1 || opcion > 4);
+	} while ((opcion < 1 || opcion > 4 && !yes));
 
 	system("cls");
 	switch (opcion) {
@@ -346,22 +346,19 @@ void Gimnasio::modifDeportista() {
 			cout << endl << endl;
 			break;
 		case 5:
-			do {
-				cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Estatura" << endl << endl;
-				cout << "Estatura actual del deportista: " << deportistas->getClienteEsp(cedula)->getAltura() << endl;
-				cout << "Ingrese la nueva estatura: ";
-				cin >> dato;
-				try {
-					intNegative(dato);
-				}
-				catch(invalid_argument& e){
-					cout << e.what() << endl << endl;
-					system("pause");
-					yes = false;
-					system("cls");
-				}
-			} while (!yes);
-			
+			cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Estatura" << endl << endl;
+			cout << "Estatura actual del deportista: " << deportistas->getClienteEsp(cedula)->getAltura() << endl;
+			cout << "Ingrese la nueva estatura: ";
+			cin >> dato;
+			try {
+				intNegative(dato);
+			}
+			catch(invalid_argument& e){
+				cout << e.what() << endl << endl;
+				system("pause");
+				yes = false;
+				system("cls");
+			}
 			if (yes) {
 				deportistas->getClienteEsp(cedula)->setAltura(dato);
 			}
@@ -369,43 +366,64 @@ void Gimnasio::modifDeportista() {
 			break;
 
 		case 6:
-			do {
-				cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Deportista" << endl << endl;
-				cout << "Peso actual del deportista: " << deportistas->getClienteEsp(cedula)->getPeso() << endl;
-				cout << "Ingrese el nuevo peso: ";
-				cin >> dato;
-				deportistas->getClienteEsp(cedula)->setPeso(dato);
-				try {
-					intNegative(dato);
-				}
-				catch (invalid_argument& e) {
-					cout << e.what() << endl << endl;
-					system("pause");
-					yes = false;
-					system("cls");
-				}
-			} while (!yes);
-			
+			system("cls");
+			cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Deportista" << endl << endl;
+			cout << "Peso actual del deportista: " << deportistas->getClienteEsp(cedula)->getPeso() << endl;
+			cout << "Ingrese el nuevo peso: ";
+			cin >> dato;
+			try {
+				intNegative(dato);
+			}
+			catch (invalid_argument& e) {
+				cout << e.what() << endl << endl;
+				system("pause");
+				yes = false;
+				system("cls");
+			}
 			if (dato > 0) {
-				deportistas->getClienteEsp(cedula)->setAltura(dato);
+				deportistas->getClienteEsp(cedula)->setPeso(dato);
 			}
 			cout << endl << endl;
 			break;
 
 		case 7:
+			system("cls");
 			cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Grasa corporal" << endl << endl;
 			cout << "Grasa corporal actual del deportista: " << deportistas->getClienteEsp(cedula)->getGrasaCorporal() << endl;
 			cout << "Ingrese la nueva grasa corporal: ";
 			cin >> dato;
-			deportistas->getClienteEsp(cedula)->setGrasaCorporal(dato);
+			try {
+				intNegative(dato);
+			}
+			catch (invalid_argument& e) {
+				cout << e.what() << endl << endl;
+				system("pause");
+				yes = false;
+				system("cls");
+			}
+			if (dato > 0) {
+				deportistas->getClienteEsp(cedula)->setGrasaCorporal(dato);
+			}
 			cout << endl << endl;
 			break;
 		case 8:
+			system("cls");
 			cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Masa muscular" << endl << endl;
 			cout << "Masa muscular actual del deportista: " << deportistas->getClienteEsp(cedula)->getMasaMuscular() << endl;
 			cout << "Ingrese el nuevo telefono: ";
 			cin >> dato;
-			deportistas->getClienteEsp(cedula)->setMasaMuscular(dato);
+			try {
+				intNegative(dato);
+			}
+			catch (invalid_argument& e) {
+				cout << e.what() << endl << endl;
+				system("pause");
+				yes = false;
+				system("cls");
+			}
+			if (dato > 0) {
+				deportistas->getClienteEsp(cedula)->setMasaMuscular(dato);
+			}
 			cout << endl << endl;
 			break;
 		case 9:
@@ -417,8 +435,19 @@ void Gimnasio::modifDeportista() {
 			cout << "     - Moroso [3]" << endl;
 			cout << "\n===============================" << endl;
 			cout << "\nIngrese el nuevo estado: ";
-			cin >> state;
-			deportistas->getClienteEsp(cedula)->setEstado(state);
+			cin >> state; 
+			try {
+				IntOutRange(1, 10, state, yes);
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				yes = false;
+				system("pause");
+				}
+			if (yes) {
+				deportistas->getClienteEsp(cedula)->setEstado(state);
+			}
 			cout << endl << endl;
 			break;
 		case 10:
@@ -623,7 +652,7 @@ void Gimnasio::reporteCurso() {
 void Gimnasio::modifCurso() {
 	string codigo, temp;
 	int opcion, aux;
-
+	bool yes = true;
 	do {
 		do {
 			system("cls");
@@ -632,7 +661,28 @@ void Gimnasio::modifCurso() {
 			cout << cursos->cursoBasicos() << endl;
 			cout << "Digite el codigo de curso: ";
 			cin >> codigo;
-		
+			try {
+				if (cursos->getLista()->esVacia()) {
+					throw invalid_argument("Lista Vacia!!!");
+				}
+				else {
+					try {
+						cursos->getCursoEsp(codigo);
+					}
+					catch (invalid_argument& e) {
+						system("cls");
+						cout << e.what() << endl << endl;
+						system("pause");
+						return;
+					}
+				}
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				system("pause");
+				return;
+			}
 			cout << "Cual dato desea modificar: " << endl;
 			cout << "\n-----------------------------\n" << endl;
 			cout << "  -> 1. Nombre del curso" << endl;
@@ -642,10 +692,18 @@ void Gimnasio::modifCurso() {
 			cout << "  -> 5. Cantidad de grupos" << endl;
 			cout << "  -> 6. Volver al menu principal" << endl;
 			cout << "\n-----------------------------\n" << endl;
-			cout << "Digite una opcion: "; cin >> opcion;
-
-		} while (opcion < 1 || opcion > 6);
-
+			cout << "Digite una opcion: "; 
+			cin >> opcion;
+			try {
+				IntOutRange(1, 4, opcion, yes);
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				yes = false;
+				system("pause");
+			}
+		} while ((opcion < 1 || opcion > 6) && !yes);
 
 		system("cls");
 		switch (opcion) {
@@ -712,7 +770,7 @@ void Gimnasio::modifCurso() {
 //opcion 4
 void Gimnasio::controlGrupos() {
 	int opcion;
-
+	bool yes = true;
 	do {
 		system("cls");
 		cout << "Control de Grupos" << endl;
@@ -724,8 +782,17 @@ void Gimnasio::controlGrupos() {
 		cout << "\n5. Reporte deportistas matriculados en grupo" << endl;
 		cout << "\n6. Cancelaci" << char(162) << "n de matricula en grupo" << endl << endl;
 		cout << "\n_._._._._._._._._._._._._._._._._._._._" << endl;
-
-		cout << "\nDigite una opcion: "; cin >> opcion;
+		cout << "\nDigite una opcion: "; 
+		cin >> opcion;
+		try {
+			IntOutRange(1, 4, opcion, yes);
+		}
+		catch (invalid_argument& e) {
+			system("cls");
+			cout << e.what() << endl << endl;
+			yes = false;
+			system("pause");
+		}
 	} while (opcion < 1 || opcion > 6);
 
 
@@ -791,7 +858,7 @@ void Gimnasio::ingresoGrupo() {
 void Gimnasio::modifGrupo() {
 	string codigo, temp, temp2;
 	int opcion,num, aux;
-
+	bool yes = true;
 		do {
 			system("cls");
 			cout << "Control de Grupos\\Modificaci" << char(162) << "n Grupo espec" << char(161) << "fico\\" << endl << endl;
@@ -812,8 +879,16 @@ void Gimnasio::modifGrupo() {
 			cout << "\n-----------------------------\n" << endl;
 			cout << "Digite una opcion: "; 
 			cin >> opcion;
-
-		} while (opcion < 1 || opcion > 6);
+			try {
+				IntOutRange(1, 6, opcion, yes);
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				yes = false;
+				system("pause");
+			}
+		} while ((opcion < 1 || opcion > 6) && !yes);
 
 
 		system("cls");

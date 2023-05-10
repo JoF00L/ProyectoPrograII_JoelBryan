@@ -13,15 +13,15 @@ void ListaPagos::nuevoPago(Pago* nuevo) {
 
 string ListaPagos::retornaMesCancelado(){
 	stringstream s;
-	int mes = pagos->getNodoEsp(pagos->getSize())->getDato()->getMes();
-	s << pagos->getNodoEsp(pagos->getSize())->getDato()->convierteMes(mes);
+	int mes = pagos->getNodoEsp(pagos->getSize() - 1)->getDato()->getMes();
+	s << pagos->getNodoEsp(pagos->getSize() - 1)->getDato()->convierteMes(mes);
 	return s.str();
 }
 
 string ListaPagos::pagosCancelados(int cuotas, int monto) {
 	stringstream s;
-	int anio = pagos->getNodoEsp(pagos->getSize())->getDato()->getFechaPago()->getAnio();
-	int mes = pagos->getNodoEsp(pagos->getSize())->getDato()->getMes();
+	int anio = pagos->getNodoEsp(pagos->getSize() - 1)->getDato()->getFechaPago()->getAnio();
+	int mes = pagos->getNodoEsp(pagos->getSize() - 1)->getDato()->getMes();
 
 	s << "Se han cancelado las siguientes cuotas: " << endl << endl;
 	for (int i = 0; i < cuotas; i++) {
