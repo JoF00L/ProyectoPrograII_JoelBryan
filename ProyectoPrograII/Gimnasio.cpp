@@ -180,6 +180,7 @@ void Gimnasio::ingresoDeportista() {
 	int d = 0, m = 0, a = 0;
 	float estatura, peso, grasa, masa;
 	char sexo;
+	bool pass = true;
 	
 	system("cls");
 	cout << "Control de Deportistas\\Ingreso nuevo deportista\\" << endl;
@@ -194,37 +195,99 @@ void Gimnasio::ingresoDeportista() {
 	cout << "-> Fecha de nacimiento (DD/MM/AAAA) ";
 	cout << "\nD" << char(161) << "a: ";
 	cin >> d; 
+	try {
+		intNegative(d);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
+		pass = false;
+		system("pause");
+		return;
+	}
 	cout << "Mes: "; 
 	cin >> m; 
+	try {
+		intNegative(m);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
+		pass = false;
+		system("pause");
+		return;
+	}
 	cout << "A" << char(164) << "o: "; 
 	cin >> a;
+	try {
+		intNegative(a);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
+		pass = false;
+		system("pause");
+		return;
+	}
 	cout << "-> Sexo (M o F): "; 
 	cin >> sexo;
 	cout << "\n--------------------------------------" << endl;
 	cout << "\nDatos biometricos basicos (0.00): " << endl;
 	cout << "-> Estatura: "; 
-	
-	//EXCEPCION DE CHAR Y y fuera de rango
-
 	cin >> estatura;
+	try {
+		intNegative(estatura);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
+		pass = false;
+		system("pause");
+		return;
+	}
 	cout << "-> Peso: ";
 	cin >> peso;
+	try {
+		intNegative(peso);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
+		pass = false;
+		system("pause");
+		return;
+	}
 	cout << "-> Grasa Corporal: "; 
 	cin >> grasa;
+	try {
+		intNegative(grasa);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
+		pass = false;
+		system("pause");
+		return;
+	}
 	cout << "-> Masa Muscular: "; 
 	cin >> masa;
+	try {
+		intNegative(masa);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
+		pass = false;
+		system("pause");
+		return;
+	}
 	cout << endl << endl;
+	
+	if (pass) {
+		Fecha* date = new Fecha(d, m, a);
+		Biometricos* bioDato = new Biometricos(peso, estatura, masa, grasa);
+		Cliente* nuevo = new Cliente(name, cedula, telefono, date, sexo, bioDato);
+		Pago* ingreso = new Pago(montoMensual);
+		
+		nuevo->getListaPagos()->nuevoPago(ingreso);
+		cout << *nuevo;
+		deportistas->agregarCliente(nuevo);
+	}
 
-	Fecha* date = new Fecha(d, m, a);
-	Biometricos* bioDato = new Biometricos(peso, estatura, masa, grasa);
-	Cliente* nuevo = new Cliente(name, cedula, telefono, date, sexo, bioDato);
-	Pago* ingreso = new Pago(montoMensual);
-
-	nuevo->getListaPagos()->nuevoPago(ingreso);//
-
-	cout << *nuevo << endl << endl;
-	deportistas->agregarCliente(nuevo);
-
+	cout << endl << endl;
 	system("pause");
 }
 
@@ -589,6 +652,7 @@ void Gimnasio::controlCursos(){
 void Gimnasio::ingresoCurso() {
 	string nombre, codigo, descripcion;
 	int nivel, cantGrupos;
+	bool pass = true;
 
 	system("cls");
 	cout << "Control de Cursos\\Ingreso nuevo curso\\" << endl;
@@ -602,16 +666,36 @@ void Gimnasio::ingresoCurso() {
 	cout << "Principiante [1] - Intermedio [2] - Avanzado [3]" << endl;
 	cout << "\nDigite el nivel del curso: ";
 	cin >> nivel;
+	try {
+		IntOutRange(1, 3, nivel, pass);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
+		pass = false;
+		system("pause");
+		return;
+	}
 	cout << "\nCantidad de grupos: "; 
 	cin >> cantGrupos;
+	try {
+		intNegative(cantGrupos);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
+		pass = false;
+		system("pause");
+		return;
+	}
 	cout << "\nDescripcion: "; 
 	cin.get();
 	getline(cin, descripcion);
 	cout << "\n----------------------------------------------" << endl;
 	
-	Curso* materia = new Curso(nombre, codigo, descripcion, nivel, cantGrupos);
-	cursos->agregarCurso(materia);
-
+	if (pass) {
+		Curso* materia = new Curso(nombre, codigo, descripcion, nivel, cantGrupos);
+		cursos->agregarCurso(materia);
+	}
+	
 	system("pause");
 }
 
@@ -826,7 +910,7 @@ void Gimnasio::controlGrupos() {
 			yes = false;
 			system("pause");
 		}
-	} while (opcion < 1 || opcion > 6);
+	} while ((opcion < 1 || opcion > 6) && !yes);
 
 
 	system("cls");
@@ -1298,7 +1382,7 @@ void Gimnasio::cancelacionMatricula(){
 //opcion 5
 void Gimnasio::controlPagos() {
 	int opcion;
-
+	bool yes = true;
 	do {
 		system("cls");
 		cout << "Control de Pagos" << endl;
@@ -1308,7 +1392,16 @@ void Gimnasio::controlPagos() {
 		cout << "\n_._._._._._._._._._._._._._._._._._._._\n" << endl;
 		cout << "\nDigite una opcion: ";
 		cin >> opcion;
-	} while (opcion < 1 || opcion > 2);
+		try {
+			IntOutRange(1, 2, opcion, yes);
+		}
+		catch (invalid_argument& e) {
+			system("cls");
+			cout << e.what() << endl << endl;
+			yes = false;
+			system("pause");
+		}
+	} while ((opcion < 1 || opcion > 2) && !yes);
 
 	system("cls");
 	switch (opcion) {
@@ -1325,11 +1418,40 @@ void Gimnasio::registroPago(){
 	cout << "\nDigite el ID del deportista: ";
 	cin.get();
 	getline(cin, temp);
-	cout <<  endl;
-	cout << "\nEl deportista " << deportistas->getClienteEsp(temp)->getNombre() << " tiene cancelado hasta el mes de ";
+	try {
+		if (deportistas->getLista()->esVacia()) {
+			throw invalid_argument("Lista Vacia!!!");
+		}
+		else {
+			try {
+				deportistas->getClienteEsp(temp);
+			}
+			catch (invalid_argument& e) {
+				system("cls");
+				cout << e.what() << endl << endl;
+				system("pause");
+				return;
+			}
+		}
+	}
+	catch (invalid_argument& e) {
+		system("cls");
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
+	cout << "\n\nEl deportista " << deportistas->getClienteEsp(temp)->getNombre() << " tiene cancelado hasta el mes de ";
 	cout << deportistas->getClienteEsp(temp)->getListaPagos()->retornaMesCancelado() << endl;
 	cout << "\nCu" << char(160) << "ntas cuotas desea cancelar o pagar: ";
 	cin >> aux;
+	try {
+		intNegative(aux);
+	}
+	catch (invalid_argument& e) {
+		cout << e.what() << endl << endl;
+		system("pause");
+		return;
+	}
 	cout << "\nMonto a pagar " << (montoMensual * aux) << " ( " << montoMensual << " x " << aux << " meses)" << endl;
 	cout << deportistas->getClienteEsp(temp)->getListaPagos()->pagosCancelados(aux, montoMensual);
 	cout << "\nEl deportista " << deportistas->getClienteEsp(temp)->getNombre() << " ahora tiene cancelado hasta el mes de ";
