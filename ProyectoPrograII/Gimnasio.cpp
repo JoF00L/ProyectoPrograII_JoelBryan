@@ -47,9 +47,9 @@ void Gimnasio::menu(){
 			}
 			catch (invalid_argument) {
 				system("cls");
-				cout << "Valor invalido!!!" << endl;
-				yes = false;
+				cout << "Valor invalido!!!\n" << endl;
 				system("pause");
+				yes = false;
 			}
 		} while ((opcion < 1 || opcion > 6) && yes == false);
 
@@ -80,11 +80,11 @@ void Gimnasio::adminGeneral(){
 		cout << "\nDigite una opcion: "; 
 		cin >> opcion;
 		try {
-			IntOutRange(1, 6, opcion, yes);
+			IntOutRange(1, 2, opcion, yes);
 		}
-		catch (invalid_argument) {
+		catch (invalid_argument &e) {
 			system("cls");
-			cout << "Valor invalido!!!" << endl;
+			cout << e.what() << endl;
 			yes = false;
 			system("pause");
 		}
@@ -112,7 +112,9 @@ void Gimnasio::montoMensualidad() {
 	system("cls");
 	cout << "Administraci" << char(162) << "n General\\Monto de mensualidad\\" << endl << endl;
 	cout << "Ingrese el monto de mensualidad: ";
-	//Hacer excepcion 
+	
+	//Hacer excepcion de CARACTER y STRING
+
 	cin >> montoMensual; 
 	cout << endl << endl;
 
@@ -122,6 +124,7 @@ void Gimnasio::montoMensualidad() {
 //opcion 2
 void Gimnasio::controlDeportistas(){
 	int opcion;
+	bool yes = true;
 
 	do {
 		system("cls");
@@ -134,6 +137,15 @@ void Gimnasio::controlDeportistas(){
 		cout << "\n_._._._._._._._._._._._._._._._._._._._" << endl;
 		cout << "\nDigite una opcion: ";
 		cin >> opcion;
+		try {
+			IntOutRange(1, 4, opcion, yes);
+		}
+		catch (invalid_argument) {
+			system("cls");
+			cout << "Valor invalido!!!\n" << endl;
+			yes = false;
+			system("pause");
+		}
 	} while (opcion < 1 || opcion > 4);
 
 	system("cls");
@@ -173,6 +185,9 @@ void Gimnasio::ingresoDeportista() {
 	cout << "\n--------------------------------------" << endl;
 	cout << "\nDatos biometricos basicos (0.00): " << endl;
 	cout << "-> Estatura: "; 
+	
+	//EXCEPCION DE CHAR Y y fuera de rango
+
 	cin >> estatura;
 	cout << "-> Peso: ";
 	cin >> peso;
@@ -200,6 +215,7 @@ void Gimnasio::modifDeportista() {
 	int opcion, state;
 	float dato;
 	char sexo;
+	bool yes = true;
 
 	do {
 		do{
@@ -224,6 +240,15 @@ void Gimnasio::modifDeportista() {
 			cout << "\n----------------------------------------------" << endl;
 			cout << "\nDigite una opcion: ";
 			cin >> opcion;
+			try {
+				IntOutRange(1, 10, opcion, yes);
+			}
+			catch (invalid_argument) {
+				system("cls");
+				cout << "Valor invalido!!!\n" << endl;
+				yes = false;
+				system("pause");
+			}
 		} while (opcion < 1 || opcion > 10);
 
 		system("cls");
@@ -252,17 +277,12 @@ void Gimnasio::modifDeportista() {
 			cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Fecha" << endl << endl;
 			cout << "Fecha de nacimiento actual del deportista: " << *deportistas->getClienteEsp(cedula)->getFechaNacimiento() << endl;
 			cout << "Ingrese la nueva fecha de nacimiento (DD/MM/AAAA) ";
-			cout << "\nD" << char(161) << "a: ";
-			cin >> d;
-			cout << "Mes: ";
-			cin >> m;
-			cout << "A" << char(164) << "o: ";
-			cin >> a;
-			date->setDia(d);
-			date->setMes(m);
-			date->setAnio(a);
+			
+			// EXCEPCIONES ACA
+			
 			deportistas->getClienteEsp(cedula)->setFechaNacimiento(date);
 			cout << endl << endl;
+			
 			break;}
 		case 4:
 			cout << "Control de Deportistas\\Modificaci" << char(162) << "n deportista\\Sexo" << endl << endl;

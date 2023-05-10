@@ -6,12 +6,10 @@ using namespace std;
 int main()
 {
 	system("color 03");
-
 	Gimnasio* g = new Gimnasio;
 	g->leerGimnasio();
 	g->menu();
 
-	delete g;
-
+	delete g; 
 	return 0;
 }

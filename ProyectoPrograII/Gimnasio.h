@@ -4,6 +4,8 @@
 #include "ListaClientes.h"
 #include "ListaGrupos.h"
 #include "Fecha.h"
+#include <iostream>
+
 class Gimnasio{
 private:
 	

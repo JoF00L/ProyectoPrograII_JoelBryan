@@ -4,14 +4,15 @@ void IntOutRange(int minR, int maxR, int var, bool cont) {
 	if (var > maxR || var < minR) {
 		throw(invalid_argument("Fuera de rango!!!"));
 	}
-	cont = true;
+	cont = false;
 }
 
 void letter_w_int(int g, bool cont) {
+	int s = 0;
 	if (cin.fail()) {
-		throw(invalid_argument("Tipo incorrecto!!!"));
+		throw(invalid_argument("No es un INT!!!"));
 	}
-	cont = true;
+	cont = false;
 }
 
 void notFoundList() {
